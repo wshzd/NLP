@@ -27,7 +27,8 @@ class TextCNN(object):
 
         # Keeping track of l2 regularization loss (optional)
         l2_loss = tf.constant(0.0)
-
+        
+    def embedding_layer(self):
         # Embedding layer
         with tf.device('/cpu:0'), tf.name_scope("embedding"):
             self.W = tf.Variable(
@@ -38,8 +39,8 @@ class TextCNN(object):
             # 添加一个维度，[batch_size, sequence_length, embedding_size, 1]
             self.embedded_chars_expanded = tf.expand_dims(self.embedded_chars, -1)
 
-        # Create a convolution + maxpool layer for each filter size
-        
+    # Create a convolution + maxpool layer for each filter size
+    def cnn_layer(self):
         pooled_outputs = []
         for i, filter_size in enumerate(filter_sizes):
             with tf.name_scope("conv-maxpool-%s" % filter_size):
@@ -73,7 +74,8 @@ class TextCNN(object):
         # Add dropout
         with tf.name_scope("dropout"):
             self.h_drop = tf.nn.dropout(self.h_pool_flat, self.dropout_keep_prob)
-
+    # Caculate cross-entropy loss and model accuracy
+    def loss(self,l2_reg_lambda):
         # Final (unnormalized) scores and predictions
         with tf.name_scope("output"):
             W = tf.get_variable(
@@ -86,10 +88,11 @@ class TextCNN(object):
             self.scores = tf.nn.softmax(tf.nn.xw_plus_b(self.h_drop, W, b, name="scores"))
             self.predictions = tf.argmax(self.scores, 1, name="predictions")
 
-        # CalculateMean cross-entropy loss
+        # Calculate Mean cross-entropy loss
         with tf.name_scope("loss"):
             losses = tf.nn.softmax_cross_entropy_with_logits(logits=self.scores, labels=self.input_y)
             self.loss = tf.reduce_mean(losses) + l2_reg_lambda * l2_loss
+        return self.loss
 
         # Accuracy
         with tf.name_scope("accuracy"):
