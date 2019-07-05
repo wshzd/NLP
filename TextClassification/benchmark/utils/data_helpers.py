@@ -105,3 +105,4 @@ def build_vocabulary_and_split_dataset(x_text,dev_sample_index):
     print("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
 
     print('vocabulary大小', len(vocab_processor.vocabulary_))
+    return x_train, x_dev, y_train, y_dev, vocab_processor
