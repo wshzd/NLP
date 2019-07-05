@@ -23,9 +23,34 @@ def doc2vec():
     model.save('../model/demoDoc2Vec.pkl')
     
     
+# 下面介绍两种常用的聚类算法
+# 1)kmeans
+def kmeans():
+    print('Start K-means:')
+    from sklearn.cluster import KMeans
+    clf = KMeans(n_clusters=20)
+    s = clf.fit(model.docvecs)
+    print s
+    #20个中心点  
+    print(clf.cluster_centers_)        
+    #每个样本所属的簇  
+    print(clf.labels_)  
+    i = 1  
+    while i <= len(clf.labels_):
+        print i, clf.labels_[i-1]  
+        i = i + 1    
+    #用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数  
+    print(clf.inertia_)
     
     
-    
+# 2)dbscan
+def dbscan():
+    from sklearn.cluster import DBSCAN
+
+    # Compute DBSCAN
+    db = DBSCAN(eps=0.005, min_samples=10).fit(weight)
+    print(db.core_sample_indices_)
+    db.labels_
     
     
     
