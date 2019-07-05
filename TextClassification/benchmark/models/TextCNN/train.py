@@ -55,7 +55,7 @@ print("Loading data...")
 x_text, y = load_data_and_labels(FLAGS.positive_data_file, FLAGS.negative_data_file)
 print(y[:5])
 dev_sample_index = -1 * int(FLAGS.dev_sample_percentage * float(len(y)))
-x_train, x_dev, y_train, y_dev,vocab_processor = build_vocabulary_and_split_dataset(x_text,dev_sample_index)
+x_train, x_dev, y_train, y_dev,vocab_processor = build_vocabulary_and_split_dataset(x_text, y, dev_sample_index)
 
 
 
