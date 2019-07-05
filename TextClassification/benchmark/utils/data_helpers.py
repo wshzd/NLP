@@ -71,24 +71,24 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
     num_batches_per_epoch = int((len(data)-1)/batch_size) + 1
     print("num_batches_per_epoch:",num_batches_per_epoch)
     for epoch in range(num_epochs):
-        # Shuffle the data at each epoch
-        # if shuffle:
-        #     shuffle_indices = np.random.permutation(np.arange(data_size))
-        #     shuffled_data = data[shuffle_indices]
-        # else:
-        #     shuffled_data = data
+        Shuffle the data at each epoch
+        if shuffle:
+            shuffle_indices = np.random.permutation(np.arange(data_size))
+            shuffled_data = data[shuffle_indices]
+        else:
+            shuffled_data = data
         for batch_num in range(num_batches_per_epoch):
             start_index = batch_num * batch_size
             end_index = min((batch_num + 1) * batch_size, data_size)
-            yield data[start_index:end_index]
+            yield shuffled_data[start_index:end_index]
             
             
             
-def build_vocabulary_and_split_dataset(x_text,dev_sample_index):
+def build_vocabulary_and_split_dataset(x_text, y, dev_sample_index):
     # Build vocabulary
     max_document_length = max([len(x.split(" ")) for x in x_text])
-    # vocab_processor = learn.preprocessing.VocabularyProcessor(max_document_length)
-    vocab_processor = learn.preprocessing.VocabularyProcessor(100)
+    vocab_processor = learn.preprocessing.VocabularyProcessor(max_document_length)
+#     vocab_processor = learn.preprocessing.VocabularyProcessor(100)
     x = np.array(list(vocab_processor.fit_transform(x_text)))
     # Randomly shuffle data
     np.random.seed(10)
