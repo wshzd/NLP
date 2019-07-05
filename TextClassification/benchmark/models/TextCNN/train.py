@@ -8,6 +8,7 @@ import datetime
 import data_helpers
 from model import TextCNN
 from tensorflow.contrib import learn
+from utils.data_helpers import load_data_and_labels,build_vocabulary_and_split_dataset
 
 
 # Parameters
@@ -51,6 +52,10 @@ print("")
 
 # Load data
 print("Loading data...")
+x_text, y = load_data_and_labels(FLAGS.positive_data_file, FLAGS.negative_data_file)
+print(y[:5])
+dev_sample_index = -1 * int(FLAGS.dev_sample_percentage * float(len(y)))
+x_train, x_dev, y_train, y_dev,vocab_processor = build_vocabulary_and_split_dataset(x_text,dev_sample_index)
 
 
 
