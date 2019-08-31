@@ -1,5 +1,7 @@
 paper with code
 https://paperswithcode.com/area/natural-language-processing
 
-
+lattice lstm ner
+https://arxiv.org/abs/1805.02023
+https://github.com/jiesutd/LatticeLSTM
 
