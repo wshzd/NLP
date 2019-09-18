@@ -5,3 +5,6 @@ lattice lstm ner
 https://arxiv.org/abs/1805.02023
 https://github.com/jiesutd/LatticeLSTM
 
+解析transformer的mask原理
+https://kexue.fm/archives/4765
+https://kexue.fm/archives/6933
