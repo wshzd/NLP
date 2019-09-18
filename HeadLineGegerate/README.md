@@ -8,6 +8,8 @@ seq2seq+attention
 
 bert+seq2seq结合的两个工作是微软的（MASS和UNILM）https://arxiv.org/abs/1905.02450   和    https://arxiv.org/abs/1905.03197
 
+bert+seq2seq的说明和实现代码可以参考：    https://github.com/bojone/bert4keras  和  https://kexue.fm/archives/6915
+
 
 
 
