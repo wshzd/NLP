@@ -8,3 +8,13 @@ https://github.com/jiesutd/LatticeLSTM
 解析transformer的mask原理
 https://kexue.fm/archives/4765
 https://kexue.fm/archives/6933
+
+paddlepaddle使用数据集CoNLL 2005 SRL实现NER
+https://blog.csdn.net/PaddlePaddle/article/details/93859673
+https://github.com/PaddlePaddle/book/blob/develop/07.label_semantic_roles/README.cn.md
+
+
+
+
+
+
