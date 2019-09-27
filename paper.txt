@@ -13,7 +13,8 @@ paddlepaddle使用数据集CoNLL 2005 SRL实现NER
 https://blog.csdn.net/PaddlePaddle/article/details/93859673
 https://github.com/PaddlePaddle/book/blob/develop/07.label_semantic_roles/README.cn.md
 
-
+大咖的github，NLP知识收集
+https://github.com/brightmart
 
 
 
