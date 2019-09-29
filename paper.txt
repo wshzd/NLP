@@ -16,6 +16,7 @@ https://github.com/PaddlePaddle/book/blob/develop/07.label_semantic_roles/README
 大咖的github，NLP知识收集
 https://github.com/brightmart
 
-
+可以使用bert生成词向量
+https://github.com/hanxiao/bert-as-service
 
 
