@@ -1,0 +1,1588 @@
+C:\Users\user\tensorflow\Scripts\python.exe E:/Pycharm/demo/NER/Name-Entity-Recognition/fyz_lattice_NER/main.py
+CuDNN: True
+GPU available: True
+Status: train
+Seg:  True
+Train file: ResumeNER/train.char.bmes
+Dev file: ResumeNER/dev.char.bmes
+Test file: ResumeNER/test.char.bmes
+Raw file: None
+Char emb: data/gigaword_chn.all.a2b.uni.ite50.vec
+Bichar emb: None
+Gaz file: data/ctb.50d.vec
+Model saved to: data/model/saved_model2.lstmcrf.
+Load gaz file:  data/ctb.50d.vec  total size: 704368
+gaz alphabet size: 9462
+gaz alphabet size: 10095
+gaz alphabet size: 10714
+build word pretrain emb...
+Embedding:
+     pretrain word:11327, prefect match:1884, case_match:0, oov:10, oov%:0.005277044854881266
+build biword pretrain emb...
+Embedding:
+     pretrain word:0, prefect match:0, case_match:0, oov:21407, oov%:0.999953288490284
+build gaz pretrain emb...
+Embedding:
+     pretrain word:704368, prefect match:10712, case_match:0, oov:1, oov%:9.333582228859437e-05
+Training model...
+DATA SUMMARY START:
+     Tag          scheme: BMES
+     MAX SENTENCE LENGTH: 250
+     MAX   WORD   LENGTH: -1
+     Number   normalized: True
+     Use          bigram: False
+     Word  alphabet size: 1895
+     Biword alphabet size: 21408
+     Char  alphabet size: 1895
+     Gaz   alphabet size: 10714
+     Label alphabet size: 29
+     Word embedding size: 50
+     Biword embedding size: 50
+     Char embedding size: 30
+     Gaz embedding size: 50
+     Norm     word   emb: True
+     Norm     biword emb: True
+     Norm     gaz    emb: False
+     Norm   gaz  dropout: 0.5
+     Train instance number: 3821
+     Dev   instance number: 463
+     Test  instance number: 477
+     Raw   instance number: 0
+     Hyperpara  iteration: 100
+     Hyperpara  batch size: 10
+     Hyperpara          lr: 0.015
+     Hyperpara    lr_decay: 0.05
+     Hyperpara     HP_clip: 5.0
+     Hyperpara    momentum: 0
+     Hyperpara  hidden_dim: 200
+     Hyperpara     dropout: 0.5
+     Hyperpara  lstm_layer: 1
+     Hyperpara      bilstm: True
+     Hyperpara         GPU: True
+     Hyperpara     use_gaz: True
+     Hyperpara fix gaz emb: False
+     Hyperpara    use_char: False
+DATA SUMMARY END.
+build batched lstmcrf...
+build batched bilstm...
+build LatticeLSTM...  forward , Fix emb: False  gaz drop: 0.5
+load pretrain word emb... (10714, 50)
+build LatticeLSTM...  backward , Fix emb: False  gaz drop: 0.5
+load pretrain word emb... (10714, 50)
+build batched crf...
+finished built model.
+Epoch: 0/100
+ Learning rate is setted as: 0.015
+Instance: 500; Time: 83.79s; loss: 110553.3796; acc: 7341/16494=0.4451
+Instance: 1000; Time: 88.47s; loss: 24056.7510; acc: 19155/33877=0.5654
+Instance: 1500; Time: 79.78s; loss: 11860.5349; acc: 31073/49425=0.6287
+Instance: 2000; Time: 85.78s; loss: 9474.1538; acc: 44120/65874=0.6698
+Instance: 2500; Time: 82.77s; loss: 8109.3547; acc: 56659/81471=0.6954
+Instance: 3000; Time: 82.95s; loss: 6421.2430; acc: 69759/97027=0.7190
+Instance: 3500; Time: 84.10s; loss: 5455.2178; acc: 83526/113392=0.7366
+     Instance: 3821; Time: 56.01s; loss: 2818.3765; acc: 92817/124099=0.7479
+Epoch: 0 training finished. Time: 643.65s, speed: 5.94st/s,  total loss: 178749.01135253906
+E:\Pycharm\demo\NER\Name-Entity-Recognition\fyz_lattice_NER\model\latticelstm.py:261: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  word_var = autograd.Variable(torch.LongTensor(skip_input_[t][0]))
+gold_num =  1497  pred_num =  1499  right_num =  1268
+Dev: time: 33.22s, speed: 13.94st/s; acc: 0.9258, p: 0.8459, r: 0.8470, f: 0.8465
+Exceed previous best f score: -1
+gold_num =  1630  pred_num =  1630  right_num =  1420
+Test: time: 36.24s, speed: 13.19st/s; acc: 0.9244, p: 0.8712, r: 0.8712, f: 0.8712
+Epoch: 1/100
+ Learning rate is setted as: 0.014249999999999999
+Instance: 500; Time: 89.66s; loss: 3321.9058; acc: 15006/17029=0.8812
+Instance: 1000; Time: 84.88s; loss: 3472.3297; acc: 29385/33219=0.8846
+Instance: 1500; Time: 82.90s; loss: 3946.0359; acc: 43225/49259=0.8775
+Instance: 2000; Time: 85.78s; loss: 5447.0239; acc: 57591/65664=0.8771
+Instance: 2500; Time: 84.14s; loss: 4426.8115; acc: 71778/81950=0.8759
+Instance: 3000; Time: 80.35s; loss: 3294.4912; acc: 85714/97607=0.8782
+Instance: 3500; Time: 83.44s; loss: 4007.2483; acc: 99589/113377=0.8784
+     Instance: 3821; Time: 56.89s; loss: 1879.3957; acc: 109307/124099=0.8808
+Epoch: 1 training finished. Time: 648.04s, speed: 5.90st/s,  total loss: 29795.24200439453
+gold_num =  1497  pred_num =  1527  right_num =  1276
+Dev: time: 32.74s, speed: 14.15st/s; acc: 0.9192, p: 0.8356, r: 0.8524, f: 0.8439
+gold_num =  1630  pred_num =  1654  right_num =  1432
+Test: time: 35.37s, speed: 13.49st/s; acc: 0.9201, p: 0.8658, r: 0.8785, f: 0.8721
+Epoch: 2/100
+ Learning rate is setted as: 0.0135375
+Instance: 500; Time: 82.46s; loss: 2544.8013; acc: 14681/16224=0.9049
+Instance: 1000; Time: 81.62s; loss: 2601.1174; acc: 28978/32199=0.9000
+Instance: 1500; Time: 84.29s; loss: 3122.7512; acc: 43651/48696=0.8964
+Instance: 2000; Time: 80.21s; loss: 2410.3076; acc: 58090/64504=0.9006
+Instance: 2500; Time: 83.13s; loss: 2601.1516; acc: 72527/80635=0.8994
+Instance: 3000; Time: 81.19s; loss: 2613.3883; acc: 86816/96381=0.9008
+Instance: 3500; Time: 87.93s; loss: 2159.6318; acc: 102207/113303=0.9021
+     Instance: 3821; Time: 56.39s; loss: 1376.4033; acc: 112024/124099=0.9027
+Epoch: 2 training finished. Time: 637.21s, speed: 6.00st/s,  total loss: 19429.552627563477
+gold_num =  1497  pred_num =  1536  right_num =  1307
+Dev: time: 32.52s, speed: 14.24st/s; acc: 0.9304, p: 0.8509, r: 0.8731, f: 0.8619
+Exceed previous best f score: 0.8464619492656876
+gold_num =  1630  pred_num =  1678  right_num =  1491
+Test: time: 35.55s, speed: 13.43st/s; acc: 0.9407, p: 0.8886, r: 0.9147, f: 0.9015
+Epoch: 3/100
+ Learning rate is setted as: 0.012860624999999997
+Instance: 500; Time: 88.07s; loss: 2055.2720; acc: 15878/17186=0.9239
+Instance: 1000; Time: 86.08s; loss: 1618.4495; acc: 31145/33661=0.9253
+Instance: 1500; Time: 80.08s; loss: 1368.8304; acc: 45713/49304=0.9272
+Instance: 2000; Time: 83.70s; loss: 1937.7061; acc: 60504/65522=0.9234
+Instance: 2500; Time: 85.91s; loss: 1852.6616; acc: 75658/82020=0.9224
+Instance: 3000; Time: 79.57s; loss: 2341.5781; acc: 89740/97688=0.9186
+Instance: 3500; Time: 80.31s; loss: 1872.8992; acc: 103937/113193=0.9182
+     Instance: 3821; Time: 58.69s; loss: 1393.2247; acc: 113889/124099=0.9177
+Epoch: 3 training finished. Time: 642.42s, speed: 5.95st/s,  total loss: 14440.621505737305
+gold_num =  1497  pred_num =  1563  right_num =  1332
+Dev: time: 33.42s, speed: 13.86st/s; acc: 0.9360, p: 0.8522, r: 0.8898, f: 0.8706
+Exceed previous best f score: 0.8618529508737223
+gold_num =  1630  pred_num =  1687  right_num =  1498
+Test: time: 36.01s, speed: 13.26st/s; acc: 0.9387, p: 0.8880, r: 0.9190, f: 0.9032
+Epoch: 4/100
+ Learning rate is setted as: 0.012217593749999998
+Instance: 500; Time: 89.06s; loss: 1732.0725; acc: 15623/16876=0.9258
+Instance: 1000; Time: 81.86s; loss: 1441.6528; acc: 30158/32512=0.9276
+Instance: 1500; Time: 86.38s; loss: 1419.0728; acc: 45670/49102=0.9301
+Instance: 2000; Time: 85.41s; loss: 1305.4973; acc: 61088/65577=0.9315
+Instance: 2500; Time: 79.98s; loss: 1210.2908; acc: 75686/81284=0.9311
+Instance: 3000; Time: 84.03s; loss: 1362.7910; acc: 90610/97316=0.9311
+Instance: 3500; Time: 84.05s; loss: 3982.7542; acc: 104946/113408=0.9254
+     Instance: 3821; Time: 56.13s; loss: 1351.5167; acc: 114889/124099=0.9258
+Epoch: 4 training finished. Time: 646.90s, speed: 5.91st/s,  total loss: 13805.648040771484
+gold_num =  1497  pred_num =  1540  right_num =  1333
+Dev: time: 33.12s, speed: 13.98st/s; acc: 0.9379, p: 0.8656, r: 0.8904, f: 0.8778
+Exceed previous best f score: 0.8705882352941176
+gold_num =  1630  pred_num =  1674  right_num =  1496
+Test: time: 35.93s, speed: 13.29st/s; acc: 0.9440, p: 0.8937, r: 0.9178, f: 0.9056
+Epoch: 5/100
+ Learning rate is setted as: 0.011606714062499995
+Instance: 500; Time: 83.46s; loss: 1579.3823; acc: 15230/16280=0.9355
+Instance: 1000; Time: 84.31s; loss: 1393.8337; acc: 30294/32352=0.9364
+Instance: 1500; Time: 81.55s; loss: 1064.7065; acc: 44869/47866=0.9374
+Instance: 2000; Time: 87.94s; loss: 1507.7048; acc: 60375/64473=0.9364
+Instance: 2500; Time: 87.55s; loss: 1429.6565; acc: 75851/81085=0.9355
+Instance: 3000; Time: 88.60s; loss: 1420.9238; acc: 91198/97563=0.9348
+Instance: 3500; Time: 86.85s; loss: 1682.4086; acc: 106298/113919=0.9331
+     Instance: 3821; Time: 54.53s; loss: 943.0906; acc: 115674/124099=0.9321
+Epoch: 5 training finished. Time: 654.79s, speed: 5.84st/s,  total loss: 11021.706924438477
+gold_num =  1497  pred_num =  1518  right_num =  1371
+Dev: time: 33.90s, speed: 13.66st/s; acc: 0.9521, p: 0.9032, r: 0.9158, f: 0.9095
+Exceed previous best f score: 0.8778399736582154
+gold_num =  1630  pred_num =  1639  right_num =  1514
+Test: time: 36.53s, speed: 13.07st/s; acc: 0.9550, p: 0.9237, r: 0.9288, f: 0.9263
+Epoch: 6/100
+ Learning rate is setted as: 0.011026378359374997
+Instance: 500; Time: 83.76s; loss: 1255.9799; acc: 15250/16191=0.9419
+Instance: 1000; Time: 85.31s; loss: 1045.4980; acc: 30589/32357=0.9454
+Instance: 1500; Time: 87.43s; loss: 1220.4446; acc: 45871/48709=0.9417
+Instance: 2000; Time: 85.37s; loss: 803.1284; acc: 61183/64783=0.9444
+Instance: 2500; Time: 87.08s; loss: 1181.1541; acc: 76819/81334=0.9445
+Instance: 3000; Time: 82.24s; loss: 1112.4751; acc: 91418/96939=0.9430
+Instance: 3500; Time: 87.34s; loss: 907.5625; acc: 107211/113578=0.9439
+     Instance: 3821; Time: 57.25s; loss: 611.6977; acc: 117118/124099=0.9437
+Epoch: 6 training finished. Time: 655.79s, speed: 5.83st/s,  total loss: 8137.940277099609
+gold_num =  1497  pred_num =  1530  right_num =  1354
+Dev: time: 33.24s, speed: 13.93st/s; acc: 0.9377, p: 0.8850, r: 0.9045, f: 0.8946
+gold_num =  1630  pred_num =  1661  right_num =  1529
+Test: time: 35.69s, speed: 13.37st/s; acc: 0.9495, p: 0.9205, r: 0.9380, f: 0.9292
+Epoch: 7/100
+ Learning rate is setted as: 0.010475059441406245
+Instance: 500; Time: 82.26s; loss: 935.5259; acc: 15209/16055=0.9473
+Instance: 1000; Time: 78.67s; loss: 911.7274; acc: 29335/30981=0.9469
+Instance: 1500; Time: 81.68s; loss: 1045.0593; acc: 44199/46788=0.9447
+Instance: 2000; Time: 81.75s; loss: 1111.4717; acc: 59161/62716=0.9433
+Instance: 2500; Time: 88.07s; loss: 1123.8254; acc: 75112/79712=0.9423
+Instance: 3000; Time: 83.25s; loss: 956.9166; acc: 90320/95765=0.9431
+Instance: 3500; Time: 85.93s; loss: 1102.7068; acc: 106184/112690=0.9423
+     Instance: 3821; Time: 61.20s; loss: 727.9646; acc: 116960/124099=0.9425
+Epoch: 7 training finished. Time: 642.81s, speed: 5.94st/s,  total loss: 7915.19775390625
+gold_num =  1497  pred_num =  1534  right_num =  1381
+Dev: time: 32.62s, speed: 14.20st/s; acc: 0.9492, p: 0.9003, r: 0.9225, f: 0.9113
+Exceed previous best f score: 0.909452736318408
+gold_num =  1630  pred_num =  1664  right_num =  1529
+Test: time: 35.42s, speed: 13.49st/s; acc: 0.9564, p: 0.9189, r: 0.9380, f: 0.9284
+Epoch: 8/100
+ Learning rate is setted as: 0.009951306469335933
+Instance: 500; Time: 83.82s; loss: 868.3656; acc: 15290/16137=0.9475
+Instance: 1000; Time: 81.59s; loss: 866.0927; acc: 30293/31875=0.9504
+Instance: 1500; Time: 91.50s; loss: 801.8047; acc: 47009/49349=0.9526
+Instance: 2000; Time: 84.45s; loss: 781.9100; acc: 62657/65734=0.9532
+Instance: 2500; Time: 81.88s; loss: 922.1858; acc: 77654/81518=0.9526
+Instance: 3000; Time: 85.94s; loss: 852.9808; acc: 93310/98023=0.9519
+Instance: 3500; Time: 84.32s; loss: 1433.1965; acc: 108305/114297=0.9476
+     Instance: 3821; Time: 50.90s; loss: 609.2183; acc: 117626/124099=0.9478
+Epoch: 8 training finished. Time: 644.40s, speed: 5.93st/s,  total loss: 7135.75439453125
+gold_num =  1497  pred_num =  1532  right_num =  1374
+Dev: time: 32.97s, speed: 14.05st/s; acc: 0.9443, p: 0.8969, r: 0.9178, f: 0.9072
+gold_num =  1630  pred_num =  1659  right_num =  1538
+Test: time: 35.60s, speed: 13.40st/s; acc: 0.9554, p: 0.9271, r: 0.9436, f: 0.9352
+Epoch: 9/100
+ Learning rate is setted as: 0.009453741145869136
+Instance: 500; Time: 79.04s; loss: 687.8929; acc: 14967/15601=0.9594
+Instance: 1000; Time: 86.36s; loss: 1097.0154; acc: 30933/32540=0.9506
+Instance: 1500; Time: 81.38s; loss: 748.0369; acc: 46198/48542=0.9517
+Instance: 2000; Time: 81.07s; loss: 761.3047; acc: 61381/64504=0.9516
+Instance: 2500; Time: 85.15s; loss: 1083.5857; acc: 77008/81090=0.9497
+Instance: 3000; Time: 83.91s; loss: 841.3325; acc: 92516/97447=0.9494
+Instance: 3500; Time: 85.26s; loss: 798.5898; acc: 108213/113948=0.9497
+     Instance: 3821; Time: 52.33s; loss: 441.7236; acc: 117970/124099=0.9506
+Epoch: 9 training finished. Time: 634.50s, speed: 6.02st/s,  total loss: 6459.481582641602
+gold_num =  1497  pred_num =  1521  right_num =  1382
+Dev: time: 32.37s, speed: 14.31st/s; acc: 0.9553, p: 0.9086, r: 0.9232, f: 0.9158
+Exceed previous best f score: 0.9112504124051468
+gold_num =  1630  pred_num =  1642  right_num =  1528
+Test: time: 35.12s, speed: 13.59st/s; acc: 0.9559, p: 0.9306, r: 0.9374, f: 0.9340
+Epoch: 10/100
+ Learning rate is setted as: 0.00898105408857568
+Instance: 500; Time: 87.21s; loss: 741.8550; acc: 16470/17242=0.9552
+Instance: 1000; Time: 82.75s; loss: 818.4607; acc: 31681/33345=0.9501
+Instance: 1500; Time: 84.83s; loss: 936.8582; acc: 47458/50038=0.9484
+Instance: 2000; Time: 79.73s; loss: 739.3970; acc: 62330/65644=0.9495
+Instance: 2500; Time: 77.80s; loss: 680.6173; acc: 76866/80850=0.9507
+Instance: 3000; Time: 81.16s; loss: 698.1736; acc: 92227/96925=0.9515
+Instance: 3500; Time: 87.64s; loss: 821.1854; acc: 108357/113825=0.9520
+     Instance: 3821; Time: 53.68s; loss: 650.0698; acc: 118059/124099=0.9513
+Epoch: 10 training finished. Time: 634.80s, speed: 6.02st/s,  total loss: 6086.616882324219
+gold_num =  1497  pred_num =  1520  right_num =  1373
+Dev: time: 32.29s, speed: 14.34st/s; acc: 0.9507, p: 0.9033, r: 0.9172, f: 0.9102
+gold_num =  1630  pred_num =  1653  right_num =  1540
+Test: time: 35.13s, speed: 13.59st/s; acc: 0.9571, p: 0.9316, r: 0.9448, f: 0.9382
+Epoch: 11/100
+ Learning rate is setted as: 0.008532001384146894
+Instance: 500; Time: 76.31s; loss: 599.8490; acc: 14676/15340=0.9567
+Instance: 1000; Time: 81.36s; loss: 955.3445; acc: 29600/31189=0.9491
+Instance: 1500; Time: 80.88s; loss: 820.7041; acc: 44947/47316=0.9499
+Instance: 2000; Time: 79.99s; loss: 634.3868; acc: 60013/62971=0.9530
+Instance: 2500; Time: 85.37s; loss: 1214.6821; acc: 75520/79576=0.9490
+Instance: 3000; Time: 86.91s; loss: 791.7139; acc: 91699/96504=0.9502
+Instance: 3500; Time: 84.46s; loss: 846.7795; acc: 107243/112896=0.9499
+     Instance: 3821; Time: 59.74s; loss: 445.6221; acc: 118023/124099=0.9510
+Epoch: 11 training finished. Time: 635.02s, speed: 6.02st/s,  total loss: 6309.08203125
+gold_num =  1497  pred_num =  1515  right_num =  1369
+Dev: time: 32.64s, speed: 14.19st/s; acc: 0.9531, p: 0.9036, r: 0.9145, f: 0.9090
+gold_num =  1630  pred_num =  1642  right_num =  1526
+Test: time: 35.22s, speed: 13.55st/s; acc: 0.9541, p: 0.9294, r: 0.9362, f: 0.9328
+Epoch: 12/100
+ Learning rate is setted as: 0.00810540131493955
+Instance: 500; Time: 84.46s; loss: 653.9624; acc: 16061/16602=0.9674
+Instance: 1000; Time: 79.18s; loss: 649.7863; acc: 31034/32318=0.9603
+Instance: 1500; Time: 87.42s; loss: 759.3491; acc: 47070/49165=0.9574
+Instance: 2000; Time: 83.21s; loss: 803.3516; acc: 62717/65603=0.9560
+Instance: 2500; Time: 78.85s; loss: 676.2385; acc: 77540/81151=0.9555
+Instance: 3000; Time: 85.15s; loss: 631.1862; acc: 93383/97608=0.9567
+Instance: 3500; Time: 82.54s; loss: 815.7432; acc: 108664/113716=0.9556
+     Instance: 3821; Time: 53.72s; loss: 506.9751; acc: 118506/124099=0.9549
+Epoch: 12 training finished. Time: 634.53s, speed: 6.02st/s,  total loss: 5496.59228515625
+gold_num =  1497  pred_num =  1511  right_num =  1350
+Dev: time: 32.42s, speed: 14.29st/s; acc: 0.9460, p: 0.8934, r: 0.9018, f: 0.8976
+gold_num =  1630  pred_num =  1630  right_num =  1523
+Test: time: 35.27s, speed: 13.53st/s; acc: 0.9571, p: 0.9344, r: 0.9344, f: 0.9344
+Epoch: 13/100
+ Learning rate is setted as: 0.007700131249192572
+Instance: 500; Time: 78.64s; loss: 513.7820; acc: 14977/15493=0.9667
+Instance: 1000; Time: 80.08s; loss: 715.8439; acc: 29932/31165=0.9604
+Instance: 1500; Time: 79.10s; loss: 616.8260; acc: 44865/46680=0.9611
+Instance: 2000; Time: 87.09s; loss: 684.1415; acc: 60959/63447=0.9608
+Instance: 2500; Time: 84.38s; loss: 683.8279; acc: 76498/79725=0.9595
+Instance: 3000; Time: 85.69s; loss: 781.3108; acc: 92459/96486=0.9583
+Instance: 3500; Time: 87.06s; loss: 664.5017; acc: 108638/113313=0.9587
+     Instance: 3821; Time: 54.56s; loss: 480.4993; acc: 118933/124099=0.9584
+Epoch: 13 training finished. Time: 636.60s, speed: 6.00st/s,  total loss: 5140.733093261719
+gold_num =  1497  pred_num =  1532  right_num =  1374
+Dev: time: 32.55s, speed: 14.23st/s; acc: 0.9394, p: 0.8969, r: 0.9178, f: 0.9072
+gold_num =  1630  pred_num =  1656  right_num =  1540
+Test: time: 35.06s, speed: 13.61st/s; acc: 0.9575, p: 0.9300, r: 0.9448, f: 0.9373
+Epoch: 14/100
+ Learning rate is setted as: 0.007315124686732943
+Instance: 500; Time: 90.88s; loss: 611.7864; acc: 16946/17601=0.9628
+Instance: 1000; Time: 82.29s; loss: 573.1359; acc: 32448/33695=0.9630
+Instance: 1500; Time: 80.64s; loss: 634.8975; acc: 47838/49768=0.9612
+Instance: 2000; Time: 84.56s; loss: 672.0059; acc: 63627/66213=0.9609
+Instance: 2500; Time: 81.25s; loss: 638.0825; acc: 79131/82244=0.9621
+Instance: 3000; Time: 81.01s; loss: 755.6899; acc: 94100/97997=0.9602
+Instance: 3500; Time: 81.70s; loss: 706.5983; acc: 109323/114022=0.9588
+     Instance: 3821; Time: 52.11s; loss: 440.9474; acc: 118975/124099=0.9587
+Epoch: 14 training finished. Time: 634.45s, speed: 6.02st/s,  total loss: 5033.143707275391
+gold_num =  1497  pred_num =  1499  right_num =  1361
+Dev: time: 32.54s, speed: 14.23st/s; acc: 0.9499, p: 0.9079, r: 0.9092, f: 0.9085
+gold_num =  1630  pred_num =  1618  right_num =  1525
+Test: time: 35.36s, speed: 13.49st/s; acc: 0.9539, p: 0.9425, r: 0.9356, f: 0.9390
+Epoch: 15/100
+ Learning rate is setted as: 0.006949368452396296
+Instance: 500; Time: 83.12s; loss: 659.4633; acc: 15666/16354=0.9579
+Instance: 1000; Time: 85.89s; loss: 530.3364; acc: 31705/32955=0.9621
+Instance: 1500; Time: 83.70s; loss: 605.5211; acc: 47316/49258=0.9606
+Instance: 2000; Time: 81.09s; loss: 594.6245; acc: 62651/65194=0.9610
+Instance: 2500; Time: 83.41s; loss: 525.8083; acc: 78510/81540=0.9628
+Instance: 3000; Time: 83.50s; loss: 806.7227; acc: 94206/98002=0.9613
+Instance: 3500; Time: 82.75s; loss: 598.0282; acc: 109592/114040=0.9610
+     Instance: 3821; Time: 51.55s; loss: 415.3551; acc: 119272/124099=0.9611
+Epoch: 15 training finished. Time: 635.01s, speed: 6.02st/s,  total loss: 4735.859619140625
+gold_num =  1497  pred_num =  1519  right_num =  1378
+Dev: time: 32.40s, speed: 14.30st/s; acc: 0.9540, p: 0.9072, r: 0.9205, f: 0.9138
+gold_num =  1630  pred_num =  1647  right_num =  1538
+Test: time: 34.98s, speed: 13.64st/s; acc: 0.9565, p: 0.9338, r: 0.9436, f: 0.9387
+Epoch: 16/100
+ Learning rate is setted as: 0.00660190002977648
+Instance: 500; Time: 85.58s; loss: 499.4430; acc: 16006/16625=0.9628
+Instance: 1000; Time: 84.54s; loss: 557.5465; acc: 31631/32882=0.9620
+Instance: 1500; Time: 87.13s; loss: 691.1379; acc: 47779/49765=0.9601
+Instance: 2000; Time: 84.75s; loss: 627.2852; acc: 63192/65910=0.9588
+Instance: 2500; Time: 82.86s; loss: 509.9299; acc: 78555/81784=0.9605
+Instance: 3000; Time: 78.70s; loss: 425.9336; acc: 93379/97051=0.9622
+Instance: 3500; Time: 84.75s; loss: 660.7317; acc: 109028/113414=0.9613
+     Instance: 3821; Time: 55.92s; loss: 394.8369; acc: 119264/124099=0.9610
+Epoch: 16 training finished. Time: 644.23s, speed: 5.93st/s,  total loss: 4366.844757080078
+gold_num =  1497  pred_num =  1520  right_num =  1372
+Dev: time: 33.15s, speed: 13.97st/s; acc: 0.9492, p: 0.9026, r: 0.9165, f: 0.9095
+gold_num =  1630  pred_num =  1646  right_num =  1543
+Test: time: 35.99s, speed: 13.26st/s; acc: 0.9594, p: 0.9374, r: 0.9466, f: 0.9420
+Epoch: 17/100
+ Learning rate is setted as: 0.006271805028287656
+Instance: 500; Time: 78.83s; loss: 438.7013; acc: 14813/15332=0.9661
+Instance: 1000; Time: 83.60s; loss: 537.6575; acc: 30371/31494=0.9643
+Instance: 1500; Time: 85.08s; loss: 429.4353; acc: 46135/47715=0.9669
+Instance: 2000; Time: 88.88s; loss: 544.9526; acc: 62576/64765=0.9662
+Instance: 2500; Time: 83.70s; loss: 552.8376; acc: 78204/80991=0.9656
+Instance: 3000; Time: 86.17s; loss: 545.4679; acc: 94107/97516=0.9650
+Instance: 3500; Time: 84.09s; loss: 562.1727; acc: 109715/113717=0.9648
+     Instance: 3821; Time: 53.95s; loss: 375.0913; acc: 119650/124099=0.9641
+Epoch: 17 training finished. Time: 644.30s, speed: 5.93st/s,  total loss: 3986.316230773926
+gold_num =  1497  pred_num =  1517  right_num =  1377
+Dev: time: 33.12s, speed: 13.99st/s; acc: 0.9533, p: 0.9077, r: 0.9198, f: 0.9137
+gold_num =  1630  pred_num =  1641  right_num =  1521
+Test: time: 35.63s, speed: 13.39st/s; acc: 0.9544, p: 0.9269, r: 0.9331, f: 0.9300
+Epoch: 18/100
+ Learning rate is setted as: 0.005958214776873273
+Instance: 500; Time: 83.45s; loss: 548.8683; acc: 15812/16411=0.9635
+Instance: 1000; Time: 87.59s; loss: 498.4739; acc: 32203/33340=0.9659
+Instance: 1500; Time: 87.56s; loss: 548.1685; acc: 48347/50080=0.9654
+Instance: 2000; Time: 77.73s; loss: 493.6107; acc: 62886/65090=0.9661
+Instance: 2500; Time: 87.51s; loss: 463.3074; acc: 79198/81941=0.9665
+Instance: 3000; Time: 81.30s; loss: 493.5454; acc: 94413/97705=0.9663
+Instance: 3500; Time: 84.69s; loss: 619.4341; acc: 110249/114205=0.9654
+     Instance: 3821; Time: 51.54s; loss: 273.7864; acc: 119846/124099=0.9657
+Epoch: 18 training finished. Time: 641.38s, speed: 5.96st/s,  total loss: 3939.194580078125
+gold_num =  1497  pred_num =  1511  right_num =  1389
+Dev: time: 32.88s, speed: 14.09st/s; acc: 0.9584, p: 0.9193, r: 0.9279, f: 0.9235
+Exceed previous best f score: 0.9158383035122597
+gold_num =  1630  pred_num =  1632  right_num =  1529
+Test: time: 35.66s, speed: 13.38st/s; acc: 0.9566, p: 0.9369, r: 0.9380, f: 0.9375
+Epoch: 19/100
+ Learning rate is setted as: 0.005660304038029609
+Instance: 500; Time: 81.57s; loss: 580.6270; acc: 15264/15945=0.9573
+Instance: 1000; Time: 86.37s; loss: 534.7209; acc: 31255/32551=0.9602
+Instance: 1500; Time: 76.34s; loss: 401.3365; acc: 45767/47494=0.9636
+Instance: 2000; Time: 87.02s; loss: 578.2834; acc: 61867/64255=0.9628
+Instance: 2500; Time: 83.83s; loss: 354.8840; acc: 77721/80527=0.9652
+Instance: 3000; Time: 84.92s; loss: 434.7615; acc: 93679/96960=0.9662
+Instance: 3500; Time: 90.08s; loss: 626.5649; acc: 110303/114195=0.9659
+     Instance: 3821; Time: 51.77s; loss: 315.1199; acc: 119879/124099=0.9660
+Epoch: 19 training finished. Time: 641.90s, speed: 5.95st/s,  total loss: 3826.2982330322266
+gold_num =  1497  pred_num =  1522  right_num =  1378
+Dev: time: 32.81s, speed: 14.12st/s; acc: 0.9487, p: 0.9054, r: 0.9205, f: 0.9129
+gold_num =  1630  pred_num =  1648  right_num =  1533
+Test: time: 35.58s, speed: 13.41st/s; acc: 0.9551, p: 0.9302, r: 0.9405, f: 0.9353
+Epoch: 20/100
+ Learning rate is setted as: 0.005377288836128128
+Instance: 500; Time: 78.14s; loss: 527.6594; acc: 14946/15468=0.9663
+Instance: 1000; Time: 92.96s; loss: 551.0017; acc: 32413/33542=0.9663
+Instance: 1500; Time: 84.13s; loss: 383.0575; acc: 47951/49548=0.9678
+Instance: 2000; Time: 78.20s; loss: 448.6753; acc: 62691/64815=0.9672
+Instance: 2500; Time: 82.06s; loss: 488.5637; acc: 78238/80936=0.9667
+Instance: 3000; Time: 86.82s; loss: 521.4558; acc: 94499/97693=0.9673
+Instance: 3500; Time: 83.04s; loss: 561.5872; acc: 109992/113769=0.9668
+     Instance: 3821; Time: 54.72s; loss: 228.6622; acc: 120096/124099=0.9677
+Epoch: 20 training finished. Time: 640.06s, speed: 5.97st/s,  total loss: 3710.662826538086
+gold_num =  1497  pred_num =  1511  right_num =  1360
+Dev: time: 33.18s, speed: 13.96st/s; acc: 0.9482, p: 0.9001, r: 0.9085, f: 0.9043
+gold_num =  1630  pred_num =  1628  right_num =  1521
+Test: time: 35.45s, speed: 13.46st/s; acc: 0.9577, p: 0.9343, r: 0.9331, f: 0.9337
+Epoch: 21/100
+ Learning rate is setted as: 0.005108424394321722
+Instance: 500; Time: 88.14s; loss: 443.7938; acc: 16360/16848=0.9710
+Instance: 1000; Time: 86.50s; loss: 436.3584; acc: 32421/33384=0.9712
+Instance: 1500; Time: 83.71s; loss: 413.7241; acc: 47986/49438=0.9706
+Instance: 2000; Time: 81.35s; loss: 500.6566; acc: 63247/65257=0.9692
+Instance: 2500; Time: 81.63s; loss: 390.2375; acc: 78778/81262=0.9694
+Instance: 3000; Time: 81.27s; loss: 436.6736; acc: 94112/97075=0.9695
+Instance: 3500; Time: 84.22s; loss: 591.0847; acc: 109687/113243=0.9686
+     Instance: 3821; Time: 56.96s; loss: 344.9933; acc: 120131/124099=0.9680
+Epoch: 21 training finished. Time: 643.78s, speed: 5.94st/s,  total loss: 3557.5220947265625
+gold_num =  1497  pred_num =  1521  right_num =  1388
+Dev: time: 33.01s, speed: 14.03st/s; acc: 0.9564, p: 0.9126, r: 0.9272, f: 0.9198
+gold_num =  1630  pred_num =  1648  right_num =  1534
+Test: time: 35.67s, speed: 13.38st/s; acc: 0.9577, p: 0.9308, r: 0.9411, f: 0.9359
+Epoch: 22/100
+ Learning rate is setted as: 0.004853003174605635
+Instance: 500; Time: 83.00s; loss: 410.3430; acc: 15866/16375=0.9689
+Instance: 1000; Time: 81.93s; loss: 361.8799; acc: 31401/32351=0.9706
+Instance: 1500; Time: 81.53s; loss: 498.2008; acc: 46540/48124=0.9671
+Instance: 2000; Time: 83.94s; loss: 601.9800; acc: 62090/64359=0.9647
+Instance: 2500; Time: 94.29s; loss: 612.2349; acc: 79164/82105=0.9642
+Instance: 3000; Time: 81.48s; loss: 425.0901; acc: 94342/97812=0.9645
+Instance: 3500; Time: 81.51s; loss: 410.2939; acc: 109677/113631=0.9652
+     Instance: 3821; Time: 55.51s; loss: 263.1392; acc: 119877/124099=0.9660
+Epoch: 22 training finished. Time: 643.19s, speed: 5.94st/s,  total loss: 3583.1618041992188
+gold_num =  1497  pred_num =  1513  right_num =  1385
+Dev: time: 33.08s, speed: 14.00st/s; acc: 0.9562, p: 0.9154, r: 0.9252, f: 0.9203
+gold_num =  1630  pred_num =  1637  right_num =  1535
+Test: time: 35.99s, speed: 13.26st/s; acc: 0.9590, p: 0.9377, r: 0.9417, f: 0.9397
+Epoch: 23/100
+ Learning rate is setted as: 0.004610353015875353
+Instance: 500; Time: 86.16s; loss: 398.0928; acc: 15916/16405=0.9702
+Instance: 1000; Time: 81.65s; loss: 487.9460; acc: 30896/31904=0.9684
+Instance: 1500; Time: 86.52s; loss: 363.3555; acc: 46578/48023=0.9699
+Instance: 2000; Time: 86.99s; loss: 449.1025; acc: 62412/64404=0.9691
+Instance: 2500; Time: 83.30s; loss: 441.7145; acc: 77945/80458=0.9688
+Instance: 3000; Time: 84.85s; loss: 473.4670; acc: 93622/96709=0.9681
+Instance: 3500; Time: 90.60s; loss: 505.1104; acc: 110248/113898=0.9680
+     Instance: 3821; Time: 53.54s; loss: 355.0541; acc: 120116/124099=0.9679
+Epoch: 23 training finished. Time: 653.61s, speed: 5.85st/s,  total loss: 3473.842788696289
+gold_num =  1497  pred_num =  1517  right_num =  1386
+Dev: time: 33.43s, speed: 13.85st/s; acc: 0.9559, p: 0.9136, r: 0.9259, f: 0.9197
+gold_num =  1630  pred_num =  1646  right_num =  1551
+Test: time: 35.77s, speed: 13.34st/s; acc: 0.9589, p: 0.9423, r: 0.9515, f: 0.9469
+Epoch: 24/100
+ Learning rate is setted as: 0.004379835365081586
+Instance: 500; Time: 86.31s; loss: 359.3394; acc: 15956/16413=0.9722
+Instance: 1000; Time: 84.42s; loss: 488.9440; acc: 31667/32639=0.9702
+Instance: 1500; Time: 85.52s; loss: 430.9158; acc: 47570/49030=0.9702
+Instance: 2000; Time: 84.92s; loss: 394.8854; acc: 63128/65092=0.9698
+Instance: 2500; Time: 82.55s; loss: 415.5647; acc: 78496/80893=0.9704
+Instance: 3000; Time: 79.45s; loss: 447.1162; acc: 93520/96371=0.9704
+Instance: 3500; Time: 91.53s; loss: 571.4360; acc: 110419/113957=0.9690
+     Instance: 3821; Time: 53.69s; loss: 267.4225; acc: 120233/124099=0.9688
+Epoch: 24 training finished. Time: 648.39s, speed: 5.89st/s,  total loss: 3375.623878479004
+gold_num =  1497  pred_num =  1515  right_num =  1382
+Dev: time: 32.90s, speed: 14.08st/s; acc: 0.9550, p: 0.9122, r: 0.9232, f: 0.9177
+gold_num =  1630  pred_num =  1638  right_num =  1536
+Test: time: 36.23s, speed: 13.17st/s; acc: 0.9585, p: 0.9377, r: 0.9423, f: 0.9400
+Epoch: 25/100
+ Learning rate is setted as: 0.004160843596827507
+Instance: 500; Time: 84.01s; loss: 390.1318; acc: 15806/16256=0.9723
+Instance: 1000; Time: 87.78s; loss: 546.2510; acc: 31776/32887=0.9662
+Instance: 1500; Time: 87.73s; loss: 538.9591; acc: 47931/49597=0.9664
+Instance: 2000; Time: 81.26s; loss: 367.1564; acc: 62940/65057=0.9675
+Instance: 2500; Time: 85.74s; loss: 382.7618; acc: 78850/81455=0.9680
+Instance: 3000; Time: 85.76s; loss: 364.4187; acc: 94847/97880=0.9690
+Instance: 3500; Time: 84.37s; loss: 447.5059; acc: 110527/114011=0.9694
+     Instance: 3821; Time: 55.01s; loss: 279.9113; acc: 120238/124099=0.9689
+Epoch: 25 training finished. Time: 651.66s, speed: 5.86st/s,  total loss: 3317.095977783203
+gold_num =  1497  pred_num =  1511  right_num =  1386
+Dev: time: 33.12s, speed: 13.99st/s; acc: 0.9593, p: 0.9173, r: 0.9259, f: 0.9215
+gold_num =  1630  pred_num =  1623  right_num =  1538
+Test: time: 35.88s, speed: 13.30st/s; acc: 0.9589, p: 0.9476, r: 0.9436, f: 0.9456
+Epoch: 26/100
+ Learning rate is setted as: 0.00395280141698613
+Instance: 500; Time: 79.85s; loss: 372.4198; acc: 15194/15640=0.9715
+Instance: 1000; Time: 89.15s; loss: 458.7939; acc: 31784/32760=0.9702
+Instance: 1500; Time: 87.69s; loss: 425.2773; acc: 47979/49503=0.9692
+Instance: 2000; Time: 81.80s; loss: 481.8247; acc: 63252/65273=0.9690
+Instance: 2500; Time: 87.25s; loss: 542.5635; acc: 78941/81556=0.9679
+Instance: 3000; Time: 85.31s; loss: 431.4241; acc: 94046/97191=0.9676
+Instance: 3500; Time: 86.48s; loss: 414.9099; acc: 110053/113671=0.9682
+     Instance: 3821; Time: 55.58s; loss: 216.3511; acc: 120256/124099=0.9690
+Epoch: 26 training finished. Time: 653.12s, speed: 5.85st/s,  total loss: 3343.5643157958984
+gold_num =  1497  pred_num =  1530  right_num =  1392
+Dev: time: 33.24s, speed: 13.94st/s; acc: 0.9535, p: 0.9098, r: 0.9299, f: 0.9197
+gold_num =  1630  pred_num =  1657  right_num =  1531
+Test: time: 37.26s, speed: 12.81st/s; acc: 0.9561, p: 0.9240, r: 0.9393, f: 0.9315
+Epoch: 27/100
+ Learning rate is setted as: 0.0037551613461368235
+Instance: 500; Time: 176.05s; loss: 507.7761; acc: 15735/16323=0.9640
+Instance: 1000; Time: 80.47s; loss: 375.1434; acc: 31116/32106=0.9692
+Instance: 1500; Time: 81.32s; loss: 481.9213; acc: 46601/48094=0.9690
+Instance: 2000; Time: 78.24s; loss: 340.6788; acc: 61581/63434=0.9708
+Instance: 2500; Time: 90.37s; loss: 456.9578; acc: 78673/80981=0.9715
+Instance: 3000; Time: 81.63s; loss: 409.9495; acc: 94286/97072=0.9713
+Instance: 3500; Time: 85.19s; loss: 361.6404; acc: 110194/113468=0.9711
+     Instance: 3821; Time: 56.08s; loss: 183.8220; acc: 120598/124099=0.9718
+Epoch: 27 training finished. Time: 729.36s, speed: 5.24st/s,  total loss: 3117.8892517089844
+gold_num =  1497  pred_num =  1519  right_num =  1372
+Dev: time: 33.21s, speed: 13.95st/s; acc: 0.9494, p: 0.9032, r: 0.9165, f: 0.9098
+gold_num =  1630  pred_num =  1627  right_num =  1528
+Test: time: 35.75s, speed: 13.35st/s; acc: 0.9601, p: 0.9392, r: 0.9374, f: 0.9383
+Epoch: 28/100
+ Learning rate is setted as: 0.0035674032788299823
+Instance: 500; Time: 84.03s; loss: 361.8604; acc: 16001/16418=0.9746
+Instance: 1000; Time: 80.73s; loss: 492.4993; acc: 31276/32263=0.9694
+Instance: 1500; Time: 84.58s; loss: 431.4873; acc: 46925/48387=0.9698
+Instance: 2000; Time: 83.49s; loss: 381.1385; acc: 62749/64630=0.9709
+Instance: 2500; Time: 81.06s; loss: 391.0399; acc: 78279/80614=0.9710
+Instance: 3000; Time: 84.94s; loss: 448.8904; acc: 94086/96939=0.9706
+Instance: 3500; Time: 85.59s; loss: 443.0894; acc: 109975/113258=0.9710
+     Instance: 3821; Time: 57.00s; loss: 228.4565; acc: 120507/124099=0.9711
+Epoch: 28 training finished. Time: 641.43s, speed: 5.96st/s,  total loss: 3178.461669921875
+gold_num =  1497  pred_num =  1519  right_num =  1391
+Dev: time: 32.91s, speed: 14.07st/s; acc: 0.9551, p: 0.9157, r: 0.9292, f: 0.9224
+gold_num =  1630  pred_num =  1636  right_num =  1540
+Test: time: 35.45s, speed: 13.46st/s; acc: 0.9611, p: 0.9413, r: 0.9448, f: 0.9430
+Epoch: 29/100
+ Learning rate is setted as: 0.003389033114888483
+Instance: 500; Time: 90.59s; loss: 324.6399; acc: 17248/17611=0.9794
+Instance: 1000; Time: 81.70s; loss: 380.6670; acc: 32720/33513=0.9763
+Instance: 1500; Time: 81.63s; loss: 385.7151; acc: 48205/49377=0.9763
+Instance: 2000; Time: 81.48s; loss: 399.5458; acc: 63458/65149=0.9740
+Instance: 2500; Time: 81.53s; loss: 374.4282; acc: 78840/80938=0.9741
+Instance: 3000; Time: 83.56s; loss: 373.3729; acc: 94397/96909=0.9741
+Instance: 3500; Time: 86.29s; loss: 410.0156; acc: 110462/113408=0.9740
+     Instance: 3821; Time: 56.32s; loss: 318.2117; acc: 120780/124099=0.9733
+Epoch: 29 training finished. Time: 643.10s, speed: 5.94st/s,  total loss: 2966.596206665039
+gold_num =  1497  pred_num =  1522  right_num =  1384
+Dev: time: 33.35s, speed: 13.89st/s; acc: 0.9543, p: 0.9093, r: 0.9245, f: 0.9169
+gold_num =  1630  pred_num =  1639  right_num =  1536
+Test: time: 36.11s, speed: 13.21st/s; acc: 0.9591, p: 0.9372, r: 0.9423, f: 0.9397
+Epoch: 30/100
+ Learning rate is setted as: 0.0032195814591440587
+Instance: 500; Time: 74.96s; loss: 343.0552; acc: 14362/14786=0.9713
+Instance: 1000; Time: 83.46s; loss: 444.5254; acc: 30193/31110=0.9705
+Instance: 1500; Time: 82.46s; loss: 373.2341; acc: 45600/46944=0.9714
+Instance: 2000; Time: 83.79s; loss: 429.7463; acc: 61417/63232=0.9713
+Instance: 2500; Time: 86.49s; loss: 404.3274; acc: 77774/80019=0.9719
+Instance: 3000; Time: 86.62s; loss: 404.4752; acc: 93910/96650=0.9717
+Instance: 3500; Time: 86.13s; loss: 358.5112; acc: 109911/113075=0.9720
+     Instance: 3821; Time: 59.00s; loss: 310.6186; acc: 120600/124099=0.9718
+Epoch: 30 training finished. Time: 642.91s, speed: 5.94st/s,  total loss: 3068.4934692382812
+gold_num =  1497  pred_num =  1513  right_num =  1382
+Dev: time: 33.52s, speed: 13.82st/s; acc: 0.9571, p: 0.9134, r: 0.9232, f: 0.9183
+gold_num =  1630  pred_num =  1631  right_num =  1538
+Test: time: 35.91s, speed: 13.29st/s; acc: 0.9601, p: 0.9430, r: 0.9436, f: 0.9433
+Epoch: 31/100
+ Learning rate is setted as: 0.0030586023861868556
+Instance: 500; Time: 79.33s; loss: 297.7712; acc: 14908/15316=0.9734
+Instance: 1000; Time: 86.34s; loss: 371.2408; acc: 30981/31793=0.9745
+Instance: 1500; Time: 88.29s; loss: 456.1101; acc: 47442/48764=0.9729
+Instance: 2000; Time: 82.33s; loss: 391.2965; acc: 62725/64492=0.9726
+Instance: 2500; Time: 85.67s; loss: 425.4893; acc: 78715/80991=0.9719
+Instance: 3000; Time: 92.14s; loss: 415.2257; acc: 95456/98278=0.9713
+Instance: 3500; Time: 78.27s; loss: 400.6666; acc: 109874/113151=0.9710
+     Instance: 3821; Time: 57.20s; loss: 245.1457; acc: 120588/124099=0.9717
+Epoch: 31 training finished. Time: 649.56s, speed: 5.88st/s,  total loss: 3002.946014404297
+gold_num =  1497  pred_num =  1518  right_num =  1385
+Dev: time: 32.71s, speed: 14.16st/s; acc: 0.9555, p: 0.9124, r: 0.9252, f: 0.9187
+gold_num =  1630  pred_num =  1634  right_num =  1530
+Test: time: 35.47s, speed: 13.45st/s; acc: 0.9597, p: 0.9364, r: 0.9387, f: 0.9375
+Epoch: 32/100
+ Learning rate is setted as: 0.002905672266877513
+Instance: 500; Time: 83.52s; loss: 367.2235; acc: 15899/16320=0.9742
+Instance: 1000; Time: 86.46s; loss: 391.3907; acc: 32189/33070=0.9734
+Instance: 1500; Time: 86.72s; loss: 403.6665; acc: 48321/49731=0.9716
+Instance: 2000; Time: 80.98s; loss: 328.5273; acc: 63811/65584=0.9730
+Instance: 2500; Time: 82.23s; loss: 402.6812; acc: 79463/81667=0.9730
+Instance: 3000; Time: 83.06s; loss: 458.6318; acc: 95208/97935=0.9722
+Instance: 3500; Time: 80.57s; loss: 338.4905; acc: 110467/113556=0.9728
+     Instance: 3821; Time: 54.97s; loss: 252.3445; acc: 120706/124099=0.9727
+Epoch: 32 training finished. Time: 638.51s, speed: 5.98st/s,  total loss: 2942.956085205078
+gold_num =  1497  pred_num =  1519  right_num =  1387
+Dev: time: 32.76s, speed: 14.14st/s; acc: 0.9551, p: 0.9131, r: 0.9265, f: 0.9198
+gold_num =  1630  pred_num =  1646  right_num =  1549
+Test: time: 35.43s, speed: 13.47st/s; acc: 0.9591, p: 0.9411, r: 0.9503, f: 0.9457
+Epoch: 33/100
+ Learning rate is setted as: 0.0027603886535336373
+Instance: 500; Time: 84.28s; loss: 380.6748; acc: 16224/16653=0.9742
+Instance: 1000; Time: 84.77s; loss: 362.5212; acc: 31979/32842=0.9737
+Instance: 1500; Time: 84.71s; loss: 410.1902; acc: 48057/49465=0.9715
+Instance: 2000; Time: 85.47s; loss: 388.3955; acc: 64151/66034=0.9715
+Instance: 2500; Time: 81.97s; loss: 431.6245; acc: 79402/81781=0.9709
+Instance: 3000; Time: 82.10s; loss: 378.0613; acc: 94920/97767=0.9709
+Instance: 3500; Time: 80.62s; loss: 373.0496; acc: 110284/113576=0.9710
+     Instance: 3821; Time: 54.72s; loss: 185.5370; acc: 120616/124099=0.9719
+Epoch: 33 training finished. Time: 638.65s, speed: 5.98st/s,  total loss: 2910.0541381835938
+gold_num =  1497  pred_num =  1517  right_num =  1391
+Dev: time: 32.55s, speed: 14.23st/s; acc: 0.9560, p: 0.9169, r: 0.9292, f: 0.9230
+gold_num =  1630  pred_num =  1635  right_num =  1540
+Test: time: 35.48s, speed: 13.45st/s; acc: 0.9608, p: 0.9419, r: 0.9448, f: 0.9433
+Epoch: 34/100
+ Learning rate is setted as: 0.002622369220856955
+Instance: 500; Time: 83.57s; loss: 404.5728; acc: 15762/16217=0.9719
+Instance: 1000; Time: 88.10s; loss: 408.6188; acc: 32348/33348=0.9700
+Instance: 1500; Time: 82.26s; loss: 361.9297; acc: 48087/49539=0.9707
+Instance: 2000; Time: 81.39s; loss: 375.2336; acc: 63483/65326=0.9718
+Instance: 2500; Time: 82.06s; loss: 317.6768; acc: 79101/81334=0.9725
+Instance: 3000; Time: 84.60s; loss: 347.9042; acc: 95187/97844=0.9728
+Instance: 3500; Time: 80.58s; loss: 415.6705; acc: 110481/113557=0.9729
+     Instance: 3821; Time: 54.62s; loss: 227.9984; acc: 120837/124099=0.9737
+Epoch: 34 training finished. Time: 637.18s, speed: 6.00st/s,  total loss: 2859.604766845703
+gold_num =  1497  pred_num =  1518  right_num =  1399
+Dev: time: 32.70s, speed: 14.16st/s; acc: 0.9587, p: 0.9216, r: 0.9345, f: 0.9280
+Exceed previous best f score: 0.9235372340425531
+gold_num =  1630  pred_num =  1632  right_num =  1541
+Test: time: 35.63s, speed: 13.40st/s; acc: 0.9622, p: 0.9442, r: 0.9454, f: 0.9448
+Epoch: 35/100
+ Learning rate is setted as: 0.0024912507598141074
+Instance: 500; Time: 74.93s; loss: 325.6429; acc: 14406/14811=0.9727
+Instance: 1000; Time: 88.76s; loss: 354.4683; acc: 30968/31849=0.9723
+Instance: 1500; Time: 85.66s; loss: 373.9866; acc: 47149/48441=0.9733
+Instance: 2000; Time: 80.86s; loss: 422.3560; acc: 62457/64299=0.9714
+Instance: 2500; Time: 83.85s; loss: 465.1863; acc: 78265/80558=0.9715
+Instance: 3000; Time: 87.42s; loss: 392.4534; acc: 94778/97586=0.9712
+Instance: 3500; Time: 83.15s; loss: 295.8524; acc: 110526/113667=0.9724
+     Instance: 3821; Time: 53.13s; loss: 202.1280; acc: 120769/124099=0.9732
+Epoch: 35 training finished. Time: 637.76s, speed: 5.99st/s,  total loss: 2832.0737915039062
+gold_num =  1497  pred_num =  1515  right_num =  1384
+Dev: time: 32.80s, speed: 14.12st/s; acc: 0.9573, p: 0.9135, r: 0.9245, f: 0.9190
+gold_num =  1630  pred_num =  1630  right_num =  1535
+Test: time: 35.48s, speed: 13.45st/s; acc: 0.9607, p: 0.9417, r: 0.9417, f: 0.9417
+Epoch: 36/100
+ Learning rate is setted as: 0.0023666882218234017
+Instance: 500; Time: 77.53s; loss: 363.3521; acc: 14809/15203=0.9741
+Instance: 1000; Time: 82.67s; loss: 291.5200; acc: 29927/30748=0.9733
+Instance: 1500; Time: 86.73s; loss: 386.5328; acc: 46196/47444=0.9737
+Instance: 2000; Time: 81.16s; loss: 369.2454; acc: 61577/63234=0.9738
+Instance: 2500; Time: 84.82s; loss: 348.7991; acc: 77734/79819=0.9739
+Instance: 3000; Time: 87.91s; loss: 300.3650; acc: 94624/97052=0.9750
+Instance: 3500; Time: 85.55s; loss: 375.2328; acc: 110791/113776=0.9738
+     Instance: 3821; Time: 53.82s; loss: 241.8202; acc: 120796/124099=0.9734
+Epoch: 36 training finished. Time: 640.19s, speed: 5.97st/s,  total loss: 2676.8673095703125
+gold_num =  1497  pred_num =  1517  right_num =  1394
+Dev: time: 32.56s, speed: 14.23st/s; acc: 0.9588, p: 0.9189, r: 0.9312, f: 0.9250
+gold_num =  1630  pred_num =  1640  right_num =  1545
+Test: time: 35.07s, speed: 13.61st/s; acc: 0.9603, p: 0.9421, r: 0.9479, f: 0.9450
+Epoch: 37/100
+ Learning rate is setted as: 0.0022483538107322316
+Instance: 500; Time: 83.51s; loss: 336.9968; acc: 16075/16472=0.9759
+Instance: 1000; Time: 87.09s; loss: 380.0688; acc: 32368/33202=0.9749
+Instance: 1500; Time: 77.34s; loss: 333.7614; acc: 47170/48392=0.9747
+Instance: 2000; Time: 82.51s; loss: 280.3141; acc: 63126/64680=0.9760
+Instance: 2500; Time: 82.31s; loss: 369.4844; acc: 78773/80735=0.9757
+Instance: 3000; Time: 82.83s; loss: 400.0797; acc: 94399/96862=0.9746
+Instance: 3500; Time: 89.24s; loss: 436.5167; acc: 110930/113846=0.9744
+     Instance: 3821; Time: 56.93s; loss: 223.4732; acc: 120855/124099=0.9739
+Epoch: 37 training finished. Time: 641.76s, speed: 5.95st/s,  total loss: 2760.695083618164
+gold_num =  1497  pred_num =  1515  right_num =  1386
+Dev: time: 33.94s, speed: 13.65st/s; acc: 0.9518, p: 0.9149, r: 0.9259, f: 0.9203
+gold_num =  1630  pred_num =  1628  right_num =  1536
+Test: time: 35.99s, speed: 13.26st/s; acc: 0.9628, p: 0.9435, r: 0.9423, f: 0.9429
+Epoch: 38/100
+ Learning rate is setted as: 0.00213593612019562
+Instance: 500; Time: 81.96s; loss: 399.0493; acc: 15704/16183=0.9704
+Instance: 1000; Time: 76.36s; loss: 285.7114; acc: 30145/30944=0.9742
+Instance: 1500; Time: 85.19s; loss: 406.1814; acc: 46013/47293=0.9729
+Instance: 2000; Time: 84.21s; loss: 351.9701; acc: 61700/63426=0.9728
+Instance: 2500; Time: 80.68s; loss: 369.0228; acc: 77166/79309=0.9730
+Instance: 3000; Time: 92.62s; loss: 372.7590; acc: 94671/97288=0.9731
+Instance: 3500; Time: 85.46s; loss: 375.7820; acc: 111020/114107=0.9729
+     Instance: 3821; Time: 52.22s; loss: 186.7467; acc: 120822/124099=0.9736
+Epoch: 38 training finished. Time: 638.71s, speed: 5.98st/s,  total loss: 2747.2228088378906
+gold_num =  1497  pred_num =  1520  right_num =  1396
+Dev: time: 32.26s, speed: 14.36st/s; acc: 0.9569, p: 0.9184, r: 0.9325, f: 0.9254
+gold_num =  1630  pred_num =  1645  right_num =  1542
+Test: time: 35.39s, speed: 13.48st/s; acc: 0.9588, p: 0.9374, r: 0.9460, f: 0.9417
+Epoch: 39/100
+ Learning rate is setted as: 0.002029139314185839
+Instance: 500; Time: 87.63s; loss: 317.4824; acc: 16784/17116=0.9806
+Instance: 1000; Time: 84.43s; loss: 369.8933; acc: 32659/33407=0.9776
+Instance: 1500; Time: 85.67s; loss: 358.6992; acc: 48982/50111=0.9775
+Instance: 2000; Time: 77.15s; loss: 328.0870; acc: 63626/65124=0.9770
+Instance: 2500; Time: 87.72s; loss: 353.7867; acc: 80271/82185=0.9767
+Instance: 3000; Time: 79.63s; loss: 400.6498; acc: 95394/97814=0.9753
+Instance: 3500; Time: 80.79s; loss: 314.9673; acc: 110785/113586=0.9753
+     Instance: 3821; Time: 55.02s; loss: 209.8601; acc: 121050/124099=0.9754
+Epoch: 39 training finished. Time: 638.03s, speed: 5.99st/s,  total loss: 2653.425941467285
+gold_num =  1497  pred_num =  1521  right_num =  1402
+Dev: time: 32.80s, speed: 14.12st/s; acc: 0.9597, p: 0.9218, r: 0.9365, f: 0.9291
+Exceed previous best f score: 0.9280265339966833
+gold_num =  1630  pred_num =  1637  right_num =  1541
+Test: time: 35.26s, speed: 13.54st/s; acc: 0.9607, p: 0.9414, r: 0.9454, f: 0.9434
+Epoch: 40/100
+ Learning rate is setted as: 0.0019276823484765467
+Instance: 500; Time: 84.06s; loss: 341.4698; acc: 16204/16625=0.9747
+Instance: 1000; Time: 83.20s; loss: 323.1897; acc: 32135/32926=0.9760
+Instance: 1500; Time: 82.03s; loss: 330.4608; acc: 47496/48700=0.9753
+Instance: 2000; Time: 84.88s; loss: 358.0792; acc: 63754/65398=0.9749
+Instance: 2500; Time: 80.22s; loss: 280.2985; acc: 79404/81361=0.9759
+Instance: 3000; Time: 85.09s; loss: 404.3855; acc: 95434/97819=0.9756
+Instance: 3500; Time: 78.15s; loss: 339.8694; acc: 110490/113281=0.9754
+     Instance: 3821; Time: 56.17s; loss: 236.2125; acc: 121038/124099=0.9753
+Epoch: 40 training finished. Time: 633.80s, speed: 6.03st/s,  total loss: 2613.9654235839844
+gold_num =  1497  pred_num =  1509  right_num =  1386
+Dev: time: 32.33s, speed: 14.33st/s; acc: 0.9598, p: 0.9185, r: 0.9259, f: 0.9222
+gold_num =  1630  pred_num =  1628  right_num =  1527
+Test: time: 35.07s, speed: 13.60st/s; acc: 0.9560, p: 0.9380, r: 0.9368, f: 0.9374
+Epoch: 41/100
+ Learning rate is setted as: 0.0018312982310527194
+Instance: 500; Time: 89.07s; loss: 393.8324; acc: 16843/17299=0.9736
+Instance: 1000; Time: 78.34s; loss: 328.7520; acc: 31414/32287=0.9730
+Instance: 1500; Time: 77.25s; loss: 387.6505; acc: 46115/47450=0.9719
+Instance: 2000; Time: 82.45s; loss: 334.7700; acc: 61820/63489=0.9737
+Instance: 2500; Time: 87.29s; loss: 255.3951; acc: 78312/80303=0.9752
+Instance: 3000; Time: 88.42s; loss: 351.7322; acc: 94530/97017=0.9744
+Instance: 3500; Time: 83.30s; loss: 325.7936; acc: 110483/113386=0.9744
+     Instance: 3821; Time: 55.66s; loss: 225.3279; acc: 120963/124099=0.9747
+Epoch: 41 training finished. Time: 641.78s, speed: 5.95st/s,  total loss: 2603.253692626953
+gold_num =  1497  pred_num =  1512  right_num =  1383
+Dev: time: 32.07s, speed: 14.45st/s; acc: 0.9556, p: 0.9147, r: 0.9238, f: 0.9192
+gold_num =  1630  pred_num =  1626  right_num =  1530
+Test: time: 34.68s, speed: 13.76st/s; acc: 0.9585, p: 0.9410, r: 0.9387, f: 0.9398
+Epoch: 42/100
+ Learning rate is setted as: 0.0017397333195000833
+Instance: 500; Time: 79.72s; loss: 277.4250; acc: 15710/16027=0.9802
+Instance: 1000; Time: 78.64s; loss: 310.9154; acc: 30893/31589=0.9780
+Instance: 1500; Time: 81.79s; loss: 394.2479; acc: 46571/47746=0.9754
+Instance: 2000; Time: 79.47s; loss: 323.1171; acc: 62087/63723=0.9743
+Instance: 2500; Time: 82.28s; loss: 354.5620; acc: 77950/79997=0.9744
+Instance: 3000; Time: 88.25s; loss: 433.3237; acc: 94610/97148=0.9739
+Instance: 3500; Time: 82.66s; loss: 333.8071; acc: 110421/113344=0.9742
+     Instance: 3821; Time: 55.48s; loss: 301.7287; acc: 120908/124099=0.9743
+Epoch: 42 training finished. Time: 628.29s, speed: 6.08st/s,  total loss: 2729.126983642578
+gold_num =  1497  pred_num =  1515  right_num =  1393
+Dev: time: 32.10s, speed: 14.43st/s; acc: 0.9557, p: 0.9195, r: 0.9305, f: 0.9250
+gold_num =  1630  pred_num =  1633  right_num =  1546
+Test: time: 34.51s, speed: 13.83st/s; acc: 0.9609, p: 0.9467, r: 0.9485, f: 0.9476
+Epoch: 43/100
+ Learning rate is setted as: 0.0016527466535250792
+Instance: 500; Time: 81.52s; loss: 373.3879; acc: 15859/16284=0.9739
+Instance: 1000; Time: 81.82s; loss: 310.8413; acc: 31691/32515=0.9747
+Instance: 1500; Time: 78.86s; loss: 356.3108; acc: 47204/48471=0.9739
+Instance: 2000; Time: 82.39s; loss: 347.1371; acc: 63179/64880=0.9738
+Instance: 2500; Time: 80.00s; loss: 337.2092; acc: 78547/80588=0.9747
+Instance: 3000; Time: 80.51s; loss: 285.3914; acc: 94022/96377=0.9756
+Instance: 3500; Time: 82.84s; loss: 361.4919; acc: 110066/112863=0.9752
+     Instance: 3821; Time: 59.32s; loss: 228.0745; acc: 121061/124099=0.9755
+Epoch: 43 training finished. Time: 627.28s, speed: 6.09st/s,  total loss: 2599.8441467285156
+gold_num =  1497  pred_num =  1524  right_num =  1394
+Dev: time: 31.71s, speed: 14.61st/s; acc: 0.9545, p: 0.9147, r: 0.9312, f: 0.9229
+gold_num =  1630  pred_num =  1643  right_num =  1543
+Test: time: 34.40s, speed: 13.87st/s; acc: 0.9588, p: 0.9391, r: 0.9466, f: 0.9429
+Epoch: 44/100
+ Learning rate is setted as: 0.001570109320848825
+Instance: 500; Time: 78.54s; loss: 344.8799; acc: 15567/15971=0.9747
+Instance: 1000; Time: 81.99s; loss: 359.4369; acc: 31354/32244=0.9724
+Instance: 1500; Time: 83.16s; loss: 400.5945; acc: 47278/48632=0.9722
+Instance: 2000; Time: 83.20s; loss: 301.2887; acc: 63285/64988=0.9738
+Instance: 2500; Time: 79.49s; loss: 288.2255; acc: 78831/80836=0.9752
+Instance: 3000; Time: 80.89s; loss: 352.4053; acc: 94489/96913=0.9750
+Instance: 3500; Time: 82.72s; loss: 319.9825; acc: 110486/113302=0.9751
+     Instance: 3821; Time: 56.03s; loss: 176.3276; acc: 121119/124099=0.9760
+Epoch: 44 training finished. Time: 626.03s, speed: 6.10st/s,  total loss: 2543.1408462524414
+gold_num =  1497  pred_num =  1518  right_num =  1393
+Dev: time: 31.76s, speed: 14.58st/s; acc: 0.9585, p: 0.9177, r: 0.9305, f: 0.9240
+gold_num =  1630  pred_num =  1635  right_num =  1546
+Test: time: 34.37s, speed: 13.88st/s; acc: 0.9616, p: 0.9456, r: 0.9485, f: 0.9470
+Epoch: 45/100
+ Learning rate is setted as: 0.0014916038548063836
+Instance: 500; Time: 77.13s; loss: 288.6960; acc: 15264/15631=0.9765
+Instance: 1000; Time: 82.44s; loss: 284.1018; acc: 31309/32031=0.9775
+Instance: 1500; Time: 85.95s; loss: 370.8376; acc: 47899/49100=0.9755
+Instance: 2000; Time: 80.87s; loss: 302.2400; acc: 63777/65333=0.9762
+Instance: 2500; Time: 89.34s; loss: 370.4166; acc: 80557/82520=0.9762
+Instance: 3000; Time: 81.38s; loss: 344.4519; acc: 96334/98670=0.9763
+Instance: 3500; Time: 78.15s; loss: 326.9871; acc: 111582/114301=0.9762
+     Instance: 3821; Time: 49.87s; loss: 233.8396; acc: 121112/124099=0.9759
+Epoch: 45 training finished. Time: 625.12s, speed: 6.11st/s,  total loss: 2521.570701599121
+gold_num =  1497  pred_num =  1514  right_num =  1391
+Dev: time: 31.83s, speed: 14.55st/s; acc: 0.9575, p: 0.9188, r: 0.9292, f: 0.9239
+gold_num =  1630  pred_num =  1638  right_num =  1546
+Test: time: 34.50s, speed: 13.83st/s; acc: 0.9625, p: 0.9438, r: 0.9485, f: 0.9461
+Epoch: 46/100
+ Learning rate is setted as: 0.0014170236620660644
+Instance: 500; Time: 82.27s; loss: 363.3237; acc: 16050/16458=0.9752
+Instance: 1000; Time: 85.46s; loss: 339.7700; acc: 32324/33146=0.9752
+Instance: 1500; Time: 81.55s; loss: 271.8831; acc: 48267/49445=0.9762
+Instance: 2000; Time: 81.76s; loss: 355.5940; acc: 64223/65857=0.9752
+Instance: 2500; Time: 80.95s; loss: 312.9114; acc: 79899/81921=0.9753
+Instance: 3000; Time: 80.37s; loss: 393.3567; acc: 95530/98046=0.9743
+Instance: 3500; Time: 78.96s; loss: 333.7971; acc: 110785/113751=0.9739
+     Instance: 3821; Time: 52.47s; loss: 182.7900; acc: 120889/124099=0.9741
+Epoch: 46 training finished. Time: 623.80s, speed: 6.13st/s,  total loss: 2553.4259643554688
+gold_num =  1497  pred_num =  1518  right_num =  1391
+Dev: time: 31.85s, speed: 14.54st/s; acc: 0.9573, p: 0.9163, r: 0.9292, f: 0.9227
+gold_num =  1630  pred_num =  1642  right_num =  1544
+Test: time: 34.45s, speed: 13.85st/s; acc: 0.9615, p: 0.9403, r: 0.9472, f: 0.9438
+Epoch: 47/100
+ Learning rate is setted as: 0.0013461724789627612
+Instance: 500; Time: 83.46s; loss: 378.9364; acc: 16320/16717=0.9763
+Instance: 1000; Time: 84.90s; loss: 324.8347; acc: 32448/33230=0.9765
+Instance: 1500; Time: 80.65s; loss: 378.2139; acc: 48164/49395=0.9751
+Instance: 2000; Time: 80.87s; loss: 352.4607; acc: 64001/65616=0.9754
+Instance: 2500; Time: 79.46s; loss: 341.2583; acc: 79610/81580=0.9759
+Instance: 3000; Time: 78.10s; loss: 276.5349; acc: 94823/97107=0.9765
+Instance: 3500; Time: 86.31s; loss: 264.5917; acc: 111240/113820=0.9773
+     Instance: 3821; Time: 52.36s; loss: 194.9195; acc: 121254/124099=0.9771
+Epoch: 47 training finished. Time: 626.11s, speed: 6.10st/s,  total loss: 2511.7500610351562
+gold_num =  1497  pred_num =  1512  right_num =  1389
+Dev: time: 31.76s, speed: 14.58st/s; acc: 0.9581, p: 0.9187, r: 0.9279, f: 0.9232
+gold_num =  1630  pred_num =  1630  right_num =  1535
+Test: time: 34.51s, speed: 13.83st/s; acc: 0.9589, p: 0.9417, r: 0.9417, f: 0.9417
+Epoch: 48/100
+ Learning rate is setted as: 0.001278863855014623
+Instance: 500; Time: 80.10s; loss: 352.9038; acc: 15763/16163=0.9753
+Instance: 1000; Time: 84.00s; loss: 382.5332; acc: 31948/32697=0.9771
+Instance: 1500; Time: 82.93s; loss: 307.7083; acc: 47975/49045=0.9782
+Instance: 2000; Time: 77.14s; loss: 331.6776; acc: 63007/64487=0.9770
+Instance: 2500; Time: 80.06s; loss: 304.4456; acc: 78545/80417=0.9767
+Instance: 3000; Time: 84.14s; loss: 325.4363; acc: 94905/97236=0.9760
+Instance: 3500; Time: 83.78s; loss: 334.4178; acc: 111038/113808=0.9757
+     Instance: 3821; Time: 51.67s; loss: 202.6169; acc: 121041/124099=0.9754
+Epoch: 48 training finished. Time: 623.82s, speed: 6.13st/s,  total loss: 2541.739486694336
+gold_num =  1497  pred_num =  1518  right_num =  1397
+Dev: time: 31.77s, speed: 14.58st/s; acc: 0.9586, p: 0.9203, r: 0.9332, f: 0.9267
+gold_num =  1630  pred_num =  1640  right_num =  1542
+Test: time: 34.46s, speed: 13.85st/s; acc: 0.9599, p: 0.9402, r: 0.9460, f: 0.9431
+Epoch: 49/100
+ Learning rate is setted as: 0.001214920662263892
+Instance: 500; Time: 80.11s; loss: 304.3396; acc: 15941/16315=0.9771
+Instance: 1000; Time: 80.45s; loss: 303.6304; acc: 31576/32255=0.9789
+Instance: 1500; Time: 83.25s; loss: 364.3655; acc: 47823/48915=0.9777
+Instance: 2000; Time: 82.72s; loss: 272.0706; acc: 63882/65289=0.9784
+Instance: 2500; Time: 79.30s; loss: 331.1294; acc: 79186/80997=0.9776
+Instance: 3000; Time: 84.30s; loss: 353.3152; acc: 95475/97708=0.9771
+Instance: 3500; Time: 80.14s; loss: 345.5988; acc: 110954/113573=0.9769
+     Instance: 3821; Time: 54.00s; loss: 238.2989; acc: 121210/124099=0.9767
+Epoch: 49 training finished. Time: 624.27s, speed: 6.12st/s,  total loss: 2512.7482147216797
+gold_num =  1497  pred_num =  1515  right_num =  1393
+Dev: time: 31.66s, speed: 14.63st/s; acc: 0.9581, p: 0.9195, r: 0.9305, f: 0.9250
+gold_num =  1630  pred_num =  1632  right_num =  1537
+Test: time: 34.47s, speed: 13.84st/s; acc: 0.9600, p: 0.9418, r: 0.9429, f: 0.9424
+Epoch: 50/100
+ Learning rate is setted as: 0.0011541746291506973
+Instance: 500; Time: 80.36s; loss: 324.2874; acc: 16109/16529=0.9746
+Instance: 1000; Time: 79.08s; loss: 277.7916; acc: 31560/32316=0.9766
+Instance: 1500; Time: 78.34s; loss: 348.6216; acc: 46628/47710=0.9773
+Instance: 2000; Time: 81.01s; loss: 331.7700; acc: 62418/63894=0.9769
+Instance: 2500; Time: 88.73s; loss: 297.3142; acc: 79284/81097=0.9776
+Instance: 3000; Time: 79.80s; loss: 361.6321; acc: 94972/97168=0.9774
+Instance: 3500; Time: 84.59s; loss: 341.6293; acc: 111353/113991=0.9769
+     Instance: 3821; Time: 51.68s; loss: 191.1268; acc: 121220/124099=0.9768
+Epoch: 50 training finished. Time: 623.59s, speed: 6.13st/s,  total loss: 2474.1729125976562
+gold_num =  1497  pred_num =  1516  right_num =  1389
+Dev: time: 31.81s, speed: 14.56st/s; acc: 0.9567, p: 0.9162, r: 0.9279, f: 0.9220
+gold_num =  1630  pred_num =  1638  right_num =  1542
+Test: time: 34.54s, speed: 13.81st/s; acc: 0.9617, p: 0.9414, r: 0.9460, f: 0.9437
+Epoch: 51/100
+ Learning rate is setted as: 0.0010964658976931622
+Instance: 500; Time: 84.82s; loss: 432.3933; acc: 16320/16859=0.9680
+Instance: 1000; Time: 80.81s; loss: 326.3779; acc: 31972/32937=0.9707
+Instance: 1500; Time: 84.90s; loss: 348.1121; acc: 48404/49750=0.9729
+Instance: 2000; Time: 89.21s; loss: 329.2351; acc: 65432/67184=0.9739
+Instance: 2500; Time: 84.27s; loss: 306.1670; acc: 81811/83937=0.9747
+Instance: 3000; Time: 79.13s; loss: 315.5704; acc: 97263/99744=0.9751
+Instance: 3500; Time: 74.64s; loss: 334.7306; acc: 111832/114719=0.9748
+     Instance: 3821; Time: 47.45s; loss: 169.2082; acc: 121005/124099=0.9751
+Epoch: 51 training finished. Time: 625.24s, speed: 6.11st/s,  total loss: 2561.794647216797
+gold_num =  1497  pred_num =  1519  right_num =  1394
+Dev: time: 31.82s, speed: 14.55st/s; acc: 0.9573, p: 0.9177, r: 0.9312, f: 0.9244
+gold_num =  1630  pred_num =  1646  right_num =  1548
+Test: time: 34.39s, speed: 13.88st/s; acc: 0.9601, p: 0.9405, r: 0.9497, f: 0.9451
+Epoch: 52/100
+ Learning rate is setted as: 0.001041642602808504
+Instance: 500; Time: 74.47s; loss: 307.2399; acc: 14854/15220=0.9760
+Instance: 1000; Time: 82.25s; loss: 403.4514; acc: 30762/31598=0.9735
+Instance: 1500; Time: 81.25s; loss: 331.3029; acc: 46714/47963=0.9740
+Instance: 2000; Time: 80.38s; loss: 332.2285; acc: 62080/63698=0.9746
+Instance: 2500; Time: 81.98s; loss: 339.9026; acc: 77975/80009=0.9746
+Instance: 3000; Time: 82.68s; loss: 265.5548; acc: 94100/96413=0.9760
+Instance: 3500; Time: 82.93s; loss: 321.4041; acc: 110123/112823=0.9761
+     Instance: 3821; Time: 58.17s; loss: 207.7991; acc: 121163/124099=0.9763
+Epoch: 52 training finished. Time: 624.12s, speed: 6.12st/s,  total loss: 2508.8832397460938
+gold_num =  1497  pred_num =  1510  right_num =  1382
+Dev: time: 31.65s, speed: 14.63st/s; acc: 0.9570, p: 0.9152, r: 0.9232, f: 0.9192
+gold_num =  1630  pred_num =  1635  right_num =  1547
+Test: time: 34.47s, speed: 13.84st/s; acc: 0.9630, p: 0.9462, r: 0.9491, f: 0.9476
+Epoch: 53/100
+ Learning rate is setted as: 0.000989560472668079
+Instance: 500; Time: 78.07s; loss: 301.2860; acc: 15586/15913=0.9795
+Instance: 1000; Time: 83.33s; loss: 286.4625; acc: 31716/32395=0.9790
+Instance: 1500; Time: 78.81s; loss: 316.8547; acc: 47200/48214=0.9790
+Instance: 2000; Time: 85.41s; loss: 350.7402; acc: 63717/65085=0.9790
+Instance: 2500; Time: 78.47s; loss: 267.7413; acc: 79119/80724=0.9801
+Instance: 3000; Time: 84.34s; loss: 359.2335; acc: 95267/97301=0.9791
+Instance: 3500; Time: 84.13s; loss: 339.8831; acc: 111434/113904=0.9783
+     Instance: 3821; Time: 51.89s; loss: 157.2031; acc: 121439/124099=0.9786
+Epoch: 53 training finished. Time: 624.45s, speed: 6.12st/s,  total loss: 2379.4044799804688
+gold_num =  1497  pred_num =  1513  right_num =  1385
+Dev: time: 31.93s, speed: 14.51st/s; acc: 0.9567, p: 0.9154, r: 0.9252, f: 0.9203
+gold_num =  1630  pred_num =  1634  right_num =  1540
+Test: time: 34.49s, speed: 13.84st/s; acc: 0.9624, p: 0.9425, r: 0.9448, f: 0.9436
+Epoch: 54/100
+ Learning rate is setted as: 0.0009400824490346749
+Instance: 500; Time: 80.19s; loss: 248.7327; acc: 15880/16158=0.9828
+Instance: 1000; Time: 82.41s; loss: 320.4961; acc: 31869/32564=0.9787
+Instance: 1500; Time: 81.28s; loss: 374.5837; acc: 47524/48669=0.9765
+Instance: 2000; Time: 81.28s; loss: 277.9313; acc: 63371/64889=0.9766
+Instance: 2500; Time: 82.34s; loss: 312.2861; acc: 79388/81277=0.9768
+Instance: 3000; Time: 84.57s; loss: 367.4908; acc: 95760/98040=0.9767
+Instance: 3500; Time: 81.52s; loss: 345.1392; acc: 111363/114018=0.9767
+     Instance: 3821; Time: 51.03s; loss: 191.4662; acc: 121211/124099=0.9767
+Epoch: 54 training finished. Time: 624.62s, speed: 6.12st/s,  total loss: 2438.1261291503906
+gold_num =  1497  pred_num =  1518  right_num =  1396
+Dev: time: 31.96s, speed: 14.49st/s; acc: 0.9598, p: 0.9196, r: 0.9325, f: 0.9260
+gold_num =  1630  pred_num =  1643  right_num =  1546
+Test: time: 34.53s, speed: 13.82st/s; acc: 0.9615, p: 0.9410, r: 0.9485, f: 0.9447
+Epoch: 55/100
+ Learning rate is setted as: 0.0008930783265829411
+Instance: 500; Time: 87.42s; loss: 271.2980; acc: 16842/17153=0.9819
+Instance: 1000; Time: 81.77s; loss: 276.0159; acc: 32709/33342=0.9810
+Instance: 1500; Time: 78.63s; loss: 348.2588; acc: 48103/49127=0.9792
+Instance: 2000; Time: 86.16s; loss: 307.6477; acc: 64813/66216=0.9788
+Instance: 2500; Time: 78.99s; loss: 365.1122; acc: 80046/81928=0.9770
+Instance: 3000; Time: 81.03s; loss: 236.8929; acc: 95700/97841=0.9781
+Instance: 3500; Time: 78.25s; loss: 335.8391; acc: 111061/113583=0.9778
+     Instance: 3821; Time: 53.10s; loss: 263.1829; acc: 121261/124099=0.9771
+Epoch: 55 training finished. Time: 625.36s, speed: 6.11st/s,  total loss: 2404.2474365234375
+gold_num =  1497  pred_num =  1521  right_num =  1400
+Dev: time: 31.92s, speed: 14.51st/s; acc: 0.9595, p: 0.9204, r: 0.9352, f: 0.9278
+gold_num =  1630  pred_num =  1645  right_num =  1546
+Test: time: 34.42s, speed: 13.86st/s; acc: 0.9597, p: 0.9398, r: 0.9485, f: 0.9441
+Epoch: 56/100
+ Learning rate is setted as: 0.000848424410253794
+Instance: 500; Time: 80.62s; loss: 267.8586; acc: 15880/16216=0.9793
+Instance: 1000; Time: 86.54s; loss: 254.4348; acc: 32598/33248=0.9804
+Instance: 1500; Time: 79.65s; loss: 320.8842; acc: 47952/48962=0.9794
+Instance: 2000; Time: 79.27s; loss: 373.1012; acc: 63388/64734=0.9792
+Instance: 2500; Time: 84.19s; loss: 356.7517; acc: 79353/81115=0.9783
+Instance: 3000; Time: 79.64s; loss: 298.6539; acc: 94889/96971=0.9785
+Instance: 3500; Time: 79.58s; loss: 286.5356; acc: 110465/112895=0.9785
+     Instance: 3821; Time: 57.64s; loss: 258.4195; acc: 121340/124099=0.9778
+Epoch: 56 training finished. Time: 627.13s, speed: 6.09st/s,  total loss: 2416.6395874023438
+gold_num =  1497  pred_num =  1518  right_num =  1400
+Dev: time: 31.81s, speed: 14.56st/s; acc: 0.9593, p: 0.9223, r: 0.9352, f: 0.9287
+gold_num =  1630  pred_num =  1643  right_num =  1545
+Test: time: 34.49s, speed: 13.83st/s; acc: 0.9602, p: 0.9404, r: 0.9479, f: 0.9441
+Epoch: 57/100
+ Learning rate is setted as: 0.0008060031897411042
+Instance: 500; Time: 82.55s; loss: 326.3694; acc: 16220/16596=0.9773
+Instance: 1000; Time: 80.52s; loss: 331.7938; acc: 31405/32230=0.9744
+Instance: 1500; Time: 82.67s; loss: 306.3038; acc: 47605/48738=0.9768
+Instance: 2000; Time: 80.44s; loss: 335.7920; acc: 63211/64728=0.9766
+Instance: 2500; Time: 79.51s; loss: 342.9077; acc: 78513/80388=0.9767
+Instance: 3000; Time: 82.57s; loss: 313.5396; acc: 94532/96788=0.9767
+Instance: 3500; Time: 84.04s; loss: 280.9048; acc: 110953/113482=0.9777
+     Instance: 3821; Time: 53.28s; loss: 266.0304; acc: 121312/124099=0.9775
+Epoch: 57 training finished. Time: 625.57s, speed: 6.11st/s,  total loss: 2503.641532897949
+gold_num =  1497  pred_num =  1516  right_num =  1397
+Dev: time: 31.74s, speed: 14.59st/s; acc: 0.9587, p: 0.9215, r: 0.9332, f: 0.9273
+gold_num =  1630  pred_num =  1639  right_num =  1547
+Test: time: 34.41s, speed: 13.87st/s; acc: 0.9627, p: 0.9439, r: 0.9491, f: 0.9465
+Epoch: 58/100
+ Learning rate is setted as: 0.000765703030254049
+Instance: 500; Time: 79.24s; loss: 324.4167; acc: 15589/16029=0.9725
+Instance: 1000; Time: 82.64s; loss: 329.9095; acc: 31372/32222=0.9736
+Instance: 1500; Time: 83.57s; loss: 334.4690; acc: 47525/48745=0.9750
+Instance: 2000; Time: 79.88s; loss: 320.4600; acc: 63280/64882=0.9753
+Instance: 2500; Time: 82.90s; loss: 284.7289; acc: 79378/81261=0.9768
+Instance: 3000; Time: 80.66s; loss: 318.9128; acc: 95026/97297=0.9767
+Instance: 3500; Time: 82.88s; loss: 305.7338; acc: 110966/113669=0.9762
+     Instance: 3821; Time: 53.56s; loss: 240.4903; acc: 121092/124099=0.9758
+Epoch: 58 training finished. Time: 625.32s, speed: 6.11st/s,  total loss: 2459.1210403442383
+gold_num =  1497  pred_num =  1520  right_num =  1397
+Dev: time: 31.78s, speed: 14.57st/s; acc: 0.9572, p: 0.9191, r: 0.9332, f: 0.9261
+gold_num =  1630  pred_num =  1641  right_num =  1548
+Test: time: 34.55s, speed: 13.81st/s; acc: 0.9613, p: 0.9433, r: 0.9497, f: 0.9465
+Epoch: 59/100
+ Learning rate is setted as: 0.0007274178787413466
+Instance: 500; Time: 85.64s; loss: 276.8884; acc: 16746/17075=0.9807
+Instance: 1000; Time: 80.58s; loss: 312.4668; acc: 32523/33186=0.9800
+Instance: 1500; Time: 78.58s; loss: 260.2612; acc: 47823/48786=0.9803
+Instance: 2000; Time: 80.21s; loss: 404.8037; acc: 63066/64485=0.9780
+Instance: 2500; Time: 83.23s; loss: 271.9009; acc: 79165/80939=0.9781
+Instance: 3000; Time: 81.36s; loss: 289.4790; acc: 95153/97227=0.9787
+Instance: 3500; Time: 84.32s; loss: 350.5564; acc: 111321/113853=0.9778
+     Instance: 3821; Time: 51.16s; loss: 177.7451; acc: 121387/124099=0.9781
+Epoch: 59 training finished. Time: 625.07s, speed: 6.11st/s,  total loss: 2344.101593017578
+gold_num =  1497  pred_num =  1516  right_num =  1395
+Dev: time: 31.66s, speed: 14.63st/s; acc: 0.9585, p: 0.9202, r: 0.9319, f: 0.9260
+gold_num =  1630  pred_num =  1639  right_num =  1547
+Test: time: 34.41s, speed: 13.87st/s; acc: 0.9625, p: 0.9439, r: 0.9491, f: 0.9465
+Epoch: 60/100
+ Learning rate is setted as: 0.0006910469848042792
+Instance: 500; Time: 79.06s; loss: 262.2677; acc: 15452/15774=0.9796
+Instance: 1000; Time: 80.27s; loss: 298.1755; acc: 31245/31882=0.9800
+Instance: 1500; Time: 76.71s; loss: 291.3672; acc: 46207/47232=0.9783
+Instance: 2000; Time: 84.78s; loss: 367.1616; acc: 62460/63879=0.9778
+Instance: 2500; Time: 84.73s; loss: 314.5732; acc: 78743/80524=0.9779
+Instance: 3000; Time: 83.87s; loss: 308.8260; acc: 95120/97290=0.9777
+Instance: 3500; Time: 81.05s; loss: 309.9535; acc: 110827/113353=0.9777
+     Instance: 3821; Time: 54.59s; loss: 194.3529; acc: 121340/124099=0.9778
+Epoch: 60 training finished. Time: 625.06s, speed: 6.11st/s,  total loss: 2346.677703857422
+gold_num =  1497  pred_num =  1517  right_num =  1398
+Dev: time: 31.85s, speed: 14.54st/s; acc: 0.9599, p: 0.9216, r: 0.9339, f: 0.9277
+gold_num =  1630  pred_num =  1642  right_num =  1541
+Test: time: 34.45s, speed: 13.85st/s; acc: 0.9598, p: 0.9385, r: 0.9454, f: 0.9419
+Epoch: 61/100
+ Learning rate is setted as: 0.0006564946355640652
+Instance: 500; Time: 77.45s; loss: 323.8774; acc: 15290/15618=0.9790
+Instance: 1000; Time: 88.66s; loss: 404.3127; acc: 32235/32943=0.9785
+Instance: 1500; Time: 76.95s; loss: 263.4465; acc: 47372/48367=0.9794
+Instance: 2000; Time: 79.29s; loss: 336.5249; acc: 62925/64353=0.9778
+Instance: 2500; Time: 85.78s; loss: 281.1433; acc: 79333/81170=0.9774
+Instance: 3000; Time: 80.45s; loss: 317.6672; acc: 95026/97313=0.9765
+Instance: 3500; Time: 84.09s; loss: 320.9955; acc: 111215/113928=0.9762
+     Instance: 3821; Time: 52.06s; loss: 168.3779; acc: 121157/124099=0.9763
+Epoch: 61 training finished. Time: 624.74s, speed: 6.12st/s,  total loss: 2416.3455200195312
+gold_num =  1497  pred_num =  1515  right_num =  1395
+Dev: time: 31.93s, speed: 14.51st/s; acc: 0.9589, p: 0.9208, r: 0.9319, f: 0.9263
+gold_num =  1630  pred_num =  1636  right_num =  1544
+Test: time: 34.54s, speed: 13.81st/s; acc: 0.9628, p: 0.9438, r: 0.9472, f: 0.9455
+Epoch: 62/100
+ Learning rate is setted as: 0.0006236699037858619
+Instance: 500; Time: 82.26s; loss: 347.2876; acc: 15973/16338=0.9777
+Instance: 1000; Time: 83.19s; loss: 307.0410; acc: 32061/32809=0.9772
+Instance: 1500; Time: 85.99s; loss: 240.1973; acc: 48474/49533=0.9786
+Instance: 2000; Time: 82.61s; loss: 303.0549; acc: 64544/65950=0.9787
+Instance: 2500; Time: 82.00s; loss: 334.0417; acc: 80507/82306=0.9781
+Instance: 3000; Time: 83.89s; loss: 277.7531; acc: 96733/98885=0.9782
+Instance: 3500; Time: 77.51s; loss: 348.9745; acc: 111813/114368=0.9777
+     Instance: 3821; Time: 48.49s; loss: 204.3458; acc: 121260/124099=0.9771
+Epoch: 62 training finished. Time: 625.94s, speed: 6.10st/s,  total loss: 2362.6959381103516
+gold_num =  1497  pred_num =  1518  right_num =  1395
+Dev: time: 31.80s, speed: 14.56st/s; acc: 0.9581, p: 0.9190, r: 0.9319, f: 0.9254
+gold_num =  1630  pred_num =  1638  right_num =  1542
+Test: time: 34.37s, speed: 13.88st/s; acc: 0.9608, p: 0.9414, r: 0.9460, f: 0.9437
+Epoch: 63/100
+ Learning rate is setted as: 0.0005924864085965687
+Instance: 500; Time: 83.24s; loss: 366.3560; acc: 16233/16612=0.9772
+Instance: 1000; Time: 86.36s; loss: 331.6367; acc: 32698/33503=0.9760
+Instance: 1500; Time: 79.80s; loss: 246.0812; acc: 48032/49126=0.9777
+Instance: 2000; Time: 80.26s; loss: 318.0514; acc: 63544/65069=0.9766
+Instance: 2500; Time: 77.13s; loss: 253.8162; acc: 78884/80702=0.9775
+Instance: 3000; Time: 78.94s; loss: 303.4652; acc: 94312/96471=0.9776
+Instance: 3500; Time: 88.10s; loss: 357.2031; acc: 111404/113933=0.9778
+     Instance: 3821; Time: 51.62s; loss: 133.4756; acc: 121404/124099=0.9783
+Epoch: 63 training finished. Time: 625.44s, speed: 6.11st/s,  total loss: 2310.0853881835938
+gold_num =  1497  pred_num =  1513  right_num =  1390
+Dev: time: 31.70s, speed: 14.61st/s; acc: 0.9582, p: 0.9187, r: 0.9285, f: 0.9236
+gold_num =  1630  pred_num =  1636  right_num =  1542
+Test: time: 34.36s, speed: 13.89st/s; acc: 0.9618, p: 0.9425, r: 0.9460, f: 0.9443
+Epoch: 64/100
+ Learning rate is setted as: 0.0005628620881667402
+Instance: 500; Time: 84.72s; loss: 330.4280; acc: 16340/16725=0.9770
+Instance: 1000; Time: 82.48s; loss: 364.3589; acc: 32266/33059=0.9760
+Instance: 1500; Time: 77.39s; loss: 268.0161; acc: 47423/48540=0.9770
+Instance: 2000; Time: 80.74s; loss: 270.1270; acc: 63070/64532=0.9773
+Instance: 2500; Time: 83.82s; loss: 314.6223; acc: 79380/81219=0.9774
+Instance: 3000; Time: 87.26s; loss: 288.8651; acc: 96101/98317=0.9775
+Instance: 3500; Time: 77.89s; loss: 297.3394; acc: 111372/113914=0.9777
+     Instance: 3821; Time: 51.93s; loss: 190.3352; acc: 121348/124099=0.9778
+Epoch: 64 training finished. Time: 626.22s, speed: 6.10st/s,  total loss: 2324.0919189453125
+gold_num =  1497  pred_num =  1515  right_num =  1393
+Dev: time: 31.91s, speed: 14.52st/s; acc: 0.9581, p: 0.9195, r: 0.9305, f: 0.9250
+gold_num =  1630  pred_num =  1639  right_num =  1542
+Test: time: 34.49s, speed: 13.84st/s; acc: 0.9609, p: 0.9408, r: 0.9460, f: 0.9434
+Epoch: 65/100
+ Learning rate is setted as: 0.0005347189837584033
+Instance: 500; Time: 81.31s; loss: 237.6975; acc: 16020/16351=0.9798
+Instance: 1000; Time: 83.14s; loss: 330.8708; acc: 32175/32878=0.9786
+Instance: 1500; Time: 79.54s; loss: 292.6588; acc: 47714/48749=0.9788
+Instance: 2000; Time: 84.07s; loss: 346.6321; acc: 64000/65447=0.9779
+Instance: 2500; Time: 84.17s; loss: 294.1040; acc: 80212/82037=0.9778
+Instance: 3000; Time: 80.01s; loss: 311.0176; acc: 95922/98131=0.9775
+Instance: 3500; Time: 82.77s; loss: 329.2725; acc: 111946/114563=0.9772
+     Instance: 3821; Time: 49.29s; loss: 206.2695; acc: 121302/124099=0.9775
+Epoch: 65 training finished. Time: 624.29s, speed: 6.12st/s,  total loss: 2348.522789001465
+gold_num =  1497  pred_num =  1514  right_num =  1403
+Dev: time: 31.75s, speed: 14.59st/s; acc: 0.9612, p: 0.9267, r: 0.9372, f: 0.9319
+Exceed previous best f score: 0.92909211398277
+gold_num =  1630  pred_num =  1639  right_num =  1545
+Test: time: 34.55s, speed: 13.82st/s; acc: 0.9613, p: 0.9426, r: 0.9479, f: 0.9452
+Epoch: 66/100
+ Learning rate is setted as: 0.000507983034570483
+Instance: 500; Time: 89.29s; loss: 341.9053; acc: 17001/17388=0.9777
+Instance: 1000; Time: 77.53s; loss: 315.3550; acc: 32197/32992=0.9759
+Instance: 1500; Time: 84.39s; loss: 330.6694; acc: 48408/49591=0.9761
+Instance: 2000; Time: 77.39s; loss: 360.7452; acc: 63526/65135=0.9753
+Instance: 2500; Time: 80.81s; loss: 275.0383; acc: 79276/81254=0.9757
+Instance: 3000; Time: 81.47s; loss: 344.7681; acc: 95032/97436=0.9753
+Instance: 3500; Time: 82.47s; loss: 264.3743; acc: 111095/113837=0.9759
+     Instance: 3821; Time: 52.28s; loss: 172.3894; acc: 121146/124099=0.9762
+Epoch: 66 training finished. Time: 625.63s, speed: 6.11st/s,  total loss: 2405.244941711426
+gold_num =  1497  pred_num =  1514  right_num =  1402
+Dev: time: 31.75s, speed: 14.59st/s; acc: 0.9607, p: 0.9260, r: 0.9365, f: 0.9313
+gold_num =  1630  pred_num =  1638  right_num =  1542
+Test: time: 34.45s, speed: 13.85st/s; acc: 0.9619, p: 0.9414, r: 0.9460, f: 0.9437
+Epoch: 67/100
+ Learning rate is setted as: 0.00048258388284195885
+Instance: 500; Time: 89.64s; loss: 267.4978; acc: 17492/17883=0.9781
+Instance: 1000; Time: 78.26s; loss: 380.3330; acc: 32684/33487=0.9760
+Instance: 1500; Time: 81.53s; loss: 355.4409; acc: 48417/49697=0.9742
+Instance: 2000; Time: 83.54s; loss: 344.4338; acc: 64499/66194=0.9744
+Instance: 2500; Time: 79.25s; loss: 283.2603; acc: 79905/81927=0.9753
+Instance: 3000; Time: 81.97s; loss: 230.2308; acc: 95463/97797=0.9761
+Instance: 3500; Time: 80.66s; loss: 368.0676; acc: 111141/113919=0.9756
+     Instance: 3821; Time: 51.70s; loss: 172.1990; acc: 121130/124099=0.9761
+Epoch: 67 training finished. Time: 626.56s, speed: 6.10st/s,  total loss: 2401.4632568359375
+gold_num =  1497  pred_num =  1515  right_num =  1397
+Dev: time: 31.77s, speed: 14.58st/s; acc: 0.9594, p: 0.9221, r: 0.9332, f: 0.9276
+gold_num =  1630  pred_num =  1634  right_num =  1544
+Test: time: 34.52s, speed: 13.82st/s; acc: 0.9631, p: 0.9449, r: 0.9472, f: 0.9461
+Epoch: 68/100
+ Learning rate is setted as: 0.00045845468869986093
+Instance: 500; Time: 84.48s; loss: 304.9617; acc: 16437/16793=0.9788
+Instance: 1000; Time: 83.76s; loss: 325.7153; acc: 32592/33286=0.9792
+Instance: 1500; Time: 79.31s; loss: 234.2633; acc: 48168/49178=0.9795
+Instance: 2000; Time: 82.91s; loss: 303.4628; acc: 64305/65668=0.9792
+Instance: 2500; Time: 85.97s; loss: 343.3757; acc: 80949/82671=0.9792
+Instance: 3000; Time: 84.81s; loss: 390.2980; acc: 97256/99421=0.9782
+Instance: 3500; Time: 73.80s; loss: 250.4552; acc: 111844/114300=0.9785
+     Instance: 3821; Time: 48.90s; loss: 176.2687; acc: 121437/124099=0.9785
+Epoch: 68 training finished. Time: 623.93s, speed: 6.12st/s,  total loss: 2328.8006591796875
+gold_num =  1497  pred_num =  1516  right_num =  1401
+Dev: time: 31.95s, speed: 14.50st/s; acc: 0.9600, p: 0.9241, r: 0.9359, f: 0.9300
+gold_num =  1630  pred_num =  1642  right_num =  1544
+Test: time: 34.46s, speed: 13.85st/s; acc: 0.9617, p: 0.9403, r: 0.9472, f: 0.9438
+Epoch: 69/100
+ Learning rate is setted as: 0.0004355319542648679
+Instance: 500; Time: 84.33s; loss: 296.3995; acc: 16692/17029=0.9802
+Instance: 1000; Time: 84.41s; loss: 281.5433; acc: 32972/33663=0.9795
+Instance: 1500; Time: 73.84s; loss: 313.1918; acc: 47570/48612=0.9786
+Instance: 2000; Time: 81.20s; loss: 299.8508; acc: 63451/64873=0.9781
+Instance: 2500; Time: 81.07s; loss: 289.0129; acc: 79352/81120=0.9782
+Instance: 3000; Time: 84.97s; loss: 312.6367; acc: 95591/97773=0.9777
+Instance: 3500; Time: 83.22s; loss: 335.7556; acc: 111700/114235=0.9778
+     Instance: 3821; Time: 50.75s; loss: 210.7490; acc: 121318/124099=0.9776
+Epoch: 69 training finished. Time: 623.79s, speed: 6.13st/s,  total loss: 2339.1397705078125
+gold_num =  1497  pred_num =  1515  right_num =  1397
+Dev: time: 31.77s, speed: 14.58st/s; acc: 0.9602, p: 0.9221, r: 0.9332, f: 0.9276
+gold_num =  1630  pred_num =  1633  right_num =  1542
+Test: time: 34.48s, speed: 13.84st/s; acc: 0.9628, p: 0.9443, r: 0.9460, f: 0.9451
+Epoch: 70/100
+ Learning rate is setted as: 0.00041375535655162446
+Instance: 500; Time: 76.38s; loss: 347.1426; acc: 15026/15408=0.9752
+Instance: 1000; Time: 82.72s; loss: 314.7341; acc: 31042/31762=0.9773
+Instance: 1500; Time: 81.30s; loss: 351.2534; acc: 46734/47946=0.9747
+Instance: 2000; Time: 82.94s; loss: 277.8254; acc: 62777/64349=0.9756
+Instance: 2500; Time: 88.48s; loss: 253.8232; acc: 79655/81505=0.9773
+Instance: 3000; Time: 82.21s; loss: 252.4486; acc: 95706/97899=0.9776
+Instance: 3500; Time: 81.18s; loss: 312.5408; acc: 111484/114035=0.9776
+     Instance: 3821; Time: 50.45s; loss: 205.2669; acc: 121301/124099=0.9775
+Epoch: 70 training finished. Time: 625.66s, speed: 6.11st/s,  total loss: 2315.035125732422
+gold_num =  1497  pred_num =  1517  right_num =  1401
+Dev: time: 31.88s, speed: 14.53st/s; acc: 0.9602, p: 0.9235, r: 0.9359, f: 0.9297
+gold_num =  1630  pred_num =  1642  right_num =  1548
+Test: time: 34.49s, speed: 13.83st/s; acc: 0.9621, p: 0.9428, r: 0.9497, f: 0.9462
+Epoch: 71/100
+ Learning rate is setted as: 0.00039306758872404324
+Instance: 500; Time: 77.70s; loss: 277.5229; acc: 15361/15682=0.9795
+Instance: 1000; Time: 86.29s; loss: 280.9401; acc: 31946/32656=0.9783
+Instance: 1500; Time: 85.64s; loss: 367.2968; acc: 48336/49463=0.9772
+Instance: 2000; Time: 77.11s; loss: 333.9016; acc: 63371/64877=0.9768
+Instance: 2500; Time: 82.92s; loss: 320.2673; acc: 79476/81329=0.9772
+Instance: 3000; Time: 81.23s; loss: 336.6571; acc: 95211/97484=0.9767
+Instance: 3500; Time: 86.38s; loss: 314.8060; acc: 111883/114564=0.9766
+     Instance: 3821; Time: 48.90s; loss: 206.4123; acc: 121168/124099=0.9764
+Epoch: 71 training finished. Time: 626.18s, speed: 6.10st/s,  total loss: 2437.804168701172
+gold_num =  1497  pred_num =  1515  right_num =  1401
+Dev: time: 31.86s, speed: 14.54st/s; acc: 0.9603, p: 0.9248, r: 0.9359, f: 0.9303
+gold_num =  1630  pred_num =  1640  right_num =  1544
+Test: time: 34.60s, speed: 13.79st/s; acc: 0.9617, p: 0.9415, r: 0.9472, f: 0.9443
+Epoch: 72/100
+ Learning rate is setted as: 0.00037341420928784104
+Instance: 500; Time: 84.56s; loss: 305.1875; acc: 16349/16688=0.9797
+Instance: 1000; Time: 81.36s; loss: 303.8684; acc: 32256/32918=0.9799
+Instance: 1500; Time: 84.42s; loss: 326.9666; acc: 48559/49618=0.9787
+Instance: 2000; Time: 80.33s; loss: 271.7880; acc: 64215/65616=0.9786
+Instance: 2500; Time: 80.99s; loss: 253.2108; acc: 79641/81358=0.9789
+Instance: 3000; Time: 81.75s; loss: 344.3429; acc: 95644/97736=0.9786
+Instance: 3500; Time: 80.03s; loss: 385.9376; acc: 111257/113778=0.9778
+     Instance: 3821; Time: 52.83s; loss: 207.5564; acc: 121349/124099=0.9778
+Epoch: 72 training finished. Time: 626.28s, speed: 6.10st/s,  total loss: 2398.858154296875
+gold_num =  1497  pred_num =  1517  right_num =  1399
+Dev: time: 31.80s, speed: 14.56st/s; acc: 0.9596, p: 0.9222, r: 0.9345, f: 0.9283
+gold_num =  1630  pred_num =  1641  right_num =  1549
+Test: time: 34.39s, speed: 13.88st/s; acc: 0.9614, p: 0.9439, r: 0.9503, f: 0.9471
+Epoch: 73/100
+ Learning rate is setted as: 0.000354743498823449
+Instance: 500; Time: 77.54s; loss: 325.5850; acc: 15300/15621=0.9795
+Instance: 1000; Time: 83.30s; loss: 297.4116; acc: 31485/32198=0.9779
+Instance: 1500; Time: 83.51s; loss: 275.7953; acc: 47605/48661=0.9783
+Instance: 2000; Time: 81.46s; loss: 304.0779; acc: 63345/64745=0.9784
+Instance: 2500; Time: 83.61s; loss: 311.6825; acc: 79638/81387=0.9785
+Instance: 3000; Time: 81.79s; loss: 291.5232; acc: 95480/97571=0.9786
+Instance: 3500; Time: 83.01s; loss: 250.0896; acc: 111642/114014=0.9792
+     Instance: 3821; Time: 51.44s; loss: 184.8525; acc: 121509/124099=0.9791
+Epoch: 73 training finished. Time: 625.64s, speed: 6.11st/s,  total loss: 2241.017578125
+gold_num =  1497  pred_num =  1517  right_num =  1402
+Dev: time: 31.81s, speed: 14.56st/s; acc: 0.9611, p: 0.9242, r: 0.9365, f: 0.9303
+gold_num =  1630  pred_num =  1643  right_num =  1543
+Test: time: 34.43s, speed: 13.86st/s; acc: 0.9603, p: 0.9391, r: 0.9466, f: 0.9429
+Epoch: 74/100
+ Learning rate is setted as: 0.0003370063238822765
+Instance: 500; Time: 81.48s; loss: 349.7809; acc: 16051/16427=0.9771
+Instance: 1000; Time: 82.09s; loss: 329.5370; acc: 31951/32668=0.9781
+Instance: 1500; Time: 86.33s; loss: 315.0305; acc: 48642/49793=0.9769
+Instance: 2000; Time: 80.68s; loss: 327.6311; acc: 64312/65818=0.9771
+Instance: 2500; Time: 81.15s; loss: 275.8804; acc: 79934/81760=0.9777
+Instance: 3000; Time: 81.43s; loss: 288.7532; acc: 95600/97738=0.9781
+Instance: 3500; Time: 79.01s; loss: 230.1553; acc: 111218/113668=0.9784
+     Instance: 3821; Time: 53.59s; loss: 194.6275; acc: 121466/124099=0.9788
+Epoch: 74 training finished. Time: 625.77s, speed: 6.11st/s,  total loss: 2311.3958129882812
+gold_num =  1497  pred_num =  1517  right_num =  1400
+Dev: time: 31.77s, speed: 14.58st/s; acc: 0.9598, p: 0.9229, r: 0.9352, f: 0.9290
+gold_num =  1630  pred_num =  1632  right_num =  1536
+Test: time: 34.63s, speed: 13.78st/s; acc: 0.9587, p: 0.9412, r: 0.9423, f: 0.9418
+Epoch: 75/100
+ Learning rate is setted as: 0.00032015600768816265
+Instance: 500; Time: 77.07s; loss: 238.9409; acc: 15343/15689=0.9779
+Instance: 1000; Time: 81.41s; loss: 334.1239; acc: 30764/31479=0.9773
+Instance: 1500; Time: 82.46s; loss: 226.5957; acc: 46750/47735=0.9794
+Instance: 2000; Time: 82.31s; loss: 294.8174; acc: 62655/63989=0.9792
+Instance: 2500; Time: 87.86s; loss: 266.3247; acc: 79759/81478=0.9789
+Instance: 3000; Time: 78.29s; loss: 288.3298; acc: 95115/97181=0.9787
+Instance: 3500; Time: 84.41s; loss: 297.9728; acc: 111563/113965=0.9789
+     Instance: 3821; Time: 50.91s; loss: 230.6970; acc: 121451/124099=0.9787
+Epoch: 75 training finished. Time: 624.72s, speed: 6.12st/s,  total loss: 2177.80224609375
+gold_num =  1497  pred_num =  1516  right_num =  1402
+Dev: time: 31.93s, speed: 14.51st/s; acc: 0.9605, p: 0.9248, r: 0.9365, f: 0.9306
+gold_num =  1630  pred_num =  1640  right_num =  1541
+Test: time: 34.50s, speed: 13.83st/s; acc: 0.9601, p: 0.9396, r: 0.9454, f: 0.9425
+Epoch: 76/100
+ Learning rate is setted as: 0.00030414820730375453
+Instance: 500; Time: 76.39s; loss: 295.4810; acc: 15094/15451=0.9769
+Instance: 1000; Time: 81.88s; loss: 249.6250; acc: 31141/31746=0.9809
+Instance: 1500; Time: 80.15s; loss: 302.2072; acc: 46423/47376=0.9799
+Instance: 2000; Time: 77.40s; loss: 283.6665; acc: 61673/63020=0.9786
+Instance: 2500; Time: 84.64s; loss: 332.1329; acc: 77961/79666=0.9786
+Instance: 3000; Time: 84.94s; loss: 325.6196; acc: 94771/96859=0.9784
+Instance: 3500; Time: 87.53s; loss: 285.9297; acc: 111510/113964=0.9785
+     Instance: 3821; Time: 52.05s; loss: 161.8805; acc: 121473/124099=0.9788
+Epoch: 76 training finished. Time: 624.97s, speed: 6.11st/s,  total loss: 2236.542320251465
+gold_num =  1497  pred_num =  1518  right_num =  1399
+Dev: time: 31.80s, speed: 14.56st/s; acc: 0.9592, p: 0.9216, r: 0.9345, f: 0.9280
+gold_num =  1630  pred_num =  1640  right_num =  1544
+Test: time: 34.39s, speed: 13.88st/s; acc: 0.9612, p: 0.9415, r: 0.9472, f: 0.9443
+Epoch: 77/100
+ Learning rate is setted as: 0.00028894079693856674
+Instance: 500; Time: 83.03s; loss: 296.0334; acc: 16193/16578=0.9768
+Instance: 1000; Time: 82.58s; loss: 305.8181; acc: 32078/32820=0.9774
+Instance: 1500; Time: 81.87s; loss: 280.2283; acc: 48087/49208=0.9772
+Instance: 2000; Time: 77.16s; loss: 274.6721; acc: 63150/64605=0.9775
+Instance: 2500; Time: 85.91s; loss: 319.5972; acc: 79735/81563=0.9776
+Instance: 3000; Time: 81.00s; loss: 308.1597; acc: 95208/97394=0.9776
+Instance: 3500; Time: 80.99s; loss: 277.4202; acc: 110975/113474=0.9780
+     Instance: 3821; Time: 54.35s; loss: 196.6602; acc: 121368/124099=0.9780
+Epoch: 77 training finished. Time: 626.91s, speed: 6.10st/s,  total loss: 2258.589111328125
+gold_num =  1497  pred_num =  1518  right_num =  1399
+Dev: time: 31.70s, speed: 14.61st/s; acc: 0.9588, p: 0.9216, r: 0.9345, f: 0.9280
+gold_num =  1630  pred_num =  1639  right_num =  1542
+Test: time: 34.50s, speed: 13.83st/s; acc: 0.9614, p: 0.9408, r: 0.9460, f: 0.9434
+Epoch: 78/100
+ Learning rate is setted as: 0.0002744937570916384
+Instance: 500; Time: 76.97s; loss: 315.1918; acc: 15242/15664=0.9731
+Instance: 1000; Time: 85.80s; loss: 311.0850; acc: 32000/32753=0.9770
+Instance: 1500; Time: 79.86s; loss: 265.7676; acc: 47394/48467=0.9779
+Instance: 2000; Time: 82.93s; loss: 359.4399; acc: 63316/64832=0.9766
+Instance: 2500; Time: 85.21s; loss: 255.8569; acc: 79846/81732=0.9769
+Instance: 3000; Time: 76.09s; loss: 309.6106; acc: 94800/97011=0.9772
+Instance: 3500; Time: 82.24s; loss: 275.8290; acc: 110790/113342=0.9775
+     Instance: 3821; Time: 56.70s; loss: 198.9731; acc: 121295/124099=0.9774
+Epoch: 78 training finished. Time: 625.80s, speed: 6.11st/s,  total loss: 2291.7538528442383
+gold_num =  1497  pred_num =  1519  right_num =  1398
+Dev: time: 31.71s, speed: 14.60st/s; acc: 0.9589, p: 0.9203, r: 0.9339, f: 0.9271
+gold_num =  1630  pred_num =  1640  right_num =  1542
+Test: time: 34.32s, speed: 13.90st/s; acc: 0.9611, p: 0.9402, r: 0.9460, f: 0.9431
+Epoch: 79/100
+ Learning rate is setted as: 0.0002607690692370565
+Instance: 500; Time: 75.37s; loss: 332.5413; acc: 14808/15242=0.9715
+Instance: 1000; Time: 75.44s; loss: 298.6313; acc: 29675/30473=0.9738
+Instance: 1500; Time: 82.87s; loss: 241.1310; acc: 45641/46759=0.9761
+Instance: 2000; Time: 82.68s; loss: 337.9451; acc: 61640/63166=0.9758
+Instance: 2500; Time: 83.33s; loss: 322.8733; acc: 77697/79610=0.9760
+Instance: 3000; Time: 84.99s; loss: 296.0295; acc: 94113/96454=0.9757
+Instance: 3500; Time: 82.29s; loss: 304.2360; acc: 110068/112778=0.9760
+     Instance: 3821; Time: 58.10s; loss: 211.3381; acc: 121149/124099=0.9762
+Epoch: 79 training finished. Time: 625.07s, speed: 6.11st/s,  total loss: 2344.7255249023438
+gold_num =  1497  pred_num =  1515  right_num =  1401
+Dev: time: 31.83s, speed: 14.55st/s; acc: 0.9605, p: 0.9248, r: 0.9359, f: 0.9303
+gold_num =  1630  pred_num =  1636  right_num =  1543
+Test: time: 34.51s, speed: 13.83st/s; acc: 0.9618, p: 0.9432, r: 0.9466, f: 0.9449
+Epoch: 80/100
+ Learning rate is setted as: 0.00024773061577520366
+Instance: 500; Time: 76.83s; loss: 279.9438; acc: 15198/15528=0.9787
+Instance: 1000; Time: 81.72s; loss: 331.4224; acc: 30951/31686=0.9768
+Instance: 1500; Time: 79.05s; loss: 347.7986; acc: 46331/47430=0.9768
+Instance: 2000; Time: 81.75s; loss: 284.9703; acc: 62232/63677=0.9773
+Instance: 2500; Time: 87.82s; loss: 307.8876; acc: 78983/80822=0.9772
+Instance: 3000; Time: 79.01s; loss: 237.9050; acc: 94414/96562=0.9778
+Instance: 3500; Time: 84.08s; loss: 278.2307; acc: 110990/113448=0.9783
+     Instance: 3821; Time: 55.59s; loss: 182.8933; acc: 121381/124099=0.9781
+Epoch: 80 training finished. Time: 625.84s, speed: 6.11st/s,  total loss: 2251.051727294922
+gold_num =  1497  pred_num =  1518  right_num =  1399
+Dev: time: 31.79s, speed: 14.57st/s; acc: 0.9595, p: 0.9216, r: 0.9345, f: 0.9280
+gold_num =  1630  pred_num =  1640  right_num =  1546
+Test: time: 34.48s, speed: 13.84st/s; acc: 0.9619, p: 0.9427, r: 0.9485, f: 0.9456
+Epoch: 81/100
+ Learning rate is setted as: 0.00023534408498644346
+Instance: 500; Time: 79.91s; loss: 247.1987; acc: 15658/15987=0.9794
+Instance: 1000; Time: 79.95s; loss: 250.7388; acc: 31438/32064=0.9805
+Instance: 1500; Time: 81.15s; loss: 308.1880; acc: 47092/48080=0.9795
+Instance: 2000; Time: 83.55s; loss: 372.7378; acc: 63254/64646=0.9785
+Instance: 2500; Time: 85.57s; loss: 274.9166; acc: 79731/81450=0.9789
+Instance: 3000; Time: 81.23s; loss: 312.2753; acc: 95469/97476=0.9794
+Instance: 3500; Time: 81.06s; loss: 348.9357; acc: 111429/113806=0.9791
+     Instance: 3821; Time: 53.82s; loss: 121.2455; acc: 121580/124099=0.9797
+Epoch: 81 training finished. Time: 626.23s, speed: 6.10st/s,  total loss: 2236.236328125
+gold_num =  1497  pred_num =  1520  right_num =  1399
+Dev: time: 31.97s, speed: 14.49st/s; acc: 0.9584, p: 0.9204, r: 0.9345, f: 0.9274
+gold_num =  1630  pred_num =  1640  right_num =  1544
+Test: time: 34.34s, speed: 13.90st/s; acc: 0.9612, p: 0.9415, r: 0.9472, f: 0.9443
+Epoch: 82/100
+ Learning rate is setted as: 0.0002235768807371213
+Instance: 500; Time: 81.23s; loss: 317.7727; acc: 15775/16158=0.9763
+Instance: 1000; Time: 81.58s; loss: 404.1858; acc: 31631/32483=0.9738
+Instance: 1500; Time: 81.94s; loss: 305.4830; acc: 47592/48774=0.9758
+Instance: 2000; Time: 88.80s; loss: 323.1915; acc: 64558/66108=0.9766
+Instance: 2500; Time: 83.49s; loss: 286.4373; acc: 80611/82490=0.9772
+Instance: 3000; Time: 77.74s; loss: 233.2399; acc: 95933/98107=0.9778
+Instance: 3500; Time: 79.52s; loss: 307.1987; acc: 111552/114188=0.9769
+     Instance: 3821; Time: 50.12s; loss: 193.9265; acc: 121219/124099=0.9768
+Epoch: 82 training finished. Time: 624.44s, speed: 6.12st/s,  total loss: 2371.435405731201
+gold_num =  1497  pred_num =  1518  right_num =  1397
+Dev: time: 31.83s, speed: 14.55st/s; acc: 0.9580, p: 0.9203, r: 0.9332, f: 0.9267
+gold_num =  1630  pred_num =  1640  right_num =  1544
+Test: time: 34.42s, speed: 13.86st/s; acc: 0.9612, p: 0.9415, r: 0.9472, f: 0.9443
+Epoch: 83/100
+ Learning rate is setted as: 0.0002123980367002652
+Instance: 500; Time: 77.95s; loss: 296.8165; acc: 15597/15920=0.9797
+Instance: 1000; Time: 84.45s; loss: 359.3245; acc: 31846/32595=0.9770
+Instance: 1500; Time: 81.42s; loss: 365.3572; acc: 47560/48724=0.9761
+Instance: 2000; Time: 85.65s; loss: 344.0396; acc: 64154/65706=0.9764
+Instance: 2500; Time: 79.36s; loss: 264.1381; acc: 79466/81334=0.9770
+Instance: 3000; Time: 88.15s; loss: 256.9069; acc: 96555/98699=0.9783
+Instance: 3500; Time: 78.46s; loss: 258.3223; acc: 111916/114366=0.9786
+     Instance: 3821; Time: 49.80s; loss: 177.5331; acc: 121458/124099=0.9787
+Epoch: 83 training finished. Time: 625.24s, speed: 6.11st/s,  total loss: 2322.4380493164062
+gold_num =  1497  pred_num =  1518  right_num =  1402
+Dev: time: 31.76s, speed: 14.59st/s; acc: 0.9595, p: 0.9236, r: 0.9365, f: 0.9300
+gold_num =  1630  pred_num =  1642  right_num =  1541
+Test: time: 34.56s, speed: 13.81st/s; acc: 0.9600, p: 0.9385, r: 0.9454, f: 0.9419
+Epoch: 84/100
+ Learning rate is setted as: 0.00020177813486525195
+Instance: 500; Time: 80.62s; loss: 312.4949; acc: 15885/16198=0.9807
+Instance: 1000; Time: 77.65s; loss: 359.6128; acc: 30946/31622=0.9786
+Instance: 1500; Time: 87.75s; loss: 287.8340; acc: 47809/48825=0.9792
+Instance: 2000; Time: 86.10s; loss: 265.7830; acc: 64497/65812=0.9800
+Instance: 2500; Time: 85.52s; loss: 255.3955; acc: 81175/82843=0.9799
+Instance: 3000; Time: 74.83s; loss: 250.0892; acc: 95891/97852=0.9800
+Instance: 3500; Time: 84.91s; loss: 332.6671; acc: 112400/114744=0.9796
+     Instance: 3821; Time: 47.06s; loss: 200.0315; acc: 121502/124099=0.9791
+Epoch: 84 training finished. Time: 624.45s, speed: 6.12st/s,  total loss: 2263.9079513549805
+gold_num =  1497  pred_num =  1517  right_num =  1398
+Dev: time: 31.83s, speed: 14.55st/s; acc: 0.9590, p: 0.9216, r: 0.9339, f: 0.9277
+gold_num =  1630  pred_num =  1640  right_num =  1542
+Test: time: 34.48s, speed: 13.84st/s; acc: 0.9608, p: 0.9402, r: 0.9460, f: 0.9431
+Epoch: 85/100
+ Learning rate is setted as: 0.00019168922812198933
+Instance: 500; Time: 81.82s; loss: 278.8254; acc: 15976/16317=0.9791
+Instance: 1000; Time: 78.98s; loss: 283.5096; acc: 31477/32155=0.9789
+Instance: 1500; Time: 82.86s; loss: 346.3223; acc: 47260/48376=0.9769
+Instance: 2000; Time: 82.00s; loss: 298.9004; acc: 63106/64550=0.9776
+Instance: 2500; Time: 82.92s; loss: 327.7346; acc: 79129/80969=0.9773
+Instance: 3000; Time: 80.56s; loss: 311.5210; acc: 94809/97034=0.9771
+Instance: 3500; Time: 84.64s; loss: 287.2869; acc: 111079/113645=0.9774
+     Instance: 3821; Time: 52.59s; loss: 162.7361; acc: 121331/124099=0.9777
+Epoch: 85 training finished. Time: 626.38s, speed: 6.10st/s,  total loss: 2296.8363342285156
+gold_num =  1497  pred_num =  1519  right_num =  1402
+Dev: time: 31.82s, speed: 14.56st/s; acc: 0.9598, p: 0.9230, r: 0.9365, f: 0.9297
+gold_num =  1630  pred_num =  1639  right_num =  1544
+Test: time: 34.36s, speed: 13.89st/s; acc: 0.9615, p: 0.9420, r: 0.9472, f: 0.9446
+Epoch: 86/100
+ Learning rate is setted as: 0.00018210476671588985
+Instance: 500; Time: 84.28s; loss: 251.2448; acc: 16358/16679=0.9808
+Instance: 1000; Time: 80.44s; loss: 332.9788; acc: 32130/32868=0.9775
+Instance: 1500; Time: 79.34s; loss: 262.1929; acc: 47775/48829=0.9784
+Instance: 2000; Time: 85.98s; loss: 387.8456; acc: 64449/65935=0.9775
+Instance: 2500; Time: 85.09s; loss: 328.9592; acc: 80859/82745=0.9772
+Instance: 3000; Time: 78.51s; loss: 199.7617; acc: 96361/98546=0.9778
+Instance: 3500; Time: 79.19s; loss: 238.9731; acc: 111686/114111=0.9787
+     Instance: 3821; Time: 50.69s; loss: 206.8397; acc: 121440/124099=0.9786
+Epoch: 86 training finished. Time: 623.52s, speed: 6.13st/s,  total loss: 2208.795768737793
+gold_num =  1497  pred_num =  1518  right_num =  1397
+Dev: time: 31.71s, speed: 14.61st/s; acc: 0.9583, p: 0.9203, r: 0.9332, f: 0.9267
+gold_num =  1630  pred_num =  1640  right_num =  1544
+Test: time: 34.47s, speed: 13.84st/s; acc: 0.9611, p: 0.9415, r: 0.9472, f: 0.9443
+Epoch: 87/100
+ Learning rate is setted as: 0.00017299952838009533
+Instance: 500; Time: 79.84s; loss: 341.5845; acc: 15567/15976=0.9744
+Instance: 1000; Time: 77.87s; loss: 373.7747; acc: 30445/31313=0.9723
+Instance: 1500; Time: 77.18s; loss: 246.3372; acc: 45728/46863=0.9758
+Instance: 2000; Time: 83.45s; loss: 266.7440; acc: 62319/63756=0.9775
+Instance: 2500; Time: 85.30s; loss: 267.1907; acc: 78815/80603=0.9778
+Instance: 3000; Time: 81.88s; loss: 279.5210; acc: 94745/96834=0.9784
+Instance: 3500; Time: 82.67s; loss: 328.7517; acc: 110765/113235=0.9782
+     Instance: 3821; Time: 55.75s; loss: 235.0326; acc: 121400/124099=0.9783
+Epoch: 87 training finished. Time: 623.93s, speed: 6.12st/s,  total loss: 2338.936309814453
+gold_num =  1497  pred_num =  1517  right_num =  1399
+Dev: time: 31.74s, speed: 14.59st/s; acc: 0.9595, p: 0.9222, r: 0.9345, f: 0.9283
+gold_num =  1630  pred_num =  1640  right_num =  1543
+Test: time: 34.46s, speed: 13.85st/s; acc: 0.9606, p: 0.9409, r: 0.9466, f: 0.9437
+Epoch: 88/100
+ Learning rate is setted as: 0.00016434955196109057
+Instance: 500; Time: 81.98s; loss: 303.1680; acc: 15847/16171=0.9800
+Instance: 1000; Time: 79.08s; loss: 326.8851; acc: 30964/31632=0.9789
+Instance: 1500; Time: 80.17s; loss: 279.5160; acc: 46607/47577=0.9796
+Instance: 2000; Time: 81.26s; loss: 302.4238; acc: 62612/63924=0.9795
+Instance: 2500; Time: 80.17s; loss: 304.2532; acc: 78128/79792=0.9791
+Instance: 3000; Time: 88.99s; loss: 296.1113; acc: 95309/97341=0.9791
+Instance: 3500; Time: 83.83s; loss: 285.0751; acc: 111486/113846=0.9793
+     Instance: 3821; Time: 51.57s; loss: 142.1598; acc: 121565/124099=0.9796
+Epoch: 88 training finished. Time: 627.05s, speed: 6.09st/s,  total loss: 2239.592254638672
+gold_num =  1497  pred_num =  1516  right_num =  1397
+Dev: time: 31.83s, speed: 14.55st/s; acc: 0.9595, p: 0.9215, r: 0.9332, f: 0.9273
+gold_num =  1630  pred_num =  1636  right_num =  1543
+Test: time: 34.52s, speed: 13.82st/s; acc: 0.9618, p: 0.9432, r: 0.9466, f: 0.9449
+Epoch: 89/100
+ Learning rate is setted as: 0.00015613207436303606
+Instance: 500; Time: 80.29s; loss: 317.2521; acc: 15787/16173=0.9761
+Instance: 1000; Time: 74.50s; loss: 287.5538; acc: 30339/31065=0.9766
+Instance: 1500; Time: 76.60s; loss: 325.1512; acc: 45406/46519=0.9761
+Instance: 2000; Time: 81.43s; loss: 318.4397; acc: 61439/62896=0.9768
+Instance: 2500; Time: 84.13s; loss: 275.8320; acc: 77599/79334=0.9781
+Instance: 3000; Time: 84.70s; loss: 351.3945; acc: 94086/96208=0.9779
+Instance: 3500; Time: 89.50s; loss: 309.9939; acc: 111091/113563=0.9782
+     Instance: 3821; Time: 52.89s; loss: 211.7692; acc: 121255/124099=0.9771
+Epoch: 89 training finished. Time: 624.04s, speed: 6.12st/s,  total loss: 2397.386474609375
+gold_num =  1497  pred_num =  1518  right_num =  1396
+Dev: time: 31.69s, speed: 14.62st/s; acc: 0.9580, p: 0.9196, r: 0.9325, f: 0.9260
+gold_num =  1630  pred_num =  1639  right_num =  1542
+Test: time: 34.48s, speed: 13.84st/s; acc: 0.9611, p: 0.9408, r: 0.9460, f: 0.9434
+Epoch: 90/100
+ Learning rate is setted as: 0.00014832547064488424
+Instance: 500; Time: 83.82s; loss: 229.4869; acc: 16379/16662=0.9830
+Instance: 1000; Time: 79.75s; loss: 297.0715; acc: 31817/32395=0.9822
+Instance: 1500; Time: 79.90s; loss: 291.0609; acc: 47442/48376=0.9807
+Instance: 2000; Time: 84.51s; loss: 320.0219; acc: 63775/65043=0.9805
+Instance: 2500; Time: 83.57s; loss: 319.9041; acc: 79955/81642=0.9793
+Instance: 3000; Time: 77.33s; loss: 254.3484; acc: 95236/97216=0.9796
+Instance: 3500; Time: 82.54s; loss: 362.6831; acc: 111116/113502=0.9790
+     Instance: 3821; Time: 54.03s; loss: 206.7383; acc: 121471/124099=0.9788
+Epoch: 90 training finished. Time: 625.45s, speed: 6.11st/s,  total loss: 2281.3150634765625
+gold_num =  1497  pred_num =  1518  right_num =  1400
+Dev: time: 31.69s, speed: 14.62st/s; acc: 0.9593, p: 0.9223, r: 0.9352, f: 0.9287
+gold_num =  1630  pred_num =  1640  right_num =  1543
+Test: time: 34.45s, speed: 13.85st/s; acc: 0.9605, p: 0.9409, r: 0.9466, f: 0.9437
+Epoch: 91/100
+ Learning rate is setted as: 0.00014090919711264
+Instance: 500; Time: 81.23s; loss: 352.9792; acc: 15829/16218=0.9760
+Instance: 1000; Time: 80.79s; loss: 327.4517; acc: 31529/32249=0.9777
+Instance: 1500; Time: 82.87s; loss: 255.8550; acc: 47700/48686=0.9797
+Instance: 2000; Time: 76.69s; loss: 291.2250; acc: 62597/63955=0.9788
+Instance: 2500; Time: 86.52s; loss: 312.9395; acc: 79060/80858=0.9778
+Instance: 3000; Time: 83.71s; loss: 266.7322; acc: 95382/97532=0.9780
+Instance: 3500; Time: 81.32s; loss: 285.5188; acc: 111079/113574=0.9780
+     Instance: 3821; Time: 53.50s; loss: 185.5072; acc: 121399/124099=0.9782
+Epoch: 91 training finished. Time: 626.63s, speed: 6.10st/s,  total loss: 2278.20849609375
+gold_num =  1497  pred_num =  1518  right_num =  1400
+Dev: time: 31.81s, speed: 14.56st/s; acc: 0.9592, p: 0.9223, r: 0.9352, f: 0.9287
+gold_num =  1630  pred_num =  1640  right_num =  1543
+Test: time: 34.45s, speed: 13.85st/s; acc: 0.9606, p: 0.9409, r: 0.9466, f: 0.9437
+Epoch: 92/100
+ Learning rate is setted as: 0.000133863737257008
+Instance: 500; Time: 82.16s; loss: 303.1206; acc: 15949/16302=0.9783
+Instance: 1000; Time: 81.15s; loss: 264.2422; acc: 31836/32504=0.9794
+Instance: 1500; Time: 77.62s; loss: 258.9734; acc: 47055/48038=0.9795
+Instance: 2000; Time: 77.74s; loss: 268.0493; acc: 62391/63677=0.9798
+Instance: 2500; Time: 88.07s; loss: 333.9463; acc: 79278/80958=0.9792
+Instance: 3000; Time: 86.08s; loss: 321.7197; acc: 95607/97697=0.9786
+Instance: 3500; Time: 80.52s; loss: 286.3612; acc: 111101/113522=0.9787
+     Instance: 3821; Time: 53.70s; loss: 242.9391; acc: 121454/124099=0.9787
+Epoch: 92 training finished. Time: 627.04s, speed: 6.09st/s,  total loss: 2279.351821899414
+gold_num =  1497  pred_num =  1516  right_num =  1400
+Dev: time: 31.76s, speed: 14.58st/s; acc: 0.9599, p: 0.9235, r: 0.9352, f: 0.9293
+gold_num =  1630  pred_num =  1640  right_num =  1539
+Test: time: 34.41s, speed: 13.87st/s; acc: 0.9597, p: 0.9384, r: 0.9442, f: 0.9413
+Epoch: 93/100
+ Learning rate is setted as: 0.0001271705503941576
+Instance: 500; Time: 83.03s; loss: 293.4998; acc: 16184/16537=0.9787
+Instance: 1000; Time: 76.91s; loss: 219.0745; acc: 31204/31826=0.9805
+Instance: 1500; Time: 86.20s; loss: 368.8494; acc: 47877/48944=0.9782
+Instance: 2000; Time: 84.21s; loss: 343.0201; acc: 64183/65638=0.9778
+Instance: 2500; Time: 74.22s; loss: 316.4246; acc: 78684/80473=0.9778
+Instance: 3000; Time: 81.42s; loss: 252.5786; acc: 94568/96701=0.9779
+Instance: 3500; Time: 84.46s; loss: 280.3665; acc: 110886/113368=0.9781
+     Instance: 3821; Time: 55.37s; loss: 164.6250; acc: 121391/124099=0.9782
+Epoch: 93 training finished. Time: 625.83s, speed: 6.11st/s,  total loss: 2238.4383544921875
+gold_num =  1497  pred_num =  1517  right_num =  1401
+Dev: time: 31.72s, speed: 14.60st/s; acc: 0.9600, p: 0.9235, r: 0.9359, f: 0.9297
+gold_num =  1630  pred_num =  1640  right_num =  1541
+Test: time: 34.62s, speed: 13.78st/s; acc: 0.9602, p: 0.9396, r: 0.9454, f: 0.9425
+Epoch: 94/100
+ Learning rate is setted as: 0.00012081202287444972
+Instance: 500; Time: 79.91s; loss: 239.6428; acc: 15725/16038=0.9805
+Instance: 1000; Time: 83.64s; loss: 393.9437; acc: 31807/32558=0.9769
+Instance: 1500; Time: 82.09s; loss: 302.1160; acc: 47625/48806=0.9758
+Instance: 2000; Time: 80.52s; loss: 346.8296; acc: 63306/64837=0.9764
+Instance: 2500; Time: 81.39s; loss: 292.3510; acc: 79024/80916=0.9766
+Instance: 3000; Time: 82.64s; loss: 310.3040; acc: 95241/97484=0.9770
+Instance: 3500; Time: 81.99s; loss: 296.8877; acc: 111044/113592=0.9776
+     Instance: 3821; Time: 53.77s; loss: 169.6605; acc: 121362/124099=0.9779
+Epoch: 94 training finished. Time: 625.95s, speed: 6.10st/s,  total loss: 2351.7352294921875
+gold_num =  1497  pred_num =  1518  right_num =  1400
+Dev: time: 31.82s, speed: 14.56st/s; acc: 0.9596, p: 0.9223, r: 0.9352, f: 0.9287
+gold_num =  1630  pred_num =  1640  right_num =  1541
+Test: time: 34.30s, speed: 13.91st/s; acc: 0.9601, p: 0.9396, r: 0.9454, f: 0.9425
+Epoch: 95/100
+ Learning rate is setted as: 0.00011477142173072722
+Instance: 500; Time: 83.34s; loss: 300.2769; acc: 16304/16647=0.9794
+Instance: 1000; Time: 83.50s; loss: 288.2239; acc: 32550/33168=0.9814
+Instance: 1500; Time: 82.41s; loss: 326.8689; acc: 48522/49524=0.9798
+Instance: 2000; Time: 82.47s; loss: 300.5728; acc: 64635/65993=0.9794
+Instance: 2500; Time: 82.43s; loss: 291.0928; acc: 80489/82185=0.9794
+Instance: 3000; Time: 78.77s; loss: 316.4128; acc: 95712/97799=0.9787
+Instance: 3500; Time: 82.33s; loss: 276.9346; acc: 111565/113990=0.9787
+     Instance: 3821; Time: 51.50s; loss: 152.5139; acc: 121502/124099=0.9791
+Epoch: 95 training finished. Time: 626.75s, speed: 6.10st/s,  total loss: 2252.896484375
+gold_num =  1497  pred_num =  1517  right_num =  1401
+Dev: time: 31.99s, speed: 14.48st/s; acc: 0.9600, p: 0.9235, r: 0.9359, f: 0.9297
+gold_num =  1630  pred_num =  1640  right_num =  1543
+Test: time: 34.62s, speed: 13.78st/s; acc: 0.9606, p: 0.9409, r: 0.9466, f: 0.9437
+Epoch: 96/100
+ Learning rate is setted as: 0.00010903285064419086
+Instance: 500; Time: 79.50s; loss: 283.7540; acc: 15714/16054=0.9788
+Instance: 1000; Time: 78.97s; loss: 280.1844; acc: 30850/31498=0.9794
+Instance: 1500; Time: 82.50s; loss: 251.6962; acc: 47022/48005=0.9795
+Instance: 2000; Time: 78.82s; loss: 286.7218; acc: 62551/63790=0.9806
+Instance: 2500; Time: 83.30s; loss: 345.2422; acc: 78836/80472=0.9797
+Instance: 3000; Time: 84.69s; loss: 333.3245; acc: 95063/97103=0.9790
+Instance: 3500; Time: 81.66s; loss: 241.3423; acc: 111062/113408=0.9793
+     Instance: 3821; Time: 55.75s; loss: 142.4736; acc: 121561/124099=0.9795
+Epoch: 96 training finished. Time: 625.18s, speed: 6.11st/s,  total loss: 2164.739013671875
+gold_num =  1497  pred_num =  1517  right_num =  1398
+Dev: time: 31.83s, speed: 14.55st/s; acc: 0.9598, p: 0.9216, r: 0.9339, f: 0.9277
+gold_num =  1630  pred_num =  1637  right_num =  1541
+Test: time: 34.56s, speed: 13.81st/s; acc: 0.9614, p: 0.9414, r: 0.9454, f: 0.9434
+Epoch: 97/100
+ Learning rate is setted as: 0.00010358120811198131
+Instance: 500; Time: 81.72s; loss: 325.3679; acc: 15854/16274=0.9742
+Instance: 1000; Time: 83.89s; loss: 341.0454; acc: 32163/33021=0.9740
+Instance: 1500; Time: 81.21s; loss: 286.1106; acc: 48160/49340=0.9761
+Instance: 2000; Time: 79.46s; loss: 264.4263; acc: 63545/65009=0.9775
+Instance: 2500; Time: 79.95s; loss: 269.2145; acc: 79009/80805=0.9778
+Instance: 3000; Time: 79.46s; loss: 333.3245; acc: 94497/96663=0.9776
+Instance: 3500; Time: 88.18s; loss: 266.0571; acc: 111379/113874=0.9781
+     Instance: 3821; Time: 52.05s; loss: 135.4626; acc: 121453/124099=0.9787
+Epoch: 97 training finished. Time: 625.93s, speed: 6.10st/s,  total loss: 2221.0088500976562
+gold_num =  1497  pred_num =  1516  right_num =  1397
+Dev: time: 31.82s, speed: 14.56st/s; acc: 0.9598, p: 0.9215, r: 0.9332, f: 0.9273
+gold_num =  1630  pred_num =  1639  right_num =  1544
+Test: time: 34.43s, speed: 13.86st/s; acc: 0.9615, p: 0.9420, r: 0.9472, f: 0.9446
+Epoch: 98/100
+ Learning rate is setted as: 9.840214770638224e-05
+Instance: 500; Time: 86.45s; loss: 302.5654; acc: 16918/17229=0.9819
+Instance: 1000; Time: 82.97s; loss: 394.6864; acc: 32966/33762=0.9764
+Instance: 1500; Time: 83.11s; loss: 259.0217; acc: 49078/50236=0.9769
+Instance: 2000; Time: 81.96s; loss: 325.9434; acc: 64740/66288=0.9766
+Instance: 2500; Time: 77.90s; loss: 275.7095; acc: 80059/81954=0.9769
+Instance: 3000; Time: 78.14s; loss: 273.5769; acc: 95275/97488=0.9773
+Instance: 3500; Time: 83.22s; loss: 283.9253; acc: 111349/113863=0.9779
+     Instance: 3821; Time: 52.78s; loss: 145.9146; acc: 121403/124099=0.9783
+Epoch: 98 training finished. Time: 626.54s, speed: 6.10st/s,  total loss: 2261.3431396484375
+gold_num =  1497  pred_num =  1516  right_num =  1398
+Dev: time: 31.74s, speed: 14.59st/s; acc: 0.9600, p: 0.9222, r: 0.9339, f: 0.9280
+gold_num =  1630  pred_num =  1640  right_num =  1542
+Test: time: 34.54s, speed: 13.81st/s; acc: 0.9607, p: 0.9402, r: 0.9460, f: 0.9431
+Epoch: 99/100
+ Learning rate is setted as: 9.348204032106312e-05
+Instance: 500; Time: 78.66s; loss: 262.6140; acc: 15556/15856=0.9811
+Instance: 1000; Time: 84.74s; loss: 267.4900; acc: 31892/32515=0.9808
+Instance: 1500; Time: 83.43s; loss: 333.3978; acc: 47976/48962=0.9799
+Instance: 2000; Time: 80.40s; loss: 258.7288; acc: 63690/64933=0.9809
+Instance: 2500; Time: 81.92s; loss: 385.5608; acc: 79538/81281=0.9786
+Instance: 3000; Time: 80.74s; loss: 280.0560; acc: 95284/97446=0.9778
+Instance: 3500; Time: 82.36s; loss: 321.3156; acc: 111449/113945=0.9781
+     Instance: 3821; Time: 52.46s; loss: 211.7279; acc: 121313/124099=0.9776
+Epoch: 99 training finished. Time: 624.71s, speed: 6.12st/s,  total loss: 2320.890823364258
+gold_num =  1497  pred_num =  1515  right_num =  1400
+Dev: time: 31.86s, speed: 14.54st/s; acc: 0.9605, p: 0.9241, r: 0.9352, f: 0.9296
+gold_num =  1630  pred_num =  1639  right_num =  1538
+Test: time: 34.52s, speed: 13.82st/s; acc: 0.9596, p: 0.9384, r: 0.9436, f: 0.9410
+
+Process finished with exit code 0
