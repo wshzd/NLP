@@ -19,4 +19,7 @@ https://github.com/brightmart
 可以使用bert生成词向量
 https://github.com/hanxiao/bert-as-service
 
+NCRF++的使用
+https://github.com/jiesutd/NCRFpp
+
 
