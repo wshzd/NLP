@@ -4,6 +4,6 @@ https://github.com/bojone/bert4keras
 ALbert模型的实现
 https://link.zhihu.com/?target=https%3A//github.com/brightmart/albert_zh
 
-
-
+使用PaddlePaddle做词向量skip-gram
+http://www.360doc.com/content/19/0816/04/46368139_855209381.shtml
 
