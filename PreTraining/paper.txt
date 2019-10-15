@@ -13,8 +13,8 @@ https://github.com/kpe/bert-for-tf2
 adapter-bert的地址
 https://github.com/google-research/adapter-bert/
 
-
-
+bert作为服务应用
+https://github.com/hanxiao/bert-as-service
 
 
 
