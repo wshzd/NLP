@@ -9,3 +9,13 @@ http://www.360doc.com/content/19/0816/04/46368139_855209381.shtml
 
 bert for tf2.0
 https://github.com/kpe/bert-for-tf2
+
+adapter-bert的地址
+https://github.com/google-research/adapter-bert/
+
+
+
+
+
+
+
