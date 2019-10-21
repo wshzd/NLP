@@ -7,6 +7,9 @@ http://fancyerii.github.io/2019/03/09/bert-codes/
 pytorch1.0.0和tensorflow2.0.0-rc1支持的预训练模型
 https://github.com/huggingface/transformers
 
+DistilBERT的应用
+https://github.com/drlego9/transformers-examples/tree/master/distillation
+
 
 
 
