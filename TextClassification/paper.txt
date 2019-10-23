@@ -1,2 +1,7 @@
 文本分类（知乎）
 https://zhuanlan.zhihu.com/p/68172955
+
+keras-text一站式文本分类库
+https://www.ctolib.com/raghakot-keras-text.html
+
+
