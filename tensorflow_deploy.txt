@@ -1,0 +1,2 @@
+使用docker部署tensorflow-serving
+https://blog.csdn.net/qq_17190121/article/details/99696768
