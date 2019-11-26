@@ -1,0 +1,15 @@
+刘知远：基于文档主题结构的关键词抽取方法研究。另附知乎：https://www.zhihu.com/question/21104071/answer/121576297
+
+搜索中词权重计算及实践：http://www.bubuko.com/infodetail-2859295.html
+
+NLP之关键词提取：https://blog.csdn.net/qq_38923076/article/details/81630442
+
+机器之心 | 如何做好文本关键词提取？从三种算法说起：https://www.jiqizhixin.com/articles/2018-11-14-17
+
+学习笔记 — 关键词提取：https://www.jianshu.com/p/837539f116d8
+
+query term weight计算：https://blog.csdn.net/madman188/article/details/51855265
+
+美团点评旅游搜索召回策略的演进：https://tech.meituan.com/2017/06/16/travel-search-strategy.html
+
+《美团机器学习实践》：P134，8.3.5词权重与相关性计算https://tech.meituan.com/2017/06/16/travel-search-strategy.html
