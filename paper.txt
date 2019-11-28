@@ -22,4 +22,10 @@ https://github.com/hanxiao/bert-as-service
 NCRF++的使用
 https://github.com/jiesutd/NCRFpp
 
+NLP DataSet and Task
+https://github.com/IsaacChanghau/DL-NLP-Readings
+
+
+
+
 
