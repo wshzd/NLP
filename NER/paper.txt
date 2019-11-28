@@ -2,4 +2,7 @@ Nealcly/BiLSTM-LAN
 arxiv.org/abs/1908.08676
 https://github.com/Nealcly/BiLSTM-LAN
 
+nlp_overview技术概览
+https://github.com/omarsar/nlp_overview
+
 
