@@ -16,6 +16,6 @@ https://github.com/google-research/adapter-bert/
 bert作为服务应用
 https://github.com/hanxiao/bert-as-service
 
-
-
+Skip-Thought Vectors
+https://arxiv.org/pdf/1506.06726.pdf
 
