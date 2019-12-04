@@ -25,7 +25,10 @@ https://github.com/jiesutd/NCRFpp
 NLP DataSet and Task
 https://github.com/IsaacChanghau/DL-NLP-Readings
 
-
-
-
+NLP开源工具
+Allen NLP
+http://allennlp.org/papers/AllenNLP_white_paper.pdf
+Parl AI
+https://arxiv.org/pdf/1705.06476.pdf
+Open NMT
 
