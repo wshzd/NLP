@@ -1,0 +1,17 @@
+# 基于深度学习的流水线关系抽取方法
+CR-CNN模型
+https://github.com/pratapbhanu/CRCNN
+
+Relation Classification via Multi-Level Attention CNNs
+https://blog.csdn.net/u012052268/article/details/87874327
+
+《Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification》
+https://blog.csdn.net/u014108004/article/details/84141870
+
+Semantic Relation Classification via Convolutional Neural Networks with Simple Negative Sampling
+https://arxiv.org/abs/1506.07650
+
+A Dependency-Based Neural Network for Relation Classification
+https://blog.csdn.net/appleml/article/details/78778555
+
+
