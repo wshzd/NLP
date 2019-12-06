@@ -20,6 +20,7 @@ https://www.jianshu.com/p/28fb2aed876f
 ######## 基于深度学习的联合关系抽取方法 ##########
 End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures
 https://blog.csdn.net/bobobe/article/details/82867239
+https://github.com/tticoin/LSTM-ER
 
 ######## 基于弱监督学习的关系抽取方法
 ### 远程监督
