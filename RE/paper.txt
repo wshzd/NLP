@@ -2,44 +2,44 @@
 CR-CNN模型
 https://github.com/pratapbhanu/CRCNN
 
-Relation Classification via Multi-Level Attention CNNs
+《Relation Classification via Multi-Level Attention CNNs》
 https://blog.csdn.net/u012052268/article/details/87874327
 
 《Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification》
 https://blog.csdn.net/u014108004/article/details/84141870
 
-Semantic Relation Classification via Convolutional Neural Networks with Simple Negative Sampling
+《Semantic Relation Classification via Convolutional Neural Networks with Simple Negative Sampling》
 https://arxiv.org/abs/1506.07650
 
-A Dependency-Based Neural Network for Relation Classification
+《A Dependency-Based Neural Network for Relation Classification》
 https://blog.csdn.net/appleml/article/details/78778555
 
-Relation Classification via Convolutional Deep Neural Network
+《Relation Classification via Convolutional Deep Neural Network》
 https://www.jianshu.com/p/28fb2aed876f
 
 ######## 基于深度学习的联合关系抽取方法 ##########
-End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures
-https://blog.csdn.net/bobobe/article/details/82867239
+《End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures》
+https://blog.csdn.net/MaybeForever/article/details/102665535
 https://github.com/tticoin/LSTM-ER
 
 ######## 基于弱监督学习的关系抽取方法
 ### 远程监督
-Distant Supervision for Relation Extraction with Sentence-Level Attention and Entity Descriptions
+《Distant Supervision for Relation Extraction with Sentence-Level Attention and Entity Descriptions》
 https://blog.csdn.net/dalangzhonghangxing/article/details/80240231
 
-Reinforcement Learning for Relation Classification from Noisy Data
+《Reinforcement Learning for Relation Classification from Noisy Data》
 https://blog.csdn.net/dalangzhonghangxing/article/details/80240864
 
 ### Booststrapping方法
-Extracting Patterns and Relations from the World Wide Web
+《Extracting Patterns and Relations from the World Wide Web》
 
-Snowball: Extracting Relations from Large Plain-Text Collections
+《Snowball: Extracting Relations from Large Plain-Text Collections》
 https://blog.csdn.net/zhang2010hao/article/details/88124812
 
-Unsupervised named-entity extraction from the Web: An experimental study
+《Unsupervised named-entity extraction from the Web: An experimental study》
 https://www.sciencedirect.com/science/article/pii/S0004370205000366
 
-Toward an Architecture for Never-Ending Language Learning
+《Toward an Architecture for Never-Ending Language Learning》
 https://blog.csdn.net/john159151/article/details/53573441
 
 
