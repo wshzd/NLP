@@ -8,7 +8,7 @@ https://github.com/ShomyLiu/pytorch-relation-extraction
 https://github.com/SeoSangwoo/Attention-Based-BiLSTM-relation-extraction
 Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification
 
-
+https://github.com/crownpku/Information-Extraction-Chinese
 
 
 
