@@ -18,9 +18,23 @@ https://blog.csdn.net/appleml/article/details/78778555
 https://www.jianshu.com/p/28fb2aed876f
 
 ######## 基于深度学习的联合关系抽取方法 ##########
+## 参数共享 ##
 《End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures》
 https://blog.csdn.net/MaybeForever/article/details/102665535
 https://github.com/tticoin/LSTM-ER
+
+《Joint Entity and Relation Extraction Based on A Hybrid Neural Network》
+
+生物医学文本中的实体关系抽取任务上
+《A Neural Joint Model for Entity and Relation Extraction from Biomedical Text》
+https://www.cnblogs.com/robert-dlut/p/7710735.html
+
+## 标注策略 ##
+《Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme》
+https://www.cnblogs.com/robert-dlut/p/7710735.html
+
+
+
 
 ######## 基于弱监督学习的关系抽取方法
 ### 远程监督
