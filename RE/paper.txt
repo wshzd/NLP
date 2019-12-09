@@ -62,8 +62,10 @@ https://blog.csdn.net/weixin_30662849/article/details/95858164
 关系抽取概述及研究进展Relation Extraction Progress
 https://blog.csdn.net/CSDN_wujian/article/details/100136621
 
-关系抽取(分类)总结
+######## 关系抽取(分类)总结  ############
 http://shomy.top/2018/02/28/relation-extraction/
+
+https://blog.csdn.net/zhaojizhinex/article/details/88061344
 
 ##### 基于迁移学习的关系抽取 ##########
 《Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning》
