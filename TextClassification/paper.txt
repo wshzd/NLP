@@ -6,3 +6,10 @@ https://www.ctolib.com/raghakot-keras-text.html
 
 多标签文本分类
 https://github.com/RandolphVI/Multi-Label-Text-Classification
+
+使用Bert／ERNIE进行中文短文本分类(附数据集)
+https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch
+
+tensorflow2.0五种机器学习算法对中文文本分类
+https://github.com/ami66/ChineseTextClassifier
+
