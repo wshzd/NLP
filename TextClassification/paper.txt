@@ -13,3 +13,15 @@ https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch
 tensorflow2.0五种机器学习算法对中文文本分类
 https://github.com/ami66/ChineseTextClassifier
 
+Few-shot Learning(小样本学习)综述
+https://www.chainnews.com/articles/650132977783.htm
+
+Few-shot Learning(小样本学习)综述
+https://blog.csdn.net/qq_16234613/article/details/79902085
+
+
+
+
+
+
+
