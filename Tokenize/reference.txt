@@ -1,3 +1,3 @@
 LTP自然语言处理工具
 https://ltp.readthedocs.io/zh_CN/latest/theory.html
-
+https://github.com/HIT-SCIR/ltp
