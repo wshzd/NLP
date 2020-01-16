@@ -22,3 +22,5 @@ https://arxiv.org/pdf/1506.06726.pdf
 BioBERT: 用于生物医学文本挖掘的预先训练生物医学语言表示模型
 https://github.com/dmis-lab/biobert
 https://github.com/naver/biobert-pretrained
+BioBERT论文解读
+https://blog.csdn.net/devshilei/article/details/103887864
