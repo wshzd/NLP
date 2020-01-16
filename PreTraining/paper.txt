@@ -19,3 +19,6 @@ https://github.com/hanxiao/bert-as-service
 Skip-Thought Vectors
 https://arxiv.org/pdf/1506.06726.pdf
 
+BioBERT: 用于生物医学文本挖掘的预先训练生物医学语言表示模型
+https://github.com/dmis-lab/biobert
+
