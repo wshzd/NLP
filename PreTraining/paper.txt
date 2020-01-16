@@ -20,7 +20,9 @@ Skip-Thought Vectors
 https://arxiv.org/pdf/1506.06726.pdf
 
 BioBERT: 用于生物医学文本挖掘的预先训练生物医学语言表示模型
+fine-tuning代码
 https://github.com/dmis-lab/biobert
+BioBERT预训练模型权重下载
 https://github.com/naver/biobert-pretrained
 BioBERT论文解读
 https://blog.csdn.net/devshilei/article/details/103887864
