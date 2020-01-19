@@ -10,8 +10,8 @@ Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Class
 
 https://github.com/crownpku/Information-Extraction-Chinese
 
-
-
+END-TO-END NAMED ENTITY RECOGNITION AND RELATION EXTRACTION USING PRE-TRAINED LANGUAGE MODELS
+https://github.com/bowang-lab/joint-ner-and-re
 
 
 
