@@ -6,3 +6,14 @@ nlp_overview技术概览
 https://github.com/omarsar/nlp_overview
 
 
+《An Encoding Strategy Based Word Character LSTM for Chinese NER》
+https://www.aclweb.org/anthology/N19-1247/
+https://github.com/liuwei1206/CCW-NER
+
+
+
+
+
+
+
+
