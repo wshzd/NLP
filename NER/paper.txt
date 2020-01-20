@@ -10,7 +10,9 @@ https://github.com/omarsar/nlp_overview
 https://www.aclweb.org/anthology/N19-1247/
 https://github.com/liuwei1206/CCW-NER
 
-
+CLUENER2020: Fine-grained Named Entity Recognition Dataset and Benchmark for Chinese
+https://arxiv.org/abs/2001.04351
+https://github.com/CLUEbenchmark/CLUENER2020
 
 
 
