@@ -14,8 +14,8 @@ CLUENER2020: Fine-grained Named Entity Recognition Dataset and Benchmark for Chi
 https://arxiv.org/abs/2001.04351
 https://github.com/CLUEbenchmark/CLUENER2020
 
-
-
+麻省理工学院：NeuroNER: 一个基于神经网络的简单易用的命名实体识
+http://www.sohu.com/a/260111501_100118081
 
 
 
