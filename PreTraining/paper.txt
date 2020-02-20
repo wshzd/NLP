@@ -26,3 +26,11 @@ BioBERT预训练模型权重下载
 https://github.com/naver/biobert-pretrained
 BioBERT论文解读
 https://blog.csdn.net/devshilei/article/details/103887864
+
+bert可视化工具
+bertviz
+
+
+
+
+
