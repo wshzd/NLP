@@ -27,9 +27,9 @@ https://github.com/naver/biobert-pretrained
 BioBERT论文解读
 https://blog.csdn.net/devshilei/article/details/103887864
 
-bert可视化工具
-bertviz
-
+Bert可视化工具bertviz
+https://github.com/jessevig/bertviz
+https://blog.csdn.net/duan_zhihua/article/details/87388646
 
 
 
