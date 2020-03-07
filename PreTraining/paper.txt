@@ -31,6 +31,19 @@ Bert可视化工具bertviz
 https://github.com/jessevig/bertviz
 https://blog.csdn.net/duan_zhihua/article/details/87388646
 
+BERT论文合集
+https://github.com/tomohideshibata/BERT-related-papers#domain-specific
+
+
+
+
+
+
+
+
+
+
+
 
 
 
