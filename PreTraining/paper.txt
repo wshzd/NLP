@@ -46,7 +46,7 @@ Transformer-XL
 https://arxiv.org/pdf/1901.02860.pdf
 https://github.com/kimiyoung/transformer-xl
 https://www.lyrn.ai/2019/01/16/transformer-xl-sota-language-model/
-
+https://blog.csdn.net/magical_bubble/article/details/89060213
 
 
 
