@@ -37,10 +37,14 @@ https://github.com/tomohideshibata/BERT-related-papers#domain-specific
 全面剖析Transformer
 https://jalammar.github.io/illustrated-transformer/
 
+Transformer
+https://arxiv.org/abs/1706.03762.pdf
+tensorflow版本：https://github.com/tensorflow/tensor2tensor
+pytorch版本：http://nlp.seas.harvard.edu/2018/04/03/attention.html
 
-
-
-
+Transformer-XL
+https://arxiv.org/pdf/1901.02860.pdf
+https://github.com/kimiyoung/transformer-xl
 
 
 
