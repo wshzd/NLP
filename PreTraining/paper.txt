@@ -45,7 +45,7 @@ pytorch版本：http://nlp.seas.harvard.edu/2018/04/03/attention.html
 Transformer-XL
 https://arxiv.org/pdf/1901.02860.pdf
 https://github.com/kimiyoung/transformer-xl
-
+https://www.lyrn.ai/2019/01/16/transformer-xl-sota-language-model/
 
 
 
