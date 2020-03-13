@@ -48,6 +48,6 @@ https://github.com/kimiyoung/transformer-xl
 https://www.lyrn.ai/2019/01/16/transformer-xl-sota-language-model/
 https://blog.csdn.net/magical_bubble/article/details/89060213
 
-
-
+Kashgari代码成果
+https://kashgari.readthedocs.io/en/v1.1.1/embeddings/bert-embedding_v2.html
 
