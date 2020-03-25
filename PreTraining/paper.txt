@@ -51,3 +51,13 @@ https://blog.csdn.net/magical_bubble/article/details/89060213
 Kashgari代码成果
 https://kashgari.readthedocs.io/en/v1.1.1/embeddings/bert-embedding_v2.html
 
+基于对抗学习的ELECTRA_TINY预训练模型
+https://github.com/CLUEbenchmark/ELECTRA
+
+
+
+
+
+
+
+
