@@ -35,7 +35,7 @@ Open NMT
 苏剑林
 https://github.com/bojone
 
-
-
+中文自然语言到mysql语句的转换
+https://github.com/Romance-Zhang/nl2sql-chinese
 
 
