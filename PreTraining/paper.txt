@@ -55,8 +55,8 @@ https://kashgari.readthedocs.io/en/v1.1.1/embeddings/bert-embedding_v2.html
 https://github.com/CLUEbenchmark/ELECTRA
 https://github.com/google-research/electra
 
-
-
+Transformers大集合
+https://huggingface.co/transformers/index.html
 
 
 
