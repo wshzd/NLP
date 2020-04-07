@@ -3,3 +3,10 @@ https://www.cluebenchmarks.com/dataSet_search.html
 
 这可能是最全的中文 NLP 数据集合
 https://github.com/CLUEbenchmark/CLUEDatasetSearch
+
+https://github.com/zxlzr/IEDatasets
+
+
+
+
+
