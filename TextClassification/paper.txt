@@ -19,9 +19,9 @@ https://www.chainnews.com/articles/650132977783.htm
 Few-shot Learning(小样本学习)综述
 https://blog.csdn.net/qq_16234613/article/details/79902085
 
-
-
-
+文本分类
+https://github.com/jiangxinyang227/NLP-Project
+https://github.com/jiangxinyang227/textClassifier
 
 
 
