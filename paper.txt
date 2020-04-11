@@ -38,4 +38,7 @@ https://github.com/bojone
 中文自然语言到mysql语句的转换
 https://github.com/Romance-Zhang/nl2sql-chinese
 
+用于推荐&广告的深度召回匹配算法库DeepMatch
+https://github.com/shenweichen/DeepMatch
+
 
