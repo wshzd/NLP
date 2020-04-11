@@ -41,4 +41,13 @@ https://github.com/Romance-Zhang/nl2sql-chinese
 用于推荐&广告的深度召回匹配算法库DeepMatch
 https://github.com/shenweichen/DeepMatch
 
+李宏毅《深度学习人类语言处理》
+视频链接：https://www.bilibili.com/video/BV1QE411p7z3?from=search&seid=6521956778751346686
+课程主页及PPT：http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html
+
+
+
+
+
+
 
