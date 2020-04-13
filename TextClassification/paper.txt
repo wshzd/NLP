@@ -25,3 +25,15 @@ https://github.com/jiangxinyang227/textClassifier
 
 谷歌官方推出“文本分类”指南教程
 https://developers.google.com/machine-learning/guides/text-classification/
+
+https://github.com/CandyConfident/textclassification_baseline
+
+
+
+
+
+
+
+
+
+
