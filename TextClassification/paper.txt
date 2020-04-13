@@ -23,5 +23,5 @@ https://blog.csdn.net/qq_16234613/article/details/79902085
 https://github.com/jiangxinyang227/NLP-Project
 https://github.com/jiangxinyang227/textClassifier
 
-
-
+谷歌官方推出“文本分类”指南教程
+https://developers.google.com/machine-learning/guides/text-classification/
