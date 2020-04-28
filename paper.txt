@@ -45,9 +45,9 @@ https://github.com/shenweichen/DeepMatch
 视频链接：https://www.bilibili.com/video/BV1QE411p7z3?from=search&seid=6521956778751346686
 课程主页及PPT：http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html
 
-
-
-
+CRF原理详解
+https://zhuanlan.zhihu.com/p/70067113
+https://www.jianshu.com/p/5d6a03c1f83f
 
 
 
