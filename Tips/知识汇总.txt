@@ -1,0 +1,5 @@
+1、问答系统中常用标准问题（FAQ）以及扩展问题挖掘的解决思路如下（以58二手车业务为例DataFun）：
+总体思路是对已经积累的离线问题进行聚类（向量表示+聚类算法）：
+方案一：Kmeans+Word2Vec；
+方案二：对bert预训练模型进行修改（删除NSP任务，替换特征提取器Transformer为BiLSTM）+DEC（Deep Embedded Clustering）；
+方案三：对DEC的聚类中心采用标准问题的平均向量来替换kmeans中（原因是kmeans类中心是随机初始化，效果不好）
