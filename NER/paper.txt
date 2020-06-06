@@ -19,3 +19,8 @@ http://www.sohu.com/a/260111501_100118081
 https://github.com/Franck-Dernoncourt/NeuroNER
 https://github.com/EOA-AILab/NER-Chinese/tree/master/neuro_ner
 
+BiLSTM+CRF命名实体识别
+https://github.com/DengYangyong/medical_entity_recognize
+https://mp.weixin.qq.com/s/xv4_2FsY_p9zUtQP40hIng
+
+
