@@ -1,4 +1,4 @@
-fastHan是基于fastNLP与pytorch实现的中文自然语言处理工具，像spacy一样调用方便，其内核是基于bert的联合模型
+复旦邱锡鹏团队开源的，fastHan，fastHan是基于fastNLP与pytorch实现的中文自然语言处理工具，像spacy一样调用方便，其内核是基于bert的联合模型
 https://github.com/fastnlp/fastHan
 
 《Confident Learning: Estimating Uncertainty in Dataset Labels[1] 》
