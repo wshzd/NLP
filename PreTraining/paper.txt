@@ -62,3 +62,14 @@ https://github.com/huggingface/transformers
 可视化BERTs预训练模型
 https://github.com/jessevig/bertviz
 
+知识蒸馏
+https://github.com/airaria/TextBrewer
+
+
+
+
+
+
+
+
+
