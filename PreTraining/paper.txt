@@ -65,8 +65,8 @@ https://github.com/jessevig/bertviz
 知识蒸馏
 https://github.com/airaria/TextBrewer
 
-
-
+追一科技
+https://github.com/ZhuiyiTechnology/simbert
 
 
 
