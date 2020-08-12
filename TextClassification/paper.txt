@@ -28,7 +28,8 @@ https://developers.google.com/machine-learning/guides/text-classification/
 
 https://github.com/CandyConfident/textclassification_baseline
 
-
+情感分析-武汉大学
+https://github.com/NLPWM-WHU
 
 
 
