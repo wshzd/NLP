@@ -68,7 +68,7 @@ https://github.com/airaria/TextBrewer
 追一科技
 https://github.com/ZhuiyiTechnology/simbert
 
-GPT3的预训练模型
+GPT3预训练模型
 https://github.com/openai/gpt-3
 
 
