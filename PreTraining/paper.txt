@@ -71,5 +71,23 @@ https://github.com/ZhuiyiTechnology/simbert
 GPT3预训练模型
 https://github.com/openai/gpt-3
 
+ACL 2020 的论文 《Fast and Accurate Deep Bidirectional Language Representations for Unsupervised Learning》对BERT的MLM机制低效问题进行了改进
+https://arxiv.org/abs/2004.08097 
+https://github.com/joongbo/tta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
