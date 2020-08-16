@@ -75,8 +75,8 @@ ACL 2020 的论文 《Fast and Accurate Deep Bidirectional Language Representati
 https://arxiv.org/abs/2004.08097 
 https://github.com/joongbo/tta
 
-
-
+基于bert的ocr识别结果校正
+https://github.com/tiantian91091317/OCR-Corrector
 
 
 
