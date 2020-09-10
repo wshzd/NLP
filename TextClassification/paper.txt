@@ -31,8 +31,8 @@ https://github.com/CandyConfident/textclassification_baseline
 情感分析-武汉大学
 https://github.com/NLPWM-WHU
 
-
-
+MixText：用于文本分类的半监督模型
+https://github.com/GT-SALT/MixText
 
 
 
