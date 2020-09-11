@@ -49,5 +49,6 @@ CRF原理详解
 https://zhuanlan.zhihu.com/p/70067113
 https://www.jianshu.com/p/5d6a03c1f83f
 
-
+NAS开源框架
+https://github.com/jina-ai/jina
 
