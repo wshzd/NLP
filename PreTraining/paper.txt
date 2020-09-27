@@ -78,8 +78,10 @@ https://github.com/joongbo/tta
 基于bert的ocr识别结果校正
 https://github.com/tiantian91091317/OCR-Corrector
 
-
-
+性能媲美BERT，但参数量仅为1/300，这是谷歌最新的NLP模型--PRADO 
+https://www.aclweb.org/anthology/D19-1506.pdf
+改进PRADO的模型pQRNN 
+https://github.com/tensorflow/models/tree/master/research/sequence_projection
 
 
 
