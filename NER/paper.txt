@@ -23,4 +23,8 @@ BiLSTM+CRF命名实体识别
 https://github.com/DengYangyong/medical_entity_recognize
 https://mp.weixin.qq.com/s/xv4_2FsY_p9zUtQP40hIng
 
-
+复旦大学邱锡鹏老师团队的 FLAT: Chinese NER Using Flat-Lattice Transformer 刷新了中文NER任务的新SOTA。
+论文链接：
+https://arxiv.org/pdf/2004.11795.pdf
+开源代码：
+https://github.com/LeeSureman/Flat-Lattice-Transformer
