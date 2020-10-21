@@ -5,7 +5,17 @@ https://arxiv.org/abs/1912.07240
 【论文链接】https://arxiv.org/abs/1911.03829
 【代码链接】https://github.com/ChenRocks/Distill-BERT-Textgen
 
-
+文本生成离不开采样，一个好的采样方法可以兼顾生成文本的质量和多样性。但是，目前主流的各采样算法并没有得到充分的研究，它们的优劣也难以量化。
+本文在语言模型上比较了当前主流的几个采样算法Top-K, Nucleus, Tempered，发现它们都满足三个关键性质，因此在效果上难分伯仲。
+进一步的研究表明，满足这三个性质的其他采样算法也能够取得很好的效果，这就指出了文本生成所需的必要条件。
+论文标题：
+A Systematic Characterization of Sampling Algorithms for Open-ended Language Generation
+论文作者：
+Moin Nadeem (MIT), Tianxing He (MIT), Kyunghyun Cho (NYU), James Glass (MIT)
+论文链接：
+https://arxiv.org/abs/2009.07243
+代码链接：
+https://github.com/moinnadeem/characterizing-sampling-algorithms
 
 
 
