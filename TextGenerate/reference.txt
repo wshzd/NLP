@@ -1,5 +1,13 @@
 中科院自动化所：通过识别和翻译交互打造更优的语音翻译模型
 https://arxiv.org/abs/1912.07240
 
+蒸馏BERT的知识用于文本生成Distilling Knowledge Learned in BERT for Text Generation
+【论文链接】https://arxiv.org/abs/1911.03829
+【代码链接】https://github.com/ChenRocks/Distill-BERT-Textgen
+
+
+
+
+
 
 
