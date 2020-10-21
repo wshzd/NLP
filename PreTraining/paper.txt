@@ -86,6 +86,15 @@ https://github.com/tensorflow/models/tree/master/research/sequence_projection
 神州泰岳AI研究院与中科院深圳先进技术研究院合作推出BERT-EMD：借助EMD实现多对多层映射的BERT压缩方法
 论文：https://arxiv.org/abs/2010.06133
 代码：https://github.com/lxk00/BERT-EMD
+介绍：https://hub.baai.ac.cn/view/2768
+
+
+
+
+
+
+
+
 
 
 
