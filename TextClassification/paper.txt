@@ -37,4 +37,17 @@ https://github.com/GT-SALT/MixText
 不是考虑全文本的文本分类模型PRADO  *****
 https://www.aclweb.org/anthology/D19-1506.pdf
 
+数据增强方法：EDA Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks
+https://arxiv.org/abs/1901.11196
+https://github.com/jasonwei20/eda_nlp
+
+
+
+
+
+
+
+
+
+
 
