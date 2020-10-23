@@ -17,7 +17,7 @@ https://arxiv.org/abs/2009.07243
 代码链接：
 https://github.com/moinnadeem/characterizing-sampling-algorithms
 
-
-
+文本生成14：ConceptFlow，概念流引导对话生成：Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs
+https://github.com/thunlp/ConceptFlow
 
 
