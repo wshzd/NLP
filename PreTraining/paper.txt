@@ -88,8 +88,8 @@ https://github.com/tensorflow/models/tree/master/research/sequence_projection
 代码：https://github.com/lxk00/BERT-EMD
 介绍：https://hub.baai.ac.cn/view/2768
 
-
-
+2020年3月，哈工大讯飞联合实验室推出了中文ELECTRA预训练模型，ELECTRA提出了一套新的预训练框架，其中包含两个部分：Generator和Discriminator
+http://github.com/ymcui/Chinese-ELECTRA
 
 
 
