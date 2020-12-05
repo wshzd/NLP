@@ -52,3 +52,10 @@ https://www.jianshu.com/p/5d6a03c1f83f
 NAS开源框架
 https://github.com/jina-ai/jina
 
+极客时间《NLP实战高手课》课程资料
+https://github.com/geektime-geekbang/NLP
+
+
+
+
+
