@@ -91,8 +91,12 @@ https://github.com/tensorflow/models/tree/master/research/sequence_projection
 2020年3月，哈工大讯飞联合实验室推出了中文ELECTRA预训练模型，ELECTRA提出了一套新的预训练框架，其中包含两个部分：Generator和Discriminator
 http://github.com/ymcui/Chinese-ELECTRA
 
-
-
+清华和阿里的paper：使用bert解决长文本
+《CogLTX: Applying BERT to Long Texts》
+论文链接：
+http://keg.cs.tsinghua.edu.cn/jietang/publications/NIPS20-Ding-et-al-CogLTX.pdf
+Github：
+https://github.com/Sleepychord/CogLTX
 
 
 
