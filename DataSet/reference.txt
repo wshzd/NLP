@@ -9,5 +9,5 @@ https://github.com/zxlzr/IEDatasets
 数据扩充的方法
 https://github.com/google-research/uda
 
-
-
+常用的停用词表
+https://github.com/goto456/stopwords
