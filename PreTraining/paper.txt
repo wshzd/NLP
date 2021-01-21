@@ -98,8 +98,9 @@ http://keg.cs.tsinghua.edu.cn/jietang/publications/NIPS20-Ding-et-al-CogLTX.pdf
 Github：
 https://github.com/Sleepychord/CogLTX
 
-
-
+《Adversarial Training for Large Neural Language Models》首次全面对「对抗预训练」进行了全面研究，建立了一种统一的、适配于语言模型的对抗训练框架——ALUM (Adversarial training for large neural LangUage Models)
+论文下载地址：https://arxiv.org/pdf/2004.08994
+论文开源地址：https://github.com/namisan/mt-dnn
 
 
 
