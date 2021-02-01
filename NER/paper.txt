@@ -31,7 +31,7 @@ https://github.com/LeeSureman/Flat-Lattice-Transformer
 
 中文NER模型的词汇增强方式
 https://zhuanlan.zhihu.com/p/142615620
-
+https://github.com/loujie0822/DeepIE
 
 
 
