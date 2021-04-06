@@ -1,5 +1,17 @@
+Funnel-Transformer：
 论文标题：Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing
 论文作者：Zihang Dai (CMU, Google), Guokun Lai (CMU), Yiming Yang (CMU), Quoc V. Le (Google)
 论文链接：https://arxiv.org/abs/2006.03236
 代码链接：http://github.com/laiguokun/Funnel-Transformer
+
+Performer：
+https://arxiv.org/pdf/2009.14794.pdf
+https://github.com/google-research/google-research/tree/master/performer
+
+Informer：
+Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting
+https://arxiv.org/pdf/2012.07436.pdf
+
+
+
 
