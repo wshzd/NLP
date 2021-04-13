@@ -38,10 +38,12 @@ https://github.com/jiesutd/NCRFpp
 https://www.jianshu.com/p/9c99796ff8d9
 https://xueshu.baidu.com/s?wd=paperuri%3A%28dc73b708495528bfd33c093779c31718%29&filter=sc_long_sign&tn=SE_xueshusource_2kduw22v&sc_vurl=http%3A%2F%2Farxiv.org%2Fpdf%2F1806.05626v1&ie=utf-8&sc_us=8534211738272982096
 
-
-
-
-
+LatticeLSTM的改进：
+1、MGLatticeLSTM
+《Chinese Relation Extraction with Multi-Grained Information and External Linguistic Knowledge》（ACL19）
+MGLatticeLSTM的主要创新点在于引入了多义词。LatticeLSTM只能融入词汇的一种表示，但是中文词汇是存在多义词的，相同的词汇可能有不同的含义，如果在引入词汇的过程中引入了不正确的词义信息，那么可能会导致原本只使用字符作为输入就能正确分词的句子，在引入错误词义后导致分词出现错误。
+2、LR-CNN
+《CNN-Based Chinese NER with Lexicon Rethinking》（IJCAI-19）
 
 
 
