@@ -33,8 +33,9 @@ https://github.com/LeeSureman/Flat-Lattice-Transformer
 https://zhuanlan.zhihu.com/p/142615620
 https://github.com/loujie0822/DeepIE
 
-
-
+NCRF++是一个CRF++的pytorch神经网络版本
+https://github.com/jiesutd/NCRFpp
+https://xueshu.baidu.com/s?wd=paperuri%3A%28dc73b708495528bfd33c093779c31718%29&filter=sc_long_sign&tn=SE_xueshusource_2kduw22v&sc_vurl=http%3A%2F%2Farxiv.org%2Fpdf%2F1806.05626v1&ie=utf-8&sc_us=8534211738272982096
 
 
 
