@@ -54,6 +54,8 @@ LR-CNN采取CNN对字符特征进行编码，采用不同的感受野提取特�
 2）词汇冲突问题使用rethinking机制来解决，从高层特征使用注意力来调整输出特征的权重
 3、CGN
 《Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network》（EMNLP19）
+https://www.ijcai.org/Proceedings/2019/0692.pdf
+https://github.com/guitaowufeng/LR-CNN
 CGN论文提出外部词汇实际包含了两种重要信息: 一是词语的边界信息， 二是词语的语义信息。在LatticeLSTM中，词汇信息只融入词汇的最后一个字符中，句子中其他字符没有融合词汇的信息，这样的结果是对词汇信息的利用效率低下。词汇中的字符不能利用词汇的边界信息，上下文字符不能利用词汇的语义信息。
 改进的点：
 1）将词汇信息融合进词汇的每一个字符中，以利用好词汇的边界信息。
