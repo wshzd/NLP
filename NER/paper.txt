@@ -40,6 +40,9 @@ https://xueshu.baidu.com/s?wd=paperuri%3A%28dc73b708495528bfd33c093779c31718%29&
 
 LatticeLSTM的词汇增强改进：
 https://www.pianshen.com/article/19771706805/
+Dynamic Architecture：设计一个动态框架，能够兼容词汇输入。例如Lattice LSTM，通过更改LSTM的结构动态的融入词汇信息
+Adaptive Embedding ：基于词汇信息，构建自适应Embedding，在编码的过程中，融入词汇信息
+Dynamic Architecture
 1、MGLatticeLSTM
 《Chinese Relation Extraction with Multi-Grained Information and External Linguistic Knowledge》（ACL19）
 MGLatticeLSTM的主要创新点在于引入了多义词。LatticeLSTM只能融入词汇的一种表示，但是中文词汇是存在多义词的，相同的词汇可能有不同的含义，如果在引入词汇的过程中引入了不正确的词义信息，那么可能会导致原本只使用字符作为输入就能正确分词的句子，在引入错误词义后导致分词出现错误。
@@ -56,6 +59,26 @@ CGN论文提出外部词汇实际包含了两种重要信息: 一是词语的边
 1）将词汇信息融合进词汇的每一个字符中，以利用好词汇的边界信息。
 2）通过GAN图注意力网络将词汇信息融合进上下文的字符中。
 4、FLAT
+《FLAT: Chinese NER Using Flat-Lattice Transformer》（ACL20）
+FLAT使用Transformer代替LSTM，设计position encoding来融合词汇信息
+对于每一个字符和词汇都构建一个head position encoding 和 tail position encoding*****
+
+Adaptive Embedding 
+5、Simple-Lexicon
+《Simplify the Usage of Lexicon in Chinese NER》（ACL20）
+Simple-Lexicon的核心思想是，通过BMES标签来融合词汇信息。对于每一个输入字符，使用字典匹配该字符作为B开始、M中间、E结束、S单个四种位置类型对应的词。例如下图中的字符“语”，以“语”开头的词汇有“语言”、“语言学”，以“语”结束的词汇有“国语”，“中国语”。
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
