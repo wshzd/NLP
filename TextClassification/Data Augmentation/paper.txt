@@ -1,0 +1,11 @@
+《UDA：Unsupervised Data Augmentation for Consistency Training》
+文章地址：https://arxiv.org/pdf/1904.12848v2.pdf
+相关代码:https://github.com/google-research/uda
+
+
+
+
+
+
+
+
