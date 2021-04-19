@@ -55,7 +55,8 @@ Q10: 模型更新迭代时，如何进行增量学习，不遗忘先前记忆？
 Q11: 低耗时场景，如何让TextCNN逼近BERT的效果？
 https://zhuanlan.zhihu.com/p/183852900
 
-
+label embedding
+https://zhuanlan.zhihu.com/p/84458246?utm_source=wechat_timeline
 
 
 
