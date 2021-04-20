@@ -57,9 +57,8 @@ https://zhuanlan.zhihu.com/p/183852900
 
 label embedding
 https://zhuanlan.zhihu.com/p/84458246?utm_source=wechat_timeline
-
-
-
+1、《Joint embedding of words and labels for text classification》
+https://github.com/guoyinwang/LEAM
 
 
 
