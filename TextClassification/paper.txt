@@ -61,4 +61,25 @@ https://zhuanlan.zhihu.com/p/84458246?utm_source=wechat_timeline
 https://github.com/guoyinwang/LEAM
 
 
+input embedding
+《GILE: A Generalized Input-Label Embedding for Text Classification》
+https://arxiv.org/abs/1806.06219
+https://github.com/idiap/gile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
