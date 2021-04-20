@@ -1,0 +1,94 @@
+https://github.com/asheeshcric/awesome-contrastive-self-supervised-learning
+2020: A Survey on Contrastive Self-Supervised Learning
+
+2020: Contrastive Representation Learning: A Framework and Review
+
+ 2021: How Well Do Self-Supervised Models Transfer?
+
+ 2021: Self-supervised Pretraining of Visual Features in the Wild
+
+ 2021: VideoMoCo: Contrastive Video Representation Learning with Temporally Adversarial Examples
+
+ 2021: Temporal Contrastive Graph for Self-supervised Video Representation Learning
+
+ 2020: Online Bag-of-Visual-Words Generation for Unsupervised Representation Learning
+
+ 2020: Social NCE: Contrastive Learning of Socially-aware Motion Representations
+
+ 2020: CASTing Your Model: Learning to Localize Improves Self-Supervised Representations
+
+ 2020: Exploring Simple Siamese Representation Learning
+
+ 2020: FROST: Faster and more Robust One-shot Semi-supervised Training
+
+ 2020: Hard Negative Mixing for Contrastive Learning
+
+ 2020: Representation Learning via Invariant Causal Mechanisms
+
+ 2020: Are all negatives created equal in contrastive instance discrimination?
+
+ 2020: Bootstrap your own latent: A new approach to self-supervised Learning
+
+ 2020: Spatiotemporal Contrastive Video Representation Learning
+
+ 2020: Augmented Skeleton Based Contrastive Action Learning with Momentum LSTM for Unsupervised Action Recognition
+
+ 2020: Deep Robust Clustering by Contrastive Learning
+
+ 2020: Contrastive Learning for Unpaired Image-to-Image Translation
+
+ 2020: Demystifying Contrastive Self-Supervised Learning: Invariances, Augmentations and Dataset Biases
+
+ 2020: What Should Not Be Contrastive in Contrastive Learning
+
+ 2020: Self-supervised Video Representation Learning Using Inter-intra Contrastive Framework
+
+ 2020: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
+
+ 2020: Prototypical Contrastive Learning of Unsupervised Representations
+
+ 2020: GraphCL: Contrastive Self-Supervised Learning of Graph Representations
+
+ 2020: DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations
+
+ 2020: Pretraining with Contrastive Sentence Objectives Improves Discourse Performance of Language Models
+
+ 2020: CERT: Contrastive Self-supervised Learning for Language Understanding
+
+ 2020: Deep Graph Contrastive Representation Learning
+
+ 2020: CLOCS: Contrastive Learning of Cardiac Signals
+
+ 2020: On Mutual Information in Contrastive Learning for Visual Representations
+
+ 2020: What makes for good views for contrastive learning
+
+ 2020: CURL: Contrastive Unsupervised Representations for Reinforcement Learning
+
+ 2020: Supervised Contrastive Learning
+
+ 2020: Clustering based Contrastive Learning for Improving Face Representations
+
+ 2020: A Simple Framework for Contrastive Learning of Visual Representations
+
+ 2020: Improved Baselines with Momentum Contrastive Learning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
