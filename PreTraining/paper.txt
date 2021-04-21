@@ -102,6 +102,19 @@ https://github.com/Sleepychord/CogLTX
 论文下载地址：https://arxiv.org/pdf/2004.08994
 论文开源地址：https://github.com/namisan/mt-dnn
 
+《Rethinking Attention with Performers》---对Transformer中的self-Attention的改进
+论文地址:https://www.aminer.cn/pub/5f75feb191e0111c1eb4dbb2/rethinking-attention-with-performers
+论文代码：https://github.com/google-research/google-research/tree/master/performer
+
+
+
+
+
+
+
+
+
+
 
 
 
