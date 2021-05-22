@@ -58,5 +58,16 @@ https://github.com/geektime-geekbang/NLP
 NLP相关Paper笔记和代码复现
 https://github.com/DengBoCong/nlp-paper
 
+195篇NAACL+295篇ACL2019有代码开源的论文
+https://github.com/yizhen20133868/NLP-Conferences-Code
+
+
+
+
+
+
+
+
+
 
 
