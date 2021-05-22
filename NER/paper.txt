@@ -71,7 +71,8 @@ Adaptive Embedding
 Simple-Lexicon的核心思想是，通过BMES标签来融合词汇信息。对于每一个输入字符，使用字典匹配该字符作为B开始、M中间、E结束、S单个四种位置类型对应的词。
 例如字符“语”，以“语”开头的词汇有“语言”、“语言学”，以“语”结束的词汇有“国语”，“中国语”。
 
-
+LexiconAugmentedNER
+https://github.com/v-mipeng/LexiconAugmentedNER
 
 
 
