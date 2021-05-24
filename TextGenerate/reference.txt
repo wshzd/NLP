@@ -20,4 +20,50 @@ https://github.com/moinnadeem/characterizing-sampling-algorithms
 文本生成14：ConceptFlow，概念流引导对话生成：Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs
 https://github.com/thunlp/ConceptFlow
 
+seq2seq模型
+缺点以及改进策略：
+参考链接https://zhuanlan.zhihu.com/p/69159062
+一、使用copy机制解决OOV的问题
+
+二、生成内容不可控，不能保证生成的语义信息：
+解决方案一：基于控制主题的seq2seq的模型——主题控制
+2.1）思路一：用关键词作为硬约束。
+ACL2016的《Sequence toBackward and Forward Sequences: A Content-Introducing Approach to GenerativeShort-Text Conversation》
+我们先考虑一种最简单的情况：假设预测出的关键词在生成文本中一定会出现。这里论文提出一种直观且简单的预测关键词方法：利用互信息进行预测，即取与问题互信息最大的词作为关键词。
+有了关键词，下面我们考虑如何对回复进行生成。每次的生成包含两步：第一步，生成包含关键词的前半句话；第二步，生成后半句话；
+这里可能存在的问题是，当遇到预测的单词不准，或者在对话中出现较少时，上下句可能衔接不够流畅。在此引入第二种思路。
+2.2）思路二：用关键词作为软约束。
+这里介绍的论文是发表在Emnlp2016的《Towards implicit content-introducing for generative short-textconversation systems》。
+第二个思路假设关键词在生成文本中不一定会出现，只作为额外信息输入到网络里；设计cue word gru单元，将关键词信息加入到每一步的状态更新；
+首先，这里有两个GRU单元。一个普通GRU负责记录对话的状态、上下文等内容，另一个Cue word GRU记录当前关键词信息，利用设计的fusion unit结构融合普通GRU与Cue word GRU单元。
+2.3）思路三：用关键词同时约束主题与情感。
+2018年发表在Emnlp的《A Syntactically Constrained Bidirectional-Asynchronous Approach for Emotional Conversation Generation》
+论文里，假设每个生成的回复都包括一个情感关键词与主题关键词，即序列为[y_ct, w_tp, y_md,w_et, y_ce]，其中w_tp为主题关键词，w_et为情感关键词，y_ct,y_md,y_ce为剩下对应位置的文本序列。
+首先预测情感关键词与主题关键词。有了两个关键词后，就可以考虑如何生成文本。每次首先生成中间的文本序列y_md，再分别生成剩下的两段文本，最后对这段文本的真实方向进行二分类，输出最终生成的文本。
+解决方案二：基于控制主题的seq2seq的模型——属性控制
+为了避免出现负面情感或疑问句式的回应，我们希望模型能学习到文本的属性信息（句式、情感信息），从而能够控制生成文本风格，使生成的回复更为可控。下面我们考虑的是对文本属性进行控制的生成模型。
+2.4）思路一：直接融合属性信息
+这里介绍的是一个相对简单的模型，输入的文本除了encoder的信息，还包括属性embedding的信息。这样一来，每一步解码都会带上属性信息，模型就会学习如何根据两段信息合理地生成单词。
+举个例子，比如在label embedding，第1个是正面情感的embedding，第2个是肯定句式的embedding，最后就会生成一个正面情感的肯定句。
+2.5）思路二：用条件变分编码器
+《Generating Informative Responses with Controlled Sentence Function》
+这篇论文中使用条件变分编码器的网络结构去控制回复的句式，使模型生成一些更有信息量的回复。
+在变分编码器中，我们希望隐变量z更好的进行编码。这篇文章通过约束中间隐变量z，使z更多地去编码句式属性的信息。
+这里采用的是通过加入判别器来实现对z的约束。判别器对编码后得到的中间隐变量z，经过分类判断它是陈述句、疑问句或是祈使句。
+为了更好地对生成的单词进行建模，论文中分别对控制句式相关的词、主题相关的词、普通词计算概率，最后利用一个混合模型计算出最后的概率。
+混合模型在每次生成单词时，会先用隐变量信息计算生成哪种词，得到三种单词分别的生成概率，最后进行加权得到生成一个单词的概率。
+由于加入了条件变分编码器和判别器，最终的训练loss是三个部分之和：先验分布与后验分布的kl散度、判别器分类交叉熵、普通seq2seq的loss。
+
+三、改进Beam Search——提高回复多样性
+Beam Search的多样性低，主要因为它总是选择一条分支路径，导致最后的生成回复都差不多。
+3.1）思路一：通过增加惩罚项，比如对同一组的第二、第三选项进行降权，从而避免每次搜索结果都来自于同一路径。对于权重的选择，可以通过强化学习得到；也可以通过设置参数、调整参数来得到
+3.2）思路二：计算每条路径的概率分，如果后面生成的话跟第一组相似，就对该组进行降权，避免组与组之间相似度过高
+
+
+
+
+
+
+
+
 
