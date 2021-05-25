@@ -24,7 +24,7 @@ seq2seq模型
 缺点以及改进策略：
 参考链接https://zhuanlan.zhihu.com/p/69159062
 一、使用copy机制解决OOV的问题
-
+《Incorporating Copying Mechanism in Sequence-to-Sequence Learning》
 二、生成内容不可控，不能保证生成的语义信息：
 解决方案一：基于控制主题的seq2seq的模型——主题控制
 2.1）思路一：用关键词作为硬约束。
