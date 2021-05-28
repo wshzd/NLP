@@ -21,6 +21,7 @@ https://github.com/moinnadeem/characterizing-sampling-algorithms
 https://github.com/thunlp/ConceptFlow
 
 seq2seq模型
+https://github.com/google/seq2seq
 缺点以及改进策略：
 参考链接https://zhuanlan.zhihu.com/p/69159062
 一、解决OOV的问题
