@@ -25,6 +25,7 @@ https://github.com/google/seq2seq
 缺点以及改进策略：
 参考链接https://zhuanlan.zhihu.com/p/69159062
 一、解决OOV的问题
+https://blog.csdn.net/thormas1996/article/details/81081772
 1.1）使用copy机制
 《Incorporating Copying Mechanism in Sequence-to-Sequence Learning》
 1.2）point softmax
