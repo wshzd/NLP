@@ -24,6 +24,8 @@ seq2seq模型
 https://github.com/google/seq2seq
 seq2seq重复解码问题
 苏剑林https://kexue.fm/archives/8128
+seq2seq“根本停不下来”的问题
+https://kexue.fm/archives/7500
 缺点以及改进策略：
 参考链接https://zhuanlan.zhihu.com/p/69159062
 一、解决OOV的问题
