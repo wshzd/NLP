@@ -75,8 +75,8 @@ LexiconAugmentedNER
 https://github.com/v-mipeng/LexiconAugmentedNER
 
 
-
-
+实体对齐论文
+http://pelhans.com/2019/03/18/entity_alignment/
 
 
 
