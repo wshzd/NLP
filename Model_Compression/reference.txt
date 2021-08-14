@@ -1,0 +1,14 @@
+Learning Structured Sparsity in Deep Neural Networks
+https://github.com/wenwei202/caffe/tree/scnn
+
+Dynamic Network Surgery for Efficient DNNs
+https://github.com/yiwenguo/Dynamic-Network-Surgery
+
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer
+https://github.com/szagoruyko/attention-transfer
+
+MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications 
+https://github.com/shicai/MobileNet-Caffe
+
+Aggregated Residual Transformations for Deep Neural Networks 
+https://github.com/facebookresearch/ResNeXt
