@@ -1,12 +1,12 @@
-#模型压缩开山之作
+# 模型压缩开山之作
 
 http://papers.nips.cc/paper/250-optimal-brain-damage.pdf
 
-##模型压缩综述
+# 模型压缩综述
 
 https://arxiv.org/abs/1510.00149.pdf
 
-##基于核稀疏化的方法
+# 基于核稀疏化的方法
 
 《Learning Structured Sparsity in Deep Neural Networks》
 
@@ -24,7 +24,7 @@ https://github.com/yiwenguo/Dynamic-Network-Surgery
 
 https://arxiv.org/abs/1607.05423.pdf
 
-##基于模型裁剪的方法
+# 基于模型裁剪的方法
 
 《Pruning Filters for Efficient Convnets》
 
@@ -42,7 +42,7 @@ https://arxiv.org/pdf/1706.05791.pdf
 
 https://arxiv.org/pdf/1611.05128.pdf
 
-##基于迁移学习的方法
+# 基于迁移学习的方法
 
 《Distilling the Knowledge in a Neural Network》
 
@@ -54,7 +54,7 @@ https://arxiv.org/abs/1612.03928.pdf
 
 https://github.com/szagoruyko/attention-transfer
 
-##基于精细模型设计的方法
+# 基于精细模型设计的方法
 
 《MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications》
 
