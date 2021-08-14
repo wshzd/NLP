@@ -1,14 +1,22 @@
 ##模型压缩开山之作
+
 http://papers.nips.cc/paper/250-optimal-brain-damage.pdf
+
 ##模型压缩综述
+
 https://arxiv.org/abs/1510.00149.pdf
+
 ##基于核稀疏化的方法
+
 《Learning Structured Sparsity in Deep Neural Networks》
+
 http://papers.nips.cc/paper/6504-learning-structured-sparsity-in-deep-neural-networks.pdf
+
 https://github.com/wenwei202/caffe/tree/scnn
 
 《Dynamic Network Surgery for Efficient DNNs》
 http://arxiv.org/abs/1608.04493.pdf
+
 https://github.com/yiwenguo/Dynamic-Network-Surgery
 
 《Training Skinny Deep Neural Networks with Iterative Hard Thresholding Methods》
