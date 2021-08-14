@@ -1,4 +1,4 @@
-##模型压缩开山之作
+#模型压缩开山之作
 
 http://papers.nips.cc/paper/250-optimal-brain-damage.pdf
 
