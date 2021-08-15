@@ -4,7 +4,13 @@ http://papers.nips.cc/paper/250-optimal-brain-damage.pdf
 
 # 模型压缩综述
 
+《Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding》
+
 https://arxiv.org/abs/1510.00149.pdf
+
+《A Survey of Model Compression and Acceleration for Deep Neural Networks》
+
+https://arxiv.org/abs/1710.09282.pdf
 
 # 基于核稀疏化的方法
 
