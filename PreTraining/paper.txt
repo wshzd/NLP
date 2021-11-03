@@ -115,9 +115,9 @@ https://github.com/Sleepychord/CogLTX
 项目网站：https://txsun1997.github.io/nlp-paradigm-shift/
 Slides：https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf
 
-2021.09微软和英伟达联合发布的MT-NLG预训练模型
+2021.09微软和英伟达联合发布的MT-NLG预训练模型《Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, the World’s Largest and Most Powerful Generative Language Model》
 https://github.com/NVIDIA/Megatron-LM
-
+英伟达官网：https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/
 
 
 
