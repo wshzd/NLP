@@ -115,8 +115,8 @@ https://github.com/Sleepychord/CogLTX
 项目网站：https://txsun1997.github.io/nlp-paradigm-shift/
 Slides：https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf
 
-
-
+2021.09微软和英伟达联合发布的MT-NLG预训练模型
+https://github.com/NVIDIA/Megatron-LM
 
 
 
