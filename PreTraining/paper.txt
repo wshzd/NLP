@@ -110,8 +110,10 @@ https://github.com/Sleepychord/CogLTX
 论文链接：https://arxiv.org/abs/2012.15022
 开源链接：https://github.com/thunlp/ERICA
 
-
-
+《2109Paradigm Shift in Natural Language Processing》
+论文链接：https://arxiv.org/abs/2109.12575
+项目网站：https://txsun1997.github.io/nlp-paradigm-shift/
+Slides：https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf
 
 
 
