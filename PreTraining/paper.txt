@@ -119,9 +119,9 @@ Slides：https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf
 https://github.com/NVIDIA/Megatron-LM
 英伟达官网：https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/
 
-
-
-
+微软NLG预训练模型：《BANG: Bridging Autoregressive and Non-autoregressive Generation with Large Scale Pretraining》
+论文地址：https://arxiv.org/abs/2012.15525
+github地址：https://github.com/microsoft/BANG
 
 
 
