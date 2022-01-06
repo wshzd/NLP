@@ -123,5 +123,17 @@ https://github.com/NVIDIA/Megatron-LM
 论文地址：https://arxiv.org/abs/2012.15525
 github地址：https://github.com/microsoft/BANG
 
+《Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese》
+论文链接：https://arxiv.org/pdf/2110.06696.pdf 
+论文代码：https://github.com/Langboat/Mengzi
+
+
+
+
+
+
+
+
+
 
 
