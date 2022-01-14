@@ -30,6 +30,7 @@ https://blog.csdn.net/devshilei/article/details/103887864
 Bert可视化工具bertviz
 https://github.com/jessevig/bertviz
 https://blog.csdn.net/duan_zhihua/article/details/87388646
+https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1
 
 BERT论文合集
 https://github.com/tomohideshibata/BERT-related-papers#domain-specific
