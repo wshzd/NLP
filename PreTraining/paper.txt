@@ -128,7 +128,7 @@ github地址：https://github.com/microsoft/BANG
 论文链接：https://arxiv.org/pdf/2110.06696.pdf 
 论文代码：https://github.com/Langboat/Mengzi
 
-
+《DeepNet_ Scaling Transformers to 1,000 Layers》
 
 
 
