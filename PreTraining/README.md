@@ -1,4 +1,4 @@
-# 预训练模型
+# NLP PTM 
 ## 生成式预训练模型
 
 ## MLM预训练模型
@@ -10,6 +10,12 @@
 ## 通用预训练模型
 
 ## 预训练模型开源工具
+
+# Multi-modal PTM
+## VLP PTM
+《Vision-Language Intelligence: Tasks, Representation Learning, and Large Models》
+
+
 
 基于keras的轻量级bert
 https://github.com/bojone/bert4keras
