@@ -30,10 +30,7 @@
 
 2007[A Survey on Self-supervised Pre-training for Sequential Transfer Learning in Neural Networks](https://arxiv.org/abs/2007.00800.pdf) by Huanru Henry Mao
 
-
-
-
-
+2003[Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/abs/2003.08271.pdf) by Xipeng Qiu, Tianxiang Sun, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang 
 
 ### NLP VS Federated Learning
 2107[Federated Learning Meets Natural Language Processing: A Survey](https://arxiv.org/abs/2107.12603.pdf) by Ming Liu, Stella Ho, Mengqi Wang, Longxiang Gao, Yuan Jin, He Zhang
