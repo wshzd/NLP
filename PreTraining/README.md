@@ -1,10 +1,22 @@
 # NLP PTM 
 ## Survey
+2202[A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models](https://arxiv.org/abs/2202.08772.pdf) by Da Yin, Li Dong, Hao Cheng, Xiaodong Liu, Kai-Wei Chang, Furu Wei, Jianfeng Gao
 
+2202[A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications](https://arxiv.org/abs/2202.07893.pdf) by Jun Xia, Yanqiao Zhu, Yuanqi Du, Stan Z. Li
 
+2202[Threats to Pre-trained Language Models: Survey and Taxonomy](https://arxiv.org/abs/2202.06862.pdf) by Shangwei Guo, Chunlong Xie, Jiwei Li, Lingjuan Lyu, Tianwei Zhang
 
+2201[Commonsense Knowledge Reasoning and Generation with Pre-trained Language Models: A Survey](https://arxiv.org/abs/2201.12438.pdf) by Prajjwal Bhargava, Vincent Ng
 
+2201[Table Pre-training: A Survey on Model Architectures, Pretraining Objectives, and Downstream Tasks](https://arxiv.org/abs/2201.09745.pdf) by Haoyu Dong, Zhoujun Cheng, Xinyi He, Mengyu Zhou, Anda Zhou, Fan Zhou, Ao Liu, Shi Han, Dongmei Zhang
 
+2201[A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models](https://arxiv.org/abs/2201.05337.pdf) by Hanqing Zhang, Haolin Song, Shaoyu Li, Ming Zhou, Dawei Song
+
+2111[A Survey of Large-Scale Deep Learning Serving System Optimization: Challenges and Opportunities](https://arxiv.org/abs/2111.14247.pdf) by Fuxun Yu, Di Wang, Longfei Shangguan, Minjia Zhang, Xulong Tang, Chenchen Liu, Xiang Chen
+
+2111[Pre-training Methods in Information Retrieval](https://arxiv.org/abs/2111.13853.pdf) by Yixing Fan, Xiaohui Xie, Yinqiong Cai, Jia Chen, Xinyu Ma, Xiangsheng Li, Ruqing Zhang, Jiafeng Guo, Yiqun Liu
+
+2111[](https://arxiv.org/abs/2111.xxx.pdf) by 
 
 
 
