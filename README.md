@@ -12,7 +12,7 @@ https://www.tinymind.cn/sites#sgroup_39
 # Survey
 2010[A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios](https://arxiv.org/abs/2010.12309.pdf) by Michael A. Hedderich, Lukas Lange, Heike Adel, Jannik Strötgen, Dietrich Klakow
 
-2008[A Survey of Evaluation Metrics Used for NLG Systems](https://arxiv.org/abs/2008.12009.pdf) by Ananya B. Sai, Akash Kumar Mohankumar, Mitesh M. Khapra
+
 
 
 
