@@ -1,4 +1,4 @@
-# NLP PTM 
+# NLP PTM(pre-training model)
 ## Survey
 2202[A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models](https://arxiv.org/abs/2202.08772.pdf) by Da Yin, Li Dong, Hao Cheng, Xiaodong Liu, Kai-Wei Chang, Furu Wei, Jianfeng Gao
 
@@ -27,6 +27,11 @@
 2110[A Survey of Knowledge Enhanced Pre-trained Models](https://arxiv.org/abs/2110.00269.pdf) by Jian Yang, Gang Xiao, Yulong Shen, Wei Jiang, Xinyu Hu, Ying Zhang, Jinghui Peng
 
 2109[On the Universality of Deep Contextual Language Models](https://arxiv.org/abs/2109.07140.pdf) by Shaily Bhatt, Poonam Goyal, Sandipan Dandapat, Monojit Choudhury, Sunayana Sitaram
+
+
+
+
+
 
 
 
