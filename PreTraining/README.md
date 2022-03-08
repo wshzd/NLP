@@ -28,8 +28,7 @@
 
 2109[On the Universality of Deep Contextual Language Models](https://arxiv.org/abs/2109.07140.pdf) by Shaily Bhatt, Poonam Goyal, Sandipan Dandapat, Monojit Choudhury, Sunayana Sitaram
 
-### Prompt 
-2107[Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://arxiv.org/abs/2107.13586.pdf) by Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig
+
 
 ### Federated Learning
 2107[Federated Learning Meets Natural Language Processing: A Survey](https://arxiv.org/abs/2107.12603 .pdf) by Ming Liu, Stella Ho, Mengqi Wang, Longxiang Gao, Yuan Jin, He Zhang
@@ -42,30 +41,6 @@
 
 
 
-# Multi-modal PTM
-## VLP PTM
-### Survey
-2203[Vision-Language Intelligence: Tasks, Representation Learning, and Large Models](https://arxiv.org/abs/2203.01922.pdf) by Feng Li, Hao Zhang, Yi-Fan Zhang, Shilong Liu, Jian Guo, Lionel M. Ni, PengChuan Zhang, Lei Zhang
-
-2202[A Survey of Vision-Language Pre-Trained Models](https://arxiv.org/abs/2202.10936.pdf) by Yifan Du, Zikang Liu, Junyi Li, Wayne Xin Zhao
-
-2202[VLP: A Survey on Vision-Language Pre-training](https://arxiv.org/abs/2202.09061.pdf) by Feilong Chen, Duzhen Zhang, Minglun Han, Xiuyi Chen, Jing Shi, Shuang Xu, Bo Xu
-
-2109[Survey: Transformer based Video-Language Pre-training](https://arxiv.org/abs/2109.09920.pdf) by Ludan Ruan, Qin Jin
-
-2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
-
-2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
-
-2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
-
-2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
-
-2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
-
-2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
-
-2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
 
 
 
