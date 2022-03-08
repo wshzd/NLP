@@ -36,7 +36,7 @@
 
 
 ### Federated Learning
-2107[Federated Learning Meets Natural Language Processing: A Survey](https://arxiv.org/abs/2107.12603 .pdf) by Ming Liu, Stella Ho, Mengqi Wang, Longxiang Gao, Yuan Jin, He Zhang
+2107[Federated Learning Meets Natural Language Processing: A Survey](https://arxiv.org/abs/2107.12603.pdf) by Ming Liu, Stella Ho, Mengqi Wang, Longxiang Gao, Yuan Jin, He Zhang
 
 
 
