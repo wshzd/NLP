@@ -16,7 +16,28 @@
 
 2111[Pre-training Methods in Information Retrieval](https://arxiv.org/abs/2111.13853.pdf) by Yixing Fan, Xiaohui Xie, Yinqiong Cai, Jia Chen, Xinyu Ma, Xiangsheng Li, Ruqing Zhang, Jiafeng Guo, Yiqun Liu
 
-2111[](https://arxiv.org/abs/2111.xxx.pdf) by 
+2111[Temporal Effects on Pre-trained Models for Language Processing Tasks](https://arxiv.org/abs/2111.12790.pdf) by Oshin Agarwal, Ani Nenkova
+
+2111[Recent Advances in Natural Language Processing via Large Pre-Trained Language Models: A Survey](https://arxiv.org/abs/2111.01243.pdf) by Bonan Min, Hayley Ross, Elior Sulem, Amir Pouran Ben Veyseh, Thien Huu Nguyen, Oscar Sainz, Eneko Agirre, Ilana Heinz, Dan Roth
+
+2110[Småprat: DialoGPT for Natural Language Generation of Swedish Dialogue by Transfer Learning](https://arxiv.org/abs/2110.06273.pdf) by Tosin Adewumi, Rickard Brännvall, Nosheen Abid, Maryam Pahlavan, Sana Sabah Sabry, Foteini Liwicki, Marcus Liwicki
+
+2110[Pre-trained Language Models in Biomedical Domain: A Systematic Survey](https://arxiv.org/abs/2110.05006.pdf) by Benyou Wang, Qianqian Xie, Jiahuan Pei, Prayag Tiwari, Zhao Li, Jie fu
+
+2110[A Survey of Knowledge Enhanced Pre-trained Models](https://arxiv.org/abs/2110.00269.pdf) by Jian Yang, Gang Xiao, Yulong Shen, Wei Jiang, Xinyu Hu, Ying Zhang, Jinghui Peng
+
+2109[On the Universality of Deep Contextual Language Models](https://arxiv.org/abs/2109.07140.pdf) by Shaily Bhatt, Poonam Goyal, Sandipan Dandapat, Monojit Choudhury, Sunayana Sitaram
+
+### Prompt 
+2107[Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://arxiv.org/abs/2107.13586.pdf) by Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig
+
+### Federated Learning
+2107[Federated Learning Meets Natural Language Processing: A Survey](https://arxiv.org/abs/2107.12603 .pdf) by Ming Liu, Stella Ho, Mengqi Wang, Longxiang Gao, Yuan Jin, He Zhang
+
+
+
+
+
 
 
 
@@ -30,7 +51,21 @@
 
 2202[VLP: A Survey on Vision-Language Pre-training](https://arxiv.org/abs/2202.09061.pdf) by Feilong Chen, Duzhen Zhang, Minglun Han, Xiuyi Chen, Jing Shi, Shuang Xu, Bo Xu
 
+2109[Survey: Transformer based Video-Language Pre-training](https://arxiv.org/abs/2109.09920.pdf) by Ludan Ruan, Qin Jin
 
+2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
+
+2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
+
+2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
+
+2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
+
+2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
+
+2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
+
+2109[](https://arxiv.org/abs/2109.xxx.pdf) by 
 
 
 
