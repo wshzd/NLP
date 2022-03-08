@@ -13,7 +13,7 @@
 
 # Multi-modal PTM
 ## VLP PTM
-《Vision-Language Intelligence: Tasks, Representation Learning, and Large Models》
+[《Vision-Language Intelligence: Tasks, Representation Learning, and Large Models》](arXiv:2203.01922.pdf)
 
 
 
