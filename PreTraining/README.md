@@ -1,5 +1,8 @@
-# NLP PTM(pre-training model)
+#:smile NLP PTM(pre-training model)
 ## Survey
+
+The survey about pre-training model in several fields as follows:
+
 2202: [A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models](https://arxiv.org/abs/2202.08772.pdf) by Da Yin, Li Dong, Hao Cheng, Xiaodong Liu, Kai-Wei Chang, Furu Wei, Jianfeng Gao
 
 2202: [A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications](https://arxiv.org/abs/2202.07893.pdf) by Jun Xia, Yanqiao Zhu, Yuanqi Du, Stan Z. Li
