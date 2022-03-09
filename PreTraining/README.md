@@ -98,63 +98,63 @@
 
 : [ELECTRA](https://huggingface.co/docs/transformers/model_doc/electra) (from Google Research/Stanford University) released with the paper [ELECTRA: Pre-training text encoders as discriminators rather than generators](https://arxiv.org/abs/2003.10555.pdf) by Kevin Clark, Minh-Thang Luong, Quoc V. Le, Christopher D. Manning.
 
-: [FlauBERT]() (from CNRS) released with the paper [FlauBERT: Unsupervised Language Model Pre-training for French]() by Hang Le, Loïc Vial, Jibril Frej, Vincent Segonne, Maximin Coavoux, Benjamin Lecouteux, Alexandre Allauzen, Benoît Crabbé, Laurent Besacier, Didier Schwab.
+: [FlauBERT](https://huggingface.co/docs/transformers/model_doc/flaubert) (from CNRS) released with the paper [FlauBERT: Unsupervised Language Model Pre-training for French](https://arxiv.org/abs/1912.05372.pdf) by Hang Le, Loïc Vial, Jibril Frej, Vincent Segonne, Maximin Coavoux, Benjamin Lecouteux, Alexandre Allauzen, Benoît Crabbé, Laurent Besacier, Didier Schwab.
 
-: [FNet]() (from Google Research) released with the paper [FNet: Mixing Tokens with Fourier Transforms]() by James Lee-Thorp, Joshua Ainslie, Ilya Eckstein, Santiago Ontanon.
+: [FNet](https://huggingface.co/docs/transformers/model_doc/fnet) (from Google Research) released with the paper [FNet: Mixing Tokens with Fourier Transforms](https://arxiv.org/abs/2105.03824.pdf) by James Lee-Thorp, Joshua Ainslie, Ilya Eckstein, Santiago Ontanon.
 
-: [Funnel Transformer]() (from CMU/Google Brain) released with the paper [Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing]() by Zihang Dai, Guokun Lai, Yiming Yang, Quoc V. Le.
+: [Funnel Transformer](https://huggingface.co/docs/transformers/model_doc/funnel) (from CMU/Google Brain) released with the paper [Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing](https://arxiv.org/abs/2006.03236.pdf) by Zihang Dai, Guokun Lai, Yiming Yang, Quoc V. Le.
 
-: [GPT]() (from OpenAI) released with the paper [Improving Language Understanding by Generative Pre-Training]() by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.
+: [GPT](https://huggingface.co/docs/transformers/model_doc/openai-gpt) (from OpenAI) released with the paper [Improving Language Understanding by Generative Pre-Training](https://openai.com/blog/language-unsupervised/) by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.
 
-: [GPT-2]() (from OpenAI) released with the paper [Language Models are Unsupervised Multitask Learners]() by Alec Radford*, Jeffrey Wu*, Rewon Child, David Luan, Dario Amodei** and Ilya Sutskever**.
+: [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2) (from OpenAI) released with the paper [Language Models are Unsupervised Multitask Learners](https://openai.com/blog/better-language-models/) by Alec Radford*, Jeffrey Wu*, Rewon Child, David Luan, Dario Amodei** and Ilya Sutskever**.
 
-: [GPT-J]() (from EleutherAI) released in the repository [kingoflolz/mesh-transformer-jax]() by Ben Wang and Aran Komatsuzaki.
+: [GPT-J](https://huggingface.co/docs/transformers/model_doc/gptj) (from EleutherAI) released in the repository [kingoflolz/mesh-transformer-jax](https://github.com/huggingface/transformers) by Ben Wang and Aran Komatsuzaki.
 
-: [GPT Neo]() (from EleutherAI) released in the repository [EleutherAI/gpt-neo]() by Sid Black, Stella Biderman, Leo Gao, Phil Wang and Connor Leahy.
+: [GPT Neo](https://huggingface.co/docs/transformers/model_doc/gpt_neo) (from EleutherAI) released in the repository [EleutherAI/gpt-neo](https://github.com/EleutherAI/gpt-neo) by Sid Black, Stella Biderman, Leo Gao, Phil Wang and Connor Leahy.
 
-: [Hubert]() (from Facebook) released with the paper [HuBERT: Self-Supervised Speech Representation Learning]() by Masked Prediction of Hidden Units by Wei-Ning Hsu, Benjamin Bolte, Yao-Hung Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, Abdelrahman Mohamed.
+: [Hubert](https://huggingface.co/docs/transformers/model_doc/hubert) (from Facebook) released with the paper [HuBERT: Self-Supervised Speech Representation Learning](https://arxiv.org/abs/2106.07447.pdf) by Masked Prediction of Hidden Units by Wei-Ning Hsu, Benjamin Bolte, Yao-Hung Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, Abdelrahman Mohamed.
 
-: [I-BERT]() (from Berkeley) released with the paper [I-BERT: Integer-only BERT Quantization]() by Sehoon Kim, Amir Gholami, Zhewei Yao, Michael W. Mahoney, Kurt Keutzer.
+: [I-BERT](https://huggingface.co/docs/transformers/model_doc/ibert) (from Berkeley) released with the paper [I-BERT: Integer-only BERT Quantization](https://arxiv.org/abs/2101.01321.pdf) by Sehoon Kim, Amir Gholami, Zhewei Yao, Michael W. Mahoney, Kurt Keutzer.
 
-: [ImageGPT]() (from OpenAI) released with the paper [Generative Pretraining from Pixels]() by Mark Chen, Alec Radford, Rewon Child, Jeffrey Wu, Heewoo Jun, David Luan, Ilya Sutskever.
+: [ImageGPT](https://huggingface.co/docs/transformers/master/model_doc/imagegpt) (from OpenAI) released with the paper [Generative Pretraining from Pixels](https://openai.com/blog/image-gpt/) by Mark Chen, Alec Radford, Rewon Child, Jeffrey Wu, Heewoo Jun, David Luan, Ilya Sutskever.
 
-: [LayoutLM]() (from Microsoft Research Asia) released with the paper [LayoutLM: Pre-training of Text and Layout for Document Image Understanding]() by Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Furu Wei, Ming Zhou.
+: [LayoutLM](https://huggingface.co/docs/transformers/model_doc/layoutlm) (from Microsoft Research Asia) released with the paper [LayoutLM: Pre-training of Text and Layout for Document Image Understanding](https://arxiv.org/abs/1912.13318.pdf) by Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Furu Wei, Ming Zhou.
 
-: [LayoutLMv2]() (from Microsoft Research Asia) released with the paper [LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding]() by Yang Xu, Yiheng Xu, Tengchao Lv, Lei Cui, Furu Wei, Guoxin Wang, Yijuan Lu, Dinei Florencio, Cha Zhang, Wanxiang Che, Min Zhang, Lidong Zhou.
+: [LayoutLMv2](https://huggingface.co/docs/transformers/model_doc/layoutlmv2) (from Microsoft Research Asia) released with the paper [LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding](https://arxiv.org/abs/2012.14740.pdf) by Yang Xu, Yiheng Xu, Tengchao Lv, Lei Cui, Furu Wei, Guoxin Wang, Yijuan Lu, Dinei Florencio, Cha Zhang, Wanxiang Che, Min Zhang, Lidong Zhou.
 
-: [LayoutXLM]() (from Microsoft Research Asia) released with the paper [LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding]() by Yiheng Xu, Tengchao Lv, Lei Cui, Guoxin Wang, Yijuan Lu, Dinei Florencio, Cha Zhang, Furu Wei.
+: [LayoutXLM](https://huggingface.co/docs/transformers/model_doc/layoutlmv2) (from Microsoft Research Asia) released with the paper [LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding](https://arxiv.org/abs/2104.08836.pdf) by Yiheng Xu, Tengchao Lv, Lei Cui, Guoxin Wang, Yijuan Lu, Dinei Florencio, Cha Zhang, Furu Wei.
 
-: [LED]() (from AllenAI) released with the paper [Longformer: The Long-Document Transformer]() by Iz Beltagy, Matthew E. Peters, Arman Cohan.
+: [LED](https://huggingface.co/docs/transformers/model_doc/led) (from AllenAI) released with the paper [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150.pdf) by Iz Beltagy, Matthew E. Peters, Arman Cohan.
 
-: [Longformer]() (from AllenAI) released with the paper [Longformer: The Long-Document Transformer]() by Iz Beltagy, Matthew E. Peters, Arman Cohan.
+: [Longformer](https://huggingface.co/docs/transformers/model_doc/longformer) (from AllenAI) released with the paper [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150.pdf) by Iz Beltagy, Matthew E. Peters, Arman Cohan.
 
-: [LUKE]() (from Studio Ousia) released with the paper [LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention]() by Ikuya Yamada, Akari Asai, Hiroyuki Shindo, Hideaki Takeda, Yuji Matsumoto.
+: [LUKE](https://huggingface.co/docs/transformers/model_doc/luke) (from Studio Ousia) released with the paper [LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention](https://arxiv.org/abs/2010.01057.pdf) by Ikuya Yamada, Akari Asai, Hiroyuki Shindo, Hideaki Takeda, Yuji Matsumoto.
 
-: [mLUKE]() (from Studio Ousia) released with the paper [mLUKE: The Power of Entity Representations in Multilingual Pretrained Language Models]() by Ryokan Ri, Ikuya Yamada, and Yoshimasa Tsuruoka.
+: [mLUKE](https://huggingface.co/docs/transformers/model_doc/mluke) (from Studio Ousia) released with the paper [mLUKE: The Power of Entity Representations in Multilingual Pretrained Language Models](https://arxiv.org/abs/2110.08151.pdf) by Ryokan Ri, Ikuya Yamada, and Yoshimasa Tsuruoka.
 
-: [LXMERT]() (from UNC Chapel Hill) released with the paper [LXMERT: Learning Cross-Modality Encoder Representations from Transformers for Open-Domain Question Answering]() by Hao Tan and Mohit Bansal.
+: [LXMERT](https://huggingface.co/docs/transformers/model_doc/lxmert) (from UNC Chapel Hill) released with the paper [LXMERT: Learning Cross-Modality Encoder Representations from Transformers for Open-Domain Question Answering](https://arxiv.org/abs/1908.07490.pdf) by Hao Tan and Mohit Bansal.
 
-: [M2M100]() (from Facebook) released with the paper [Beyond English-Centric Multilingual Machine Translation]() by Angela Fan, Shruti Bhosale, Holger Schwenk, Zhiyi Ma, Ahmed El-Kishky, Siddharth Goyal, Mandeep Baines, Onur Celebi, Guillaume Wenzek, Vishrav Chaudhary, Naman Goyal, Tom Birch, Vitaliy Liptchinsky, Sergey Edunov, Edouard Grave, Michael Auli, Armand Joulin.
+: [M2M100](https://huggingface.co/docs/transformers/model_doc/m2m_100) (from Facebook) released with the paper [Beyond English-Centric Multilingual Machine Translation](https://arxiv.org/abs/2010.11125.pdf) by Angela Fan, Shruti Bhosale, Holger Schwenk, Zhiyi Ma, Ahmed El-Kishky, Siddharth Goyal, Mandeep Baines, Onur Celebi, Guillaume Wenzek, Vishrav Chaudhary, Naman Goyal, Tom Birch, Vitaliy Liptchinsky, Sergey Edunov, Edouard Grave, Michael Auli, Armand Joulin.
 
-: [MarianMT Machine translation models trained using OPUS data]() by Jörg Tiedemann. The Marian Framework is being developed by the Microsoft Translator Team.
+: [MarianMT](https://huggingface.co/docs/transformers/model_doc/marian) Machine translation models trained using [OPUS](https://opus.nlpl.eu/) data by Jörg Tiedemann. The [Marian Framework](https://marian-nmt.github.io/) is being developed by the Microsoft Translator Team.
 
-: [MaskFormer]() (from Meta and UIUC) released with the paper [Per-Pixel Classification is Not All You Need for Semantic Segmentation]() by Bowen Cheng, Alexander G. Schwing, Alexander Kirillov.
+: [MaskFormer](https://huggingface.co/docs/transformers/master/model_doc/maskformer) (from Meta and UIUC) released with the paper [Per-Pixel Classification is Not All You Need for Semantic Segmentation](https://arxiv.org/abs/2107.06278.pdf) by Bowen Cheng, Alexander G. Schwing, Alexander Kirillov.
 
-: [MBart]() (from Facebook) released with the paper [Multilingual Denoising Pre-training for Neural Machine Translation]() by Yinhan Liu, Jiatao Gu, Naman Goyal, Xian Li, Sergey Edunov, Marjan Ghazvininejad, Mike Lewis, Luke Zettlemoyer.
+: [MBart](https://huggingface.co/docs/transformers/model_doc/mbart) (from Facebook) released with the paper [Multilingual Denoising Pre-training for Neural Machine Translation](https://arxiv.org/abs/2001.08210.pdf) by Yinhan Liu, Jiatao Gu, Naman Goyal, Xian Li, Sergey Edunov, Marjan Ghazvininejad, Mike Lewis, Luke Zettlemoyer.
 
-: [MBart-50]() (from Facebook) released with the paper [Multilingual Translation with Extensible Multilingual Pretraining and Finetuning]() by Yuqing Tang, Chau Tran, Xian Li, Peng-Jen Chen, Naman Goyal, Vishrav Chaudhary, Jiatao Gu, Angela Fan.
+: [MBart-50](https://huggingface.co/docs/transformers/model_doc/mbart) (from Facebook) released with the paper [Multilingual Translation with Extensible Multilingual Pretraining and Finetuning](https://arxiv.org/abs/2008.00401.pdf) by Yuqing Tang, Chau Tran, Xian Li, Peng-Jen Chen, Naman Goyal, Vishrav Chaudhary, Jiatao Gu, Angela Fan.
 
-: [Megatron-BERT]() (from NVIDIA) released with the paper [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism]() by Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper and Bryan Catanzaro.
+: [Megatron-BERT](https://huggingface.co/docs/transformers/model_doc/megatron-bert) (from NVIDIA) released with the paper [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053.pdf) by Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper and Bryan Catanzaro.
 
-: [Megatron-GPT2]() (from NVIDIA) released with the paper [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism]() by Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper and Bryan Catanzaro.
+: [Megatron-GPT2](https://huggingface.co/docs/transformers/model_doc/megatron_gpt2) (from NVIDIA) released with the paper [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053.pdf) by Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper and Bryan Catanzaro.
 
-: [MPNet]() (from Microsoft Research) released with the paper [MPNet: Masked and Permuted Pre-training for Language Understanding]() by Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, Tie-Yan Liu.
+: [MPNet](https://huggingface.co/docs/transformers/model_doc/mpnet) (from Microsoft Research) released with the paper [MPNet: Masked and Permuted Pre-training for Language Understanding](https://arxiv.org/abs/2004.09297.pdf) by Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, Tie-Yan Liu.
 
-: [MT5]() (from Google AI) released with the paper [mT5: A massively multilingual pre-trained text-to-text transformer]() by Linting Xue, Noah Constant, Adam Roberts, Mihir Kale, Rami Al-Rfou, Aditya Siddhant, Aditya Barua, Colin Raffel.
+: [MT5](https://huggingface.co/docs/transformers/model_doc/mt5) (from Google AI) released with the paper [mT5: A massively multilingual pre-trained text-to-text transformer](https://arxiv.org/abs/2010.11934.pdf) by Linting Xue, Noah Constant, Adam Roberts, Mihir Kale, Rami Al-Rfou, Aditya Siddhant, Aditya Barua, Colin Raffel.
 
-: [Nyströmformer]() (from the University of Wisconsin - Madison) released with the paper [Nyströmformer: A Nyström-Based Algorithm for Approximating Self-Attention]() by Yunyang Xiong, Zhanpeng Zeng, Rudrasis Chakraborty, Mingxing Tan, Glenn Fung, Yin Li, Vikas Singh.
+: [Nyströmformer](https://huggingface.co/docs/transformers/master/model_doc/nystromformer) (from the University of Wisconsin - Madison) released with the paper [Nyströmformer: A Nyström-Based Algorithm for Approximating Self-Attention](https://arxiv.org/abs/2102.03902.pdf) by Yunyang Xiong, Zhanpeng Zeng, Rudrasis Chakraborty, Mingxing Tan, Glenn Fung, Yin Li, Vikas Singh.
 
-: [Pegasus]() (from Google) released with the paper [PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization]() by Jingqing Zhang, Yao Zhao, Mohammad Saleh and Peter J. Liu.
+: [Pegasus](https://huggingface.co/docs/transformers/model_doc/pegasus) (from Google) released with the paper [PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization](https://arxiv.org/abs/1912.08777.pdf) by Jingqing Zhang, Yao Zhao, Mohammad Saleh and Peter J. Liu.
 
 : [Perceiver IO]() (from Deepmind) released with the paper [Perceiver IO: A General Architecture for Structured Inputs & Outputs]() by Andrew Jaegle, Sebastian Borgeaud, Jean-Baptiste Alayrac, Carl Doersch, Catalin Ionescu, David Ding, Skanda Koppula, Daniel Zoran, Andrew Brock, Evan Shelhamer, Olivier Hénaff, Matthew M. Botvinick, Andrew Zisserman, Oriol Vinyals, João Carreira.
 
