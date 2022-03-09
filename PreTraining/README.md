@@ -35,10 +35,10 @@
 
 2003: [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/abs/2003.08271.pdf) by Xipeng Qiu, Tianxiang Sun, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang 
 
-### NLP VS Federated Learning
+## NLP VS Federated Learning
 2107: [Federated Learning Meets Natural Language Processing: A Survey](https://arxiv.org/abs/2107.12603.pdf) by Ming Liu, Stella Ho, Mengqi Wang, Longxiang Gao, Yuan Jin, He Zhang
 
-## PTM
+# Taxonomy of PTMs
 1909: [ALBERT](https://huggingface.co/docs/transformers/model_doc/albert) (from Google Research and the Toyota Technological Institute at Chicago) released with the paper [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942.pdf), by Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, Radu Soricut.
 
 1910: [BART](https://huggingface.co/docs/transformers/model_doc/bart) (from Facebook) released with the paper [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461.pdf) by Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov and Luke Zettlemoyer.
