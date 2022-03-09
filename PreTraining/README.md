@@ -1,4 +1,4 @@
-#:smile NLP PTM(pre-training model)
+#:smile: NLP PTM(pre-training model)
 ## Survey
 
 The survey about pre-training model in several fields as follows:
