@@ -68,35 +68,35 @@
 
 : [CANINE](https://huggingface.co/docs/transformers/model_doc/canine) (from Google Research) released with the paper [CANINE: Pre-training an Efficient Tokenization-Free Encoder for Language Representation](https://arxiv.org/abs/2103.06874.pdf) by Jonathan H. Clark, Dan Garrette, Iulia Turc, John Wieting.
 
-: [ConvNeXT]() (from Facebook AI) released with the paper [A ConvNet for the 2020s]() by Zhuang Liu, Hanzi Mao, Chao-Yuan Wu, Christoph Feichtenhofer, Trevor Darrell, Saining Xie.
+: [ConvNeXT](https://huggingface.co/docs/transformers/master/model_doc/convnext) (from Facebook AI) released with the paper [A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545.pdf) by Zhuang Liu, Hanzi Mao, Chao-Yuan Wu, Christoph Feichtenhofer, Trevor Darrell, Saining Xie.
 
-: [CLIP]() (from OpenAI) released with the paper [Learning Transferable Visual Models From Natural Language Supervision]() by Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever.
+: [CLIP](https://huggingface.co/docs/transformers/model_doc/clip) (from OpenAI) released with the paper [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020.pdf) by Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever.
 
-: [ConvBERT]() (from YituTech) released with the paper [ConvBERT: Improving BERT with Span-based Dynamic Convolution]() by Zihang Jiang, Weihao Yu, Daquan Zhou, Yunpeng Chen, Jiashi Feng, Shuicheng Yan.
+: [ConvBERT](https://huggingface.co/docs/transformers/model_doc/convbert) (from YituTech) released with the paper [ConvBERT: Improving BERT with Span-based Dynamic Convolution](https://arxiv.org/abs/2008.02496.pdf) by Zihang Jiang, Weihao Yu, Daquan Zhou, Yunpeng Chen, Jiashi Feng, Shuicheng Yan.
 
-: [CPM]() (from Tsinghua University) released with the paper [CPM: A Large-scale Generative Chinese Pre-trained Language Model]() by Zhengyan Zhang, Xu Han, Hao Zhou, Pei Ke, Yuxian Gu, Deming Ye, Yujia Qin, Yusheng Su, Haozhe Ji, Jian Guan, Fanchao Qi, Xiaozhi Wang, Yanan Zheng, Guoyang Zeng, Huanqi Cao, Shengqi Chen, Daixuan Li, Zhenbo Sun, Zhiyuan Liu, Minlie Huang, Wentao Han, Jie Tang, Juanzi Li, Xiaoyan Zhu, Maosong Sun.
+: [CPM](https://huggingface.co/docs/transformers/model_doc/cpm) (from Tsinghua University) released with the paper [CPM: A Large-scale Generative Chinese Pre-trained Language Model](https://arxiv.org/abs/2012.00413.pdf) by Zhengyan Zhang, Xu Han, Hao Zhou, Pei Ke, Yuxian Gu, Deming Ye, Yujia Qin, Yusheng Su, Haozhe Ji, Jian Guan, Fanchao Qi, Xiaozhi Wang, Yanan Zheng, Guoyang Zeng, Huanqi Cao, Shengqi Chen, Daixuan Li, Zhenbo Sun, Zhiyuan Liu, Minlie Huang, Wentao Han, Jie Tang, Juanzi Li, Xiaoyan Zhu, Maosong Sun.
 
-: [CTRL]() (from Salesforce) released with the paper [CTRL: A Conditional Transformer Language Model for Controllable Generation]() by Nitish Shirish Keskar*, Bryan McCann*, Lav R. Varshney, Caiming Xiong and Richard Socher.
+: [CTRL](https://huggingface.co/docs/transformers/model_doc/ctrl) (from Salesforce) released with the paper [CTRL: A Conditional Transformer Language Model for Controllable Generation](https://arxiv.org/abs/1909.05858.pdf) by Nitish Shirish Keskar*, Bryan McCann*, Lav R. Varshney, Caiming Xiong and Richard Socher.
 
-: [Data2Vec]() (from Facebook) released with the paper [Data2Vec: A General Framework for Self-supervised Learning in Speech, Vision and Language]() by Alexei Baevski, Wei-Ning Hsu, Qiantong Xu, Arun Babu, Jiatao Gu, Michael Auli.
+: [Data2Vec](https://huggingface.co/docs/transformers/master/model_doc/data2vec) (from Facebook) released with the paper [Data2Vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](https://arxiv.org/abs/2202.03555.pdf) by Alexei Baevski, Wei-Ning Hsu, Qiantong Xu, Arun Babu, Jiatao Gu, Michael Auli.
 
-: [DeBERTa]() (from Microsoft) released with the paper [DeBERTa: Decoding-enhanced BERT with Disentangled Attention]() by Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen.
+: [DeBERTa](https://huggingface.co/docs/transformers/model_doc/deberta) (from Microsoft) released with the paper [DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654.pdf) by Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen.
 
-: [DeBERTa-v2]() (from Microsoft) released with the paper [DeBERTa: Decoding-enhanced BERT with Disentangled Attention]() by Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen.
+: [DeBERTa-v2](https://huggingface.co/docs/transformers/model_doc/deberta-v2) (from Microsoft) released with the paper [DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654.pdf) by Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen.
 
-: [DeiT]() (from Facebook) released with the paper [Training data-efficient image transformers & distillation through attention]() by Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco Massa, Alexandre Sablayrolles, Hervé Jégou.
+: [DeiT](https://huggingface.co/docs/transformers/model_doc/deit) (from Facebook) released with the paper [Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877.pdf) by Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco Massa, Alexandre Sablayrolles, Hervé Jégou.
 
-: [DETR]() (from Facebook) released with the paper [End-to-End Object Detection with Transformers]() by Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko.
+: [DETR](https://huggingface.co/docs/transformers/model_doc/detr) (from Facebook) released with the paper [End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872.pdf) by Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko.
 
-: [DialoGPT]() (from Microsoft Research) released with the paper [DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation]() by Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan.
+: [DialoGPT](https://huggingface.co/docs/transformers/model_doc/dialogpt) (from Microsoft Research) released with the paper [DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation](https://arxiv.org/abs/1911.00536.pdf) by Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan.
 
-: [DistilBERT]() (from HuggingFace), released together with the paper [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter]() by Victor Sanh, Lysandre Debut and Thomas Wolf. The same method has been applied to compress GPT2 into DistilGPT2, RoBERTa into DistilRoBERTa, Multilingual BERT into DistilmBERT and a German version of DistilBERT.
+: [DistilBERT](https://huggingface.co/docs/transformers/model_doc/distilbert) (from HuggingFace), released together with the paper [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108.pdf) by Victor Sanh, Lysandre Debut and Thomas Wolf. The same method has been applied to compress GPT2 into DistilGPT2, RoBERTa into DistilRoBERTa, Multilingual BERT into DistilmBERT and a German version of DistilBERT.
 
-: [DPR]() (from Facebook) released with the paper [Dense Passage Retrieval for Open-Domain Question Answering]() by Vladimir Karpukhin, Barlas Oğuz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, and Wen-tau Yih.
+: [DPR](https://huggingface.co/docs/transformers/model_doc/dpr) (from Facebook) released with the paper [Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906.pdf) by Vladimir Karpukhin, Barlas Oğuz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, and Wen-tau Yih.
 
-: [EncoderDecoder]() (from Google Research) released with the paper [Leveraging Pre-trained Checkpoints for Sequence Generation Tasks]() by Sascha Rothe, Shashi Narayan, Aliaksei Severyn.
+: [EncoderDecoder](https://huggingface.co/docs/transformers/model_doc/encoder-decoder) (from Google Research) released with the paper [Leveraging Pre-trained Checkpoints for Sequence Generation Tasks](https://arxiv.org/abs/1907.12461.pdf) by Sascha Rothe, Shashi Narayan, Aliaksei Severyn.
 
-: [ELECTRA]() (from Google Research/Stanford University) released with the paper [ELECTRA: Pre-training text encoders as discriminators rather than generators]() by Kevin Clark, Minh-Thang Luong, Quoc V. Le, Christopher D. Manning.
+: [ELECTRA](https://huggingface.co/docs/transformers/model_doc/electra) (from Google Research/Stanford University) released with the paper [ELECTRA: Pre-training text encoders as discriminators rather than generators](https://arxiv.org/abs/2003.10555.pdf) by Kevin Clark, Minh-Thang Luong, Quoc V. Le, Christopher D. Manning.
 
 : [FlauBERT]() (from CNRS) released with the paper [FlauBERT: Unsupervised Language Model Pre-training for French]() by Hang Le, Loïc Vial, Jibril Frej, Vincent Segonne, Maximin Coavoux, Benjamin Lecouteux, Alexandre Allauzen, Benoît Crabbé, Laurent Besacier, Didier Schwab.
 
