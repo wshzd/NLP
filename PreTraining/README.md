@@ -244,7 +244,7 @@
 2111: [YOSO](https://huggingface.co/docs/transformers/master/model_doc/yoso) (from the University of Wisconsin - Madison) released with the paper [You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling](https://arxiv.org/abs/2111.09714.pdf) by Zhanpeng Zeng, Yunyang Xiong, Sathya N. Ravi, Shailesh Acharya, Glenn Fung, Vikas Singh.
 
 
-
+![image](https://github.com/wshzd/NLP/blob/master/PreTraining/PTMs.png)
 
 
 
