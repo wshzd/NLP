@@ -264,7 +264,7 @@
 
 
 # Bert related Paper Summaries
-:simle:[Bert Papers](https://github.com/tomohideshibata/BERT-related-papers#domain-specific)
+:smile:[Bert Papers](https://github.com/tomohideshibata/BERT-related-papers#domain-specific)
 
 
 
