@@ -263,7 +263,7 @@
 
 
 
-# Papers related to Bert
+# BERT-related Papers
 :smile:[Bert Papers](https://github.com/tomohideshibata/BERT-related-papers#domain-specific)
 
 
