@@ -1,6 +1,6 @@
 # NLP PTM(Pretrained Models)
 ## Survey
-:cn:The survey about pre-training model in several fields as follows:
+:train:The survey about pre-training model in several fields as follows:
 
 2202: [A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models](https://arxiv.org/abs/2202.08772) by Da Yin, Li Dong, Hao Cheng, Xiaodong Liu, Kai-Wei Chang, Furu Wei, Jianfeng Gao
 
