@@ -243,10 +243,35 @@
 
 2111: [YOSO](https://huggingface.co/docs/transformers/master/model_doc/yoso) (from the University of Wisconsin - Madison) released with the paper [You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling](https://arxiv.org/abs/2111.09714.pdf) by Zhanpeng Zeng, Yunyang Xiong, Sathya N. Ravi, Shailesh Acharya, Glenn Fung, Vikas Singh.
 
+## other
+2012: [BANG: Bridging Autoregressive and Non-autoregressive Generation with Large Scale Pretraining](https://github.com/microsoft/BANG)
+
+2110: [Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese](https://github.com/Langboat/Mengzi)
+
+2109: [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, the World’s Largest and Most Powerful Generative Language Model](https://github.com/NVIDIA/Megatron-LM)
+(https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/)
+
+
+
+
 # Taxonomy of PTMs
 :sunny:Paper 《Pre-trained Models for Natural Language Processing_ A Survey》 propose a taxonomy of PTMs for NLP, which categorizes existing PTMs from four different perspectives: 1) representation type, 2) model architecture; 3) type of pre-training task; 4) extensions for specific types of scenarios.
 
 ![image](https://github.com/wshzd/NLP/blob/master/PreTraining/PTM.png)
+
+# Open Source Tools
+1、[huggingface](https://github.com/huggingface/transformers)
+2、[bert4keras](https://github.com/bojone/bert4keras)
+3、[bert-for-tf2](https://github.com/kpe/bert-for-tf2)
+4、[bert-as-service](https://github.com/hanxiao/bert-as-service)
+5、[bertviz](https://github.com/jessevig/bertviz)
+
+
+
+
+
+
+
 
 
 
