@@ -260,15 +260,15 @@
 ![image](https://github.com/wshzd/NLP/blob/master/PreTraining/PTM.png)
 
 # Open Source Tools
-1、[huggingface](https://github.com/huggingface/transformers)
+1.[huggingface](https://github.com/huggingface/transformers)
 
-2、[bert4keras](https://github.com/bojone/bert4keras)
+2.[bert4keras](https://github.com/bojone/bert4keras)
 
-3、[bert-for-tf2](https://github.com/kpe/bert-for-tf2)
+3.[bert-for-tf2](https://github.com/kpe/bert-for-tf2)
 
-4、[bert-as-service](https://github.com/hanxiao/bert-as-service)
+4.[bert-as-service](https://github.com/hanxiao/bert-as-service)
 
-5、[bertviz](https://github.com/jessevig/bertviz)
+5.[bertviz](https://github.com/jessevig/bertviz)
 
 
 
