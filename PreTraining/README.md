@@ -1,7 +1,7 @@
 # NLP PTM(Pretrained Models)
 ## Survey
 
-:smile:The survey about pre-training model in several fields as follows:
+:cn:The survey about pre-training model in several fields as follows:
 
 2202: [A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models](https://arxiv.org/abs/2202.08772) by Da Yin, Li Dong, Hao Cheng, Xiaodong Liu, Kai-Wei Chang, Furu Wei, Jianfeng Gao
 
@@ -39,6 +39,8 @@
 2107: [Federated Learning Meets Natural Language Processing: A Survey](https://arxiv.org/abs/2107.12603) by Ming Liu, Stella Ho, Mengqi Wang, Longxiang Gao, Yuan Jin, He Zhang
 
 # Model architectures
+:rose:model architectures below is from [huggingface](https://github.com/huggingface/transformers)
+
 1909: [ALBERT](https://huggingface.co/docs/transformers/model_doc/albert) (from Google Research and the Toyota Technological Institute at Chicago) released with the paper [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942), by Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, Radu Soricut.
 
 1910: [BART](https://huggingface.co/docs/transformers/model_doc/bart) (from Facebook) released with the paper [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461) by Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov and Luke Zettlemoyer.
@@ -244,6 +246,8 @@
 2111: [YOSO](https://huggingface.co/docs/transformers/master/model_doc/yoso) (from the University of Wisconsin - Madison) released with the paper [You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling](https://arxiv.org/abs/2111.09714) by Zhanpeng Zeng, Yunyang Xiong, Sathya N. Ravi, Shailesh Acharya, Glenn Fung, Vikas Singh.
 
 ## other
+:sunflower:model architectures below is the extensions of  [huggingface](https://github.com/huggingface/transformers)
+
 2012: [BANG](https://github.com/microsoft/BANG) (from microsoft) released with the paper [BANG: Bridging Autoregressive and Non-autoregressive Generation with Large Scale Pretraining](https://arxiv.org/abs/2012.15525)  by Weizhen Qi, Yeyun Gong, Jian Jiao, Yu Yan, Weizhu Chen, Dayiheng Liu, Kewen Tang, Houqiang Li, Jiusheng Chen, Ruofei Zhang, Ming Zhou, Nan Duan
 
 2110: [Mengzi](https://github.com/Langboat/Mengzi) (from many Universities) released with the paper [Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese](https://arxiv.org/pdf/2110.06696) by Zhuosheng Zhang1, Hanqing Zhang2, Keming Chen3, Yuhang Guo4, Jingyun Hua5, Yulong Wang5, Ming Zhou5
@@ -262,15 +266,15 @@
 ![image](https://github.com/wshzd/NLP/blob/master/PreTraining/PTM.png)
 
 # Open Source Tools
-1.[huggingface](https://github.com/huggingface/transformers)
+:one:.[huggingface](https://github.com/huggingface/transformers)
 
-2.[bert4keras](https://github.com/bojone/bert4keras)
+:two:.[bert4keras](https://github.com/bojone/bert4keras)
 
-3.[bert-for-tf2](https://github.com/kpe/bert-for-tf2)
+:three:.[bert-for-tf2](https://github.com/kpe/bert-for-tf2)
 
-4.[bert-as-service](https://github.com/hanxiao/bert-as-service)
+:four:.[bert-as-service](https://github.com/hanxiao/bert-as-service)
 
-5.[bertviz](https://github.com/jessevig/bertviz)
+:five:.[bertviz](https://github.com/jessevig/bertviz)
 
 
 
