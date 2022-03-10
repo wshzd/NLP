@@ -1,4 +1,4 @@
-# NLP PTM(pre-training model)
+# NLP PTM(Pretrained Models)
 ## Survey
 
 :smile:The survey about pre-training model in several fields as follows:
@@ -107,19 +107,19 @@
 
 2006: [Funnel Transformer](https://huggingface.co/docs/transformers/model_doc/funnel) (from CMU/Google Brain) released with the paper [Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing](https://arxiv.org/abs/2006.03236.pdf) by Zihang Dai, Guokun Lai, Yiming Yang, Quoc V. Le.
 
-: [GPT](https://huggingface.co/docs/transformers/model_doc/openai-gpt) (from OpenAI) released with the paper [Improving Language Understanding by Generative Pre-Training](https://openai.com/blog/language-unsupervised/) by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.
+1806: [GPT](https://huggingface.co/docs/transformers/model_doc/openai-gpt) (from OpenAI) released with the paper [Improving Language Understanding by Generative Pre-Training](https://openai.com/blog/language-unsupervised/) by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.
 
-: [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2) (from OpenAI) released with the paper [Language Models are Unsupervised Multitask Learners](https://openai.com/blog/better-language-models/) by Alec Radford*, Jeffrey Wu*, Rewon Child, David Luan, Dario Amodei** and Ilya Sutskever**.
+1902: [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2) (from OpenAI) released with the paper [Language Models are Unsupervised Multitask Learners](https://openai.com/blog/better-language-models/) by Alec Radford*, Jeffrey Wu*, Rewon Child, David Luan, Dario Amodei** and Ilya Sutskever**.
 
-: [GPT-J](https://huggingface.co/docs/transformers/model_doc/gptj) (from EleutherAI) released in the repository [kingoflolz/mesh-transformer-jax](https://github.com/huggingface/transformers) by Ben Wang and Aran Komatsuzaki.
+[GPT-J](https://huggingface.co/docs/transformers/model_doc/gptj) (from EleutherAI) released in the repository [kingoflolz/mesh-transformer-jax](https://github.com/huggingface/transformers) by Ben Wang and Aran Komatsuzaki.
 
-: [GPT Neo](https://huggingface.co/docs/transformers/model_doc/gpt_neo) (from EleutherAI) released in the repository [EleutherAI/gpt-neo](https://github.com/EleutherAI/gpt-neo) by Sid Black, Stella Biderman, Leo Gao, Phil Wang and Connor Leahy.
+2101: [GPT Neo](https://huggingface.co/docs/transformers/model_doc/gpt_neo) (from EleutherAI) released in the repository [EleutherAI/gpt-neo](https://github.com/EleutherAI/gpt-neo) by Sid Black, Stella Biderman, Leo Gao, Phil Wang and Connor Leahy.
 
 2106: [Hubert](https://huggingface.co/docs/transformers/model_doc/hubert) (from Facebook) released with the paper [HuBERT: Self-Supervised Speech Representation Learning](https://arxiv.org/abs/2106.07447.pdf) by Masked Prediction of Hidden Units by Wei-Ning Hsu, Benjamin Bolte, Yao-Hung Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, Abdelrahman Mohamed.
 
 2101: [I-BERT](https://huggingface.co/docs/transformers/model_doc/ibert) (from Berkeley) released with the paper [I-BERT: Integer-only BERT Quantization](https://arxiv.org/abs/2101.01321.pdf) by Sehoon Kim, Amir Gholami, Zhewei Yao, Michael W. Mahoney, Kurt Keutzer.
 
-: [ImageGPT](https://huggingface.co/docs/transformers/master/model_doc/imagegpt) (from OpenAI) released with the paper [Generative Pretraining from Pixels](https://openai.com/blog/image-gpt/) by Mark Chen, Alec Radford, Rewon Child, Jeffrey Wu, Heewoo Jun, David Luan, Ilya Sutskever.
+2006: [ImageGPT](https://huggingface.co/docs/transformers/master/model_doc/imagegpt) (from OpenAI) released with the paper [Generative Pretraining from Pixels](https://openai.com/blog/image-gpt/) by Mark Chen, Alec Radford, Rewon Child, Jeffrey Wu, Heewoo Jun, David Luan, Ilya Sutskever.
 
 1912: [LayoutLM](https://huggingface.co/docs/transformers/model_doc/layoutlm) (from Microsoft Research Asia) released with the paper [LayoutLM: Pre-training of Text and Layout for Document Image Understanding](https://arxiv.org/abs/1912.13318.pdf) by Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Furu Wei, Ming Zhou.
 
@@ -139,7 +139,7 @@
 
 2010: [M2M100](https://huggingface.co/docs/transformers/model_doc/m2m_100) (from Facebook) released with the paper [Beyond English-Centric Multilingual Machine Translation](https://arxiv.org/abs/2010.11125.pdf) by Angela Fan, Shruti Bhosale, Holger Schwenk, Zhiyi Ma, Ahmed El-Kishky, Siddharth Goyal, Mandeep Baines, Onur Celebi, Guillaume Wenzek, Vishrav Chaudhary, Naman Goyal, Tom Birch, Vitaliy Liptchinsky, Sergey Edunov, Edouard Grave, Michael Auli, Armand Joulin.
 
-: [MarianMT](https://huggingface.co/docs/transformers/model_doc/marian) Machine translation models trained using [OPUS](https://opus.nlpl.eu/) data by Jörg Tiedemann. The [Marian Framework](https://marian-nmt.github.io/) is being developed by the Microsoft Translator Team.
+[MarianMT](https://huggingface.co/docs/transformers/model_doc/marian) Machine translation models trained using [OPUS](https://opus.nlpl.eu/) data by Jörg Tiedemann. The [Marian Framework](https://marian-nmt.github.io/) is being developed by the Microsoft Translator Team.
 
 2107: [MaskFormer](https://huggingface.co/docs/transformers/master/model_doc/maskformer) (from Meta and UIUC) released with the paper [Per-Pixel Classification is Not All You Need for Semantic Segmentation](https://arxiv.org/abs/2107.06278.pdf) by Bowen Cheng, Alexander G. Schwing, Alexander Kirillov.
 
@@ -199,7 +199,7 @@
 
 1910: [T5](https://huggingface.co/docs/transformers/model_doc/t5) (from Google AI) released with the paper [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683.pdf) by Colin Raffel and Noam Shazeer and Adam Roberts and Katherine Lee and Sharan Narang and Michael Matena and Yanqi Zhou and Wei Li and Peter J. Liu.
 
-: [T5v1.1](https://huggingface.co/docs/transformers/model_doc/t5v1.1) (from Google AI) released in the repository [google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer/blob/main/released_checkpoints.md#t511) by Colin Raffel and Noam Shazeer and Adam Roberts and Katherine Lee and Sharan Narang and Michael Matena and Yanqi Zhou and Wei Li and Peter J. Liu.
+[T5v1.1](https://huggingface.co/docs/transformers/model_doc/t5v1.1) (from Google AI) released in the repository [google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer/blob/main/released_checkpoints.md#t511) by Colin Raffel and Noam Shazeer and Adam Roberts and Katherine Lee and Sharan Narang and Michael Matena and Yanqi Zhou and Wei Li and Peter J. Liu.
 
 2004: [TAPAS](https://huggingface.co/docs/transformers/model_doc/tapas) (from Google AI) released with the paper [TAPAS: Weakly Supervised Table Parsing via Pre-training](https://arxiv.org/abs/2004.02349.pdf) by Jonathan Herzig, Paweł Krzysztof Nowak, Thomas Müller, Francesco Piccinno and Julian Martin Eisenschlos.
 
@@ -250,138 +250,3 @@
 
 
 
-
-
-
-
-基于keras的轻量级bert
-https://github.com/bojone/bert4keras
-
-ALbert模型的实现
-https://link.zhihu.com/?target=https%3A//github.com/brightmart/albert_zh
-
-使用PaddlePaddle做词向量skip-gram
-http://www.360doc.com/content/19/0816/04/46368139_855209381.shtml
-
-bert for tf2.0
-https://github.com/kpe/bert-for-tf2
-
-adapter-bert的地址
-https://github.com/google-research/adapter-bert/
-
-bert作为服务应用
-https://github.com/hanxiao/bert-as-service
-
-Skip-Thought Vectors
-https://arxiv.org/pdf/1506.06726.pdf
-
-BioBERT: 用于生物医学文本挖掘的预先训练生物医学语言表示模型
-fine-tuning代码
-https://github.com/dmis-lab/biobert
-BioBERT预训练模型权重下载
-https://github.com/naver/biobert-pretrained
-BioBERT论文解读
-https://blog.csdn.net/devshilei/article/details/103887864
-
-Bert可视化工具bertviz
-https://github.com/jessevig/bertviz
-https://blog.csdn.net/duan_zhihua/article/details/87388646
-https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1
-
-BERT论文合集
-https://github.com/tomohideshibata/BERT-related-papers#domain-specific
-
-全面剖析Transformer
-https://jalammar.github.io/illustrated-transformer/
-
-Transformer
-https://arxiv.org/abs/1706.03762.pdf
-tensorflow版本：https://github.com/tensorflow/tensor2tensor
-pytorch版本：http://nlp.seas.harvard.edu/2018/04/03/attention.html
-
-Transformer-XL
-https://arxiv.org/pdf/1901.02860.pdf
-https://github.com/kimiyoung/transformer-xl
-https://www.lyrn.ai/2019/01/16/transformer-xl-sota-language-model/
-https://blog.csdn.net/magical_bubble/article/details/89060213
-
-Kashgari代码成果
-https://kashgari.readthedocs.io/en/v1.1.1/embeddings/bert-embedding_v2.html
-
-基于对抗学习的ELECTRA_TINY预训练模型
-https://github.com/CLUEbenchmark/ELECTRA
-https://github.com/google-research/electra
-
-Transformers大集合
-https://huggingface.co/transformers/index.html
-https://github.com/huggingface/transformers
-
-可视化BERTs预训练模型
-https://github.com/jessevig/bertviz
-
-知识蒸馏
-https://github.com/airaria/TextBrewer
-
-追一科技
-https://github.com/ZhuiyiTechnology/simbert
-
-GPT3预训练模型
-https://github.com/openai/gpt-3
-
-ACL 2020 的论文 《Fast and Accurate Deep Bidirectional Language Representations for Unsupervised Learning》对BERT的MLM机制低效问题进行了改进
-https://arxiv.org/abs/2004.08097 
-https://github.com/joongbo/tta
-
-基于bert的ocr识别结果校正
-https://github.com/tiantian91091317/OCR-Corrector
-
-性能媲美BERT，但参数量仅为1/300，这是谷歌最新的NLP模型--PRADO 
-https://www.aclweb.org/anthology/D19-1506.pdf
-改进PRADO的模型pQRNN 
-https://github.com/tensorflow/models/tree/master/research/sequence_projection
-
-神州泰岳AI研究院与中科院深圳先进技术研究院合作推出BERT-EMD：借助EMD实现多对多层映射的BERT压缩方法
-论文：https://arxiv.org/abs/2010.06133
-代码：https://github.com/lxk00/BERT-EMD
-介绍：https://hub.baai.ac.cn/view/2768
-
-2020年3月，哈工大讯飞联合实验室推出了中文ELECTRA预训练模型，ELECTRA提出了一套新的预训练框架，其中包含两个部分：Generator和Discriminator
-http://github.com/ymcui/Chinese-ELECTRA
-
-清华和阿里的paper：使用bert解决长文本
-《CogLTX: Applying BERT to Long Texts》
-论文链接：
-http://keg.cs.tsinghua.edu.cn/jietang/publications/NIPS20-Ding-et-al-CogLTX.pdf
-Github：
-https://github.com/Sleepychord/CogLTX
-
-《Adversarial Training for Large Neural Language Models》首次全面对「对抗预训练」进行了全面研究，建立了一种统一的、适配于语言模型的对抗训练框架——ALUM (Adversarial training for large neural LangUage Models)
-论文下载地址：https://arxiv.org/pdf/2004.08994
-论文开源地址：https://github.com/namisan/mt-dnn
-
-《Rethinking Attention with Performers》---对Transformer中的self-Attention的改进
-论文地址:https://www.aminer.cn/pub/5f75feb191e0111c1eb4dbb2/rethinking-attention-with-performers
-论文代码：https://github.com/google-research/google-research/tree/master/performer
-
-《ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning》实体和关系抽取的预训练模型
-论文链接：https://arxiv.org/abs/2012.15022
-开源链接：https://github.com/thunlp/ERICA
-
-《2109Paradigm Shift in Natural Language Processing》
-论文链接：https://arxiv.org/abs/2109.12575
-项目网站：https://txsun1997.github.io/nlp-paradigm-shift/
-Slides：https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf
-
-2021.09微软和英伟达联合发布的MT-NLG预训练模型《Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, the World’s Largest and Most Powerful Generative Language Model》
-https://github.com/NVIDIA/Megatron-LM
-英伟达官网：https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/
-
-微软NLG预训练模型：《BANG: Bridging Autoregressive and Non-autoregressive Generation with Large Scale Pretraining》
-论文地址：https://arxiv.org/abs/2012.15525
-github地址：https://github.com/microsoft/BANG
-
-《Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese》
-论文链接：https://arxiv.org/pdf/2110.06696.pdf 
-论文代码：https://github.com/Langboat/Mengzi
-
-《DeepNet_ Scaling Transformers to 1,000 Layers》
