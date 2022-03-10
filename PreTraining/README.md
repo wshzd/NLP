@@ -260,6 +260,12 @@
 
 1901: [BioBERT](https://github.com/dmis-lab/biobert)  released with the paper [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/abs/1901.08746) by Jinhyuk Lee, Wonjin Yoon, Sungdong Kim, Donghyeon Kim, Sunkyu Kim, Chan Ho So, Jaewoo Kang.[the weights of pre-trained model can be download](https://github.com/naver/biobert-pretrained)
 
+2004: [ALUM](https://github.com/namisan/mt-dnn) released with the paper [Adversarial Training for Large Neural Language Models](https://arxiv.org/pdf/2004.08994) by Xiaodong Liu, Hao Cheng, Pengcheng He, Weizhu Chen, Yu Wang, Hoifung Poon, Jianfeng Gao
+
+2012: [ERICA](https://github.com/thunlp/ERICA) [ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning](https://arxiv.org/abs/2012.15022) by Yujia Qin, Yankai Lin, Ryuichi Takanobu, Zhiyuan Liu, Peng Li, Heng Ji, Minlie Huang, Maosong Sun, Jie Zhou
+
+
+
 
 
 
