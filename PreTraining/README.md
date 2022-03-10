@@ -38,7 +38,7 @@
 ## NLP VS Federated Learning
 2107: [Federated Learning Meets Natural Language Processing: A Survey](https://arxiv.org/abs/2107.12603.pdf) by Ming Liu, Stella Ho, Mengqi Wang, Longxiang Gao, Yuan Jin, He Zhang
 
-# Taxonomy of PTMs
+# Model architectures
 1909: [ALBERT](https://huggingface.co/docs/transformers/model_doc/albert) (from Google Research and the Toyota Technological Institute at Chicago) released with the paper [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942.pdf), by Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, Radu Soricut.
 
 1910: [BART](https://huggingface.co/docs/transformers/model_doc/bart) (from Facebook) released with the paper [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461.pdf) by Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov and Luke Zettlemoyer.
@@ -243,7 +243,7 @@
 
 2111: [YOSO](https://huggingface.co/docs/transformers/master/model_doc/yoso) (from the University of Wisconsin - Madison) released with the paper [You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling](https://arxiv.org/abs/2111.09714.pdf) by Zhanpeng Zeng, Yunyang Xiong, Sathya N. Ravi, Shailesh Acharya, Glenn Fung, Vikas Singh.
 
-# Mind Map of PTMs
+# Taxonomy of PTMs
 ![image](https://github.com/wshzd/NLP/blob/master/PreTraining/PTM.png)
 
 
