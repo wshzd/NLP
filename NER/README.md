@@ -30,3 +30,100 @@ Lstm-crf,Lattice-CRF,bert-ner及近年ner相关论文follow<br>
 >>>代码详细使用说明见[博客]：(https://www.jianshu.com/p/b05e50f682dd)<br>
 			
 	
+Nealcly/BiLSTM-LAN
+arxiv.org/abs/1908.08676
+https://github.com/Nealcly/BiLSTM-LAN
+
+nlp_overview技术概览
+https://github.com/omarsar/nlp_overview
+
+
+《An Encoding Strategy Based Word Character LSTM for Chinese NER》
+https://www.aclweb.org/anthology/N19-1247/
+https://github.com/liuwei1206/CCW-NER
+
+CLUENER2020: Fine-grained Named Entity Recognition Dataset and Benchmark for Chinese
+https://arxiv.org/abs/2001.04351
+https://github.com/CLUEbenchmark/CLUENER2020
+
+麻省理工学院：NeuroNER: 一个基于神经网络的简单易用的命名实体识
+http://www.sohu.com/a/260111501_100118081
+https://github.com/Franck-Dernoncourt/NeuroNER
+https://github.com/EOA-AILab/NER-Chinese/tree/master/neuro_ner
+
+BiLSTM+CRF命名实体识别
+https://github.com/DengYangyong/medical_entity_recognize
+https://mp.weixin.qq.com/s/xv4_2FsY_p9zUtQP40hIng
+
+复旦大学邱锡鹏老师团队的 FLAT: Chinese NER Using Flat-Lattice Transformer 刷新了中文NER任务的新SOTA。
+论文链接：
+https://arxiv.org/pdf/2004.11795.pdf
+开源代码：
+https://github.com/LeeSureman/Flat-Lattice-Transformer
+
+中文NER模型的词汇增强方式
+https://zhuanlan.zhihu.com/p/142615620
+https://github.com/loujie0822/DeepIE
+
+NCRF++是一个CRF++的pytorch神经网络版本
+https://github.com/jiesutd/NCRFpp
+https://www.jianshu.com/p/9c99796ff8d9
+https://xueshu.baidu.com/s?wd=paperuri%3A%28dc73b708495528bfd33c093779c31718%29&filter=sc_long_sign&tn=SE_xueshusource_2kduw22v&sc_vurl=http%3A%2F%2Farxiv.org%2Fpdf%2F1806.05626v1&ie=utf-8&sc_us=8534211738272982096
+
+LatticeLSTM的词汇增强改进：
+https://www.pianshen.com/article/19771706805/
+Dynamic Architecture：设计一个动态框架，能够兼容词汇输入。例如Lattice LSTM，通过更改LSTM的结构动态的融入词汇信息
+Adaptive Embedding ：基于词汇信息，构建自适应Embedding，在编码的过程中，融入词汇信息
+Dynamic Architecture
+1、MGLatticeLSTM
+《Chinese Relation Extraction with Multi-Grained Information and External Linguistic Knowledge》（ACL19）
+MGLatticeLSTM的主要创新点在于引入了多义词。LatticeLSTM只能融入词汇的一种表示，但是中文词汇是存在多义词的，相同的词汇可能有不同的含义，如果在引入词汇的过程中引入了不正确的词义信息，那么可能会导致原本只使用字符作为输入就能正确分词的句子，在引入错误词义后导致分词出现错误。
+2、LR-CNN
+《CNN-Based Chinese NER with Lexicon Rethinking》（IJCAI-19）
+LR-CNN采取CNN对字符特征进行编码，采用不同的感受野提取特征。将获得的multi-gram信息堆叠多层，采取注意力机制进行融合；对于词汇信息冲突问题，LR-CNN增加了一个feedback layer来调整词汇信息的权重，具体地，将高层特征作为输入通过注意力模块调节下层词汇特征分布。如上图，高层特征得到的 “广州市 “和 “长隆 “会降低 “市长 “ 在输出特征中的权重，通过注意力的方式进行调节，解决词汇信息冲突问题。
+针对LatticeLSTM的RNN不能并行的问题和词汇冲突的问题（广州市长隆公园中的“长”到底是“市长”还是“长隆”）的解决方案是采用：
+1）采用CNN代替RNN进行编码
+2）词汇冲突问题使用rethinking机制来解决，从高层特征使用注意力来调整输出特征的权重
+3、CGN
+《Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network》（EMNLP19）
+https://www.ijcai.org/Proceedings/2019/0692.pdf
+https://github.com/guitaowufeng/LR-CNN
+CGN论文提出外部词汇实际包含了两种重要信息: 一是词语的边界信息， 二是词语的语义信息。在LatticeLSTM中，词汇信息只融入词汇的最后一个字符中，句子中其他字符没有融合词汇的信息，这样的结果是对词汇信息的利用效率低下。词汇中的字符不能利用词汇的边界信息，上下文字符不能利用词汇的语义信息。
+改进的点：
+1）将词汇信息融合进词汇的每一个字符中，以利用好词汇的边界信息。
+2）通过GAN图注意力网络将词汇信息融合进上下文的字符中。
+4、FLAT
+《FLAT: Chinese NER Using Flat-Lattice Transformer》（ACL20）
+FLAT使用Transformer代替LSTM，设计position encoding来融合词汇信息
+对于每一个字符和词汇都构建一个head position encoding 和 tail position encoding*****
+
+Adaptive Embedding 
+5、Simple-Lexicon
+《Simplify the Usage of Lexicon in Chinese NER》（ACL20）
+Simple-Lexicon的核心思想是，通过BMES标签来融合词汇信息。对于每一个输入字符，使用字典匹配该字符作为B开始、M中间、E结束、S单个四种位置类型对应的词。
+例如字符“语”，以“语”开头的词汇有“语言”、“语言学”，以“语”结束的词汇有“国语”，“中国语”。
+
+LexiconAugmentedNER
+https://github.com/v-mipeng/LexiconAugmentedNER
+
+
+实体对齐论文
+http://pelhans.com/2019/03/18/entity_alignment/
+
+2112: [UNER](https://github.com/ljynlp/W2NER) (from University) released [Unified Named Entity Recognition as Word-Word Relation Classification](https://arxiv.org/abs/2112.10070) by Jingye Li, Hao Fei, Jiang Liu, Shengqiong Wu, Meishan Zhang, Chong Teng, Donghong Ji, Fei Li
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
