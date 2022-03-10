@@ -278,7 +278,7 @@
 
 
 # Citation
-···
+~~~
 @misc{hezhidong,
       title={Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese}, 
       author={he zhidong},
@@ -287,6 +287,6 @@
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
-···
+~~~
 
 
