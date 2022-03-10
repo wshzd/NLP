@@ -110,7 +110,7 @@ https://github.com/v-mipeng/LexiconAugmentedNER
 实体对齐论文
 http://pelhans.com/2019/03/18/entity_alignment/
 
-2112: [UNER](https://github.com/ljynlp/W2NER) (from University) released [Unified Named Entity Recognition as Word-Word Relation Classification](https://arxiv.org/abs/2112.10070) by Jingye Li, Hao Fei, Jiang Liu, Shengqiong Wu, Meishan Zhang, Chong Teng, Donghong Ji, Fei Li
+2112: [UNER](https://github.com/ljynlp/W2NER) (from University) released with the paper [Unified Named Entity Recognition as Word-Word Relation Classification](https://arxiv.org/abs/2112.10070) by Jingye Li, Hao Fei, Jiang Liu, Shengqiong Wu, Meishan Zhang, Chong Teng, Donghong Ji, Fei Li
 
 
 
