@@ -1,5 +1,4 @@
-# NLP PTM(Pretrained Models)
-## Survey
+# A Survey: NLP PTM(Pretrained Models)
 :earth_asia:The survey about pre-training model in several fields as follows:
 
 2202: [A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models](https://arxiv.org/abs/2202.08772) by Da Yin, Li Dong, Hao Cheng, Xiaodong Liu, Kai-Wei Chang, Furu Wei, Jianfeng Gao
@@ -34,7 +33,7 @@
 
 2003: [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/abs/2003.08271) by Xipeng Qiu, Tianxiang Sun, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang 
 
-## NLP VS Federated Learning
+# NLP VS Federated Learning
 2107: [Federated Learning Meets Natural Language Processing: A Survey](https://arxiv.org/abs/2107.12603) by Ming Liu, Stella Ho, Mengqi Wang, Longxiang Gao, Yuan Jin, He Zhang
 
 # Model architectures
@@ -244,7 +243,7 @@
 
 2111: [YOSO](https://huggingface.co/docs/transformers/master/model_doc/yoso) (from the University of Wisconsin - Madison) released with the paper [You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling](https://arxiv.org/abs/2111.09714) by Zhanpeng Zeng, Yunyang Xiong, Sathya N. Ravi, Shailesh Acharya, Glenn Fung, Vikas Singh.
 
-## other
+# Other
 :sunflower:model architectures below is the extensions of  [huggingface](https://github.com/huggingface/transformers)
 
 2012: [BANG](https://github.com/microsoft/BANG) (from microsoft) released with the paper [BANG: Bridging Autoregressive and Non-autoregressive Generation with Large Scale Pretraining](https://arxiv.org/abs/2012.15525)  by Weizhen Qi, Yeyun Gong, Jian Jiao, Yu Yan, Weizhu Chen, Dayiheng Liu, Kewen Tang, Houqiang Li, Jiusheng Chen, Ruofei Zhang, Ming Zhou, Nan Duan
@@ -253,9 +252,19 @@
 
 2109: [MT-NLG](https://github.com/NVIDIA/Megatron-LM) (from microsoft and INDIA) released with the paper [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, the World’s Largest and Most Powerful Generative Language Model](https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/)
 
-2010: [BERT-EMD](https://github.com/lxk00/BERT-EMD) (from ) released with the paper [BERT-EMD: Many-to-Many Layer Mapping for BERT Compression with Earth Mover's Distance] (https://arxiv.org/abs/2010.06133.pdf)(https://hub.baai.ac.cn/view/2768)
+2010: [BERT-EMD](https://github.com/lxk00/BERT-EMD) released with the paper [BERT-EMD: Many-to-Many Layer Mapping for BERT Compression with Earth Mover's Distance] (https://arxiv.org/abs/2010.06133.pdf)(https://hub.baai.ac.cn/view/2768)
 
 2001:[CogLTX](https://github.com/Sleepychord/CogLTX) (from alibaba and Tsinghua) released with the paper [CogLTX: Applying BERT to Long Texts](http://keg.cs.tsinghua.edu.cn/jietang/publications/NIPS20-Ding-et-al-CogLTX.pdf) by Ming Ding, Chang Zhou, Hongxia Yang, Jie Tang
+
+2004: [FA-Bert](https://github.com/joongbo/tta) (from alibaba and Tsinghua) released with the paper [Fast and Accurate Deep Bidirectional Language Representations for Unsupervised Learning](https://arxiv.org/abs/2004.08097) by Joongbo Shin, Yoonhyung Lee, Seunghyun Yoon, Kyomin Jung
+
+1901: [BioBERT](https://github.com/dmis-lab/biobert)  released with the paper [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/abs/1901.08746) by Jinhyuk Lee, Wonjin Yoon, Sungdong Kim, Donghyeon Kim, Sunkyu Kim, Chan Ho So, Jaewoo Kang.[the weights of pre-trained model can be download](https://github.com/naver/biobert-pretrained)
+
+
+
+
+# Bert related Paper Summaries
+[Bert Papers](https://github.com/tomohideshibata/BERT-related-papers#domain-specific)
 
 
 
@@ -265,16 +274,17 @@
 ![image](https://github.com/wshzd/NLP/blob/master/PreTraining/PTM.png)
 
 # Open Source Tools
-:one:.[huggingface](https://github.com/huggingface/transformers)
+:one: [huggingface](https://github.com/huggingface/transformers)
 
-:two:.[bert4keras](https://github.com/bojone/bert4keras)
+:two: [bert4keras](https://github.com/bojone/bert4keras)
 
-:three:.[bert-for-tf2](https://github.com/kpe/bert-for-tf2)
+:three: [bert-for-tf2](https://github.com/kpe/bert-for-tf2)
 
-:four:.[bert-as-service](https://github.com/hanxiao/bert-as-service)
+:four: [bert-as-service](https://github.com/hanxiao/bert-as-service)
 
-:five:.[bertviz](https://github.com/jessevig/bertviz)
+:five: [bertviz](https://github.com/jessevig/bertviz)
 
+:six: [adapter-bert](https://github.com/google-research/adapter-bert/)
 
 
 
