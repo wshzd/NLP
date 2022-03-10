@@ -244,7 +244,7 @@
 2111: [YOSO](https://huggingface.co/docs/transformers/master/model_doc/yoso) (from the University of Wisconsin - Madison) released with the paper [You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling](https://arxiv.org/abs/2111.09714.pdf) by Zhanpeng Zeng, Yunyang Xiong, Sathya N. Ravi, Shailesh Acharya, Glenn Fung, Vikas Singh.
 
 # Taxonomy of PTMs
-Paper 《Pre-trained Models for Natural Language Processing_ A Survey》 propose a taxonomy of PTMs for NLP, which categorizes existing PTMs from four different perspectives: 1) representation type, 2) model architecture; 3) type of pre-training task; 4) extensions for specific types of scenarios.
+:sunny:Paper 《Pre-trained Models for Natural Language Processing_ A Survey》 propose a taxonomy of PTMs for NLP, which categorizes existing PTMs from four different perspectives: 1) representation type, 2) model architecture; 3) type of pre-training task; 4) extensions for specific types of scenarios.
 ![image](https://github.com/wshzd/NLP/blob/master/PreTraining/PTM.png)
 
 
