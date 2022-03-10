@@ -249,7 +249,8 @@
 2110: [Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese](https://github.com/Langboat/Mengzi)
 
 2109: [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, the World’s Largest and Most Powerful Generative Language Model](https://github.com/NVIDIA/Megatron-LM)
-(https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/)
+
+https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/
 
 
 
@@ -273,7 +274,16 @@
 
 
 
-
-
+# Citation
+'''
+@misc{hezhidong,
+      title={Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese}, 
+      author={he zhidong},
+      year={2022},
+      eprint={2110.06696},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+'''
 
 
