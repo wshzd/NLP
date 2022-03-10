@@ -245,6 +245,7 @@
 
 # Taxonomy of PTMs
 :sunny:Paper 《Pre-trained Models for Natural Language Processing_ A Survey》 propose a taxonomy of PTMs for NLP, which categorizes existing PTMs from four different perspectives: 1) representation type, 2) model architecture; 3) type of pre-training task; 4) extensions for specific types of scenarios.
+
 ![image](https://github.com/wshzd/NLP/blob/master/PreTraining/PTM.png)
 
 
