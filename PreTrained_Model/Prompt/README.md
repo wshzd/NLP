@@ -8,7 +8,8 @@ Pengfei Liu zhihu：https://zhuanlan.zhihu.com/p/395115779
 Tsinghua Prompt Papers：https://github.com/thunlp/PromptPapers
 
 
-
+《GPT Understands, Too》提出P-tuning方法
+https://github.com/THUDM/P-tuning
 
 
 
