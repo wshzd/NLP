@@ -1,7 +1,0 @@
-《GPT Understands, Too》提出P-tuning方法
-https://github.com/THUDM/P-tuning
-
-
-
-
-
