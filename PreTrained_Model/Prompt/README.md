@@ -12,4 +12,5 @@ Tsinghua Prompt Papers：https://github.com/thunlp/PromptPapers
 https://github.com/THUDM/P-tuning
 
 
-
+https://mp.weixin.qq.com/s/EvD9OW115XMnrxOcC2BKDA
+https://m.thepaper.cn/baijiahao_13867755
