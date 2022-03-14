@@ -4,6 +4,12 @@
 
 
 # Transformer Variant
+- 1901: [Transformer-XL](https://github.com/kimiyoung/transformer-xl) (from Fudan google) released with the paper [Transformer-XL: Attentive Language Models
+Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf) by Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov
+
+
+
+
 
 
 * 2006: [Funnel-Transformer](http://github.com/laiguokun/Funnel-Transformer) [Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing](https://arxiv.org/abs/2006.03236) by Zihang Dai (CMU, Google), Guokun Lai (CMU), Yiming Yang (CMU), Quoc V. Le (Google)
