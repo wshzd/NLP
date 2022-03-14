@@ -1,4 +1,4 @@
-- 1706: [Transformer](https://arxiv.org/abs/1706.03762.pdf). [tensorflow version](https://github.com/tensorflow/tensor2tensor)[pytorch version](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+- 1706: [Transformer Paper](https://arxiv.org/abs/1706.03762.pdf). [tensorflow version](https://github.com/tensorflow/tensor2tensor) and [pytorch version](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
 
 
