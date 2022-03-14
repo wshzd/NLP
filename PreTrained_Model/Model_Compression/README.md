@@ -1,4 +1,4 @@
-# 模型压缩开山之作
+# The first job of Model Compression
 
 http://papers.nips.cc/paper/250-optimal-brain-damage.pdf
 
@@ -52,7 +52,9 @@ https://github.com/facebookresearch/ResNeXt
 
 [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](https://arxiv.org/abs/1707.01083?context=cs.CV)
 
-
+# Open Source Toos
+## Knowledge Distillation
+https://github.com/airaria/TextBrewer
 
 
 
