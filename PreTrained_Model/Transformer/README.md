@@ -4,8 +4,9 @@
 
 
 # Transformer Variant
-- 1901: [Transformer-XL](https://github.com/kimiyoung/transformer-xl) (from Fudan google) released with the paper [Transformer-XL: Attentive Language Models
-Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf) by Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov
+- 1901: [Transformer-XL](https://github.com/kimiyoung/transformer-xl) (from google) released with the paper [Transformer-XL: Attentive Language Models
+Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf) by Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov.
+[CSDN blog](https://blog.csdn.net/magical_bubble/article/details/89060213)
 
 
 
