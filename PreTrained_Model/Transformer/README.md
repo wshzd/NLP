@@ -1,6 +1,9 @@
+# Transformer
 - 1706: [Transformer Paper](https://arxiv.org/abs/1706.03762.pdf). [tensorflow version](https://github.com/tensorflow/tensor2tensor) and [pytorch version](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
 
+
+# Transformer Variant
 
 
 * 2006: [Funnel-Transformer](http://github.com/laiguokun/Funnel-Transformer) [Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing](https://arxiv.org/abs/2006.03236) by Zihang Dai (CMU, Google), Guokun Lai (CMU), Yiming Yang (CMU), Quoc V. Le (Google)
