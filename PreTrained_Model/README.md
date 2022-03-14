@@ -264,8 +264,9 @@
 
 * 2012: [ERICA](https://github.com/thunlp/ERICA) [ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning](https://arxiv.org/abs/2012.15022) by Yujia Qin, Yankai Lin, Ryuichi Takanobu, Zhiyuan Liu, Peng Li, Heng Ji, Minlie Huang, Maosong Sun, Jie Zhou
 
+* 2005: [GPT3](https://github.com/openai/gpt-3) (from openai)  [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) by Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
 
-
+* [simbert](https://github.com/ZhuiyiTechnology/simbert) (from ZhuiyiTechnology) [SimBERT: Integrating Retrieval and Generation into BERT]
 
 
 
