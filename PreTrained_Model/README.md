@@ -268,6 +268,7 @@
 
 * [simbert](https://github.com/ZhuiyiTechnology/simbert) (from ZhuiyiTechnology) [SimBERT: Integrating Retrieval and Generation into BERT]
 
+* [simbertv2:RoFormer-Sim](https://github.com/ZhuiyiTechnology/roformer-sim)(from ZhuiyiTechnology) 
 
 
 # BERT-related Papers
