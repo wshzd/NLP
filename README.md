@@ -12,9 +12,7 @@ https://www.tinymind.cn/sites#sgroup_39
 # Survey
 2010: [A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios](https://arxiv.org/abs/2010.12309.pdf) by Michael A. Hedderich, Lukas Lange, Heike Adel, Jannik Strötgen, Dietrich Klakow
 
-2109: [Paradigm Shift in Natural Language Processing](https://arxiv.org/abs/2109.12575) 
-[project website](https://txsun1997.github.io/nlp-paradigm-shift/)
-[Slides](https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf)
+2109: [Paradigm Shift in Natural Language Processing](https://arxiv.org/abs/2109.12575)  and [project website](https://txsun1997.github.io/nlp-paradigm-shift/) and [Slides](https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf)
 
 
 
