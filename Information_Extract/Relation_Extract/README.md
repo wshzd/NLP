@@ -71,7 +71,8 @@ https://blog.csdn.net/zhaojizhinex/article/details/88061344
 《Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning》
 https://blog.csdn.net/manmanxiaowugun/article/details/85636278
 
-
+AAAI2022 关系抽取SOTA
+《OneRel: Joint Entity and Relation Extraction with One Module in One Step》
 
 
 
