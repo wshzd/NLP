@@ -293,6 +293,8 @@
 
 :six: [adapter-bert](https://github.com/google-research/adapter-bert/)
 
+7️⃣ [Kashgari](https://kashgari.readthedocs.io/en/v1.1.1/embeddings/bert-embedding_v2.html)
+
 
 
 
