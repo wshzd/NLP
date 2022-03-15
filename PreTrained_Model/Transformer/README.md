@@ -1,14 +1,10 @@
 # Transformer
-- 1706: [Transformer Paper](https://arxiv.org/abs/1706.03762.pdf). [tensorflow version](https://github.com/tensorflow/tensor2tensor) and [pytorch version](http://nlp.seas.harvard.edu/2018/04/03/attention.html). [Analysis transformer in detail](https://jalammar.github.io/illustrated-transformer/)
-
-
-
+- 1706: [Transformer Paper](https://arxiv.org/abs/1706.03762.pdf). [tensorflow version](https://github.com/tensorflow/tensor2tensor) and [pytorch version](http://nlp.seas.harvard.edu/2018/04/03/attention.html). [Analysis transformer in detail](https://jalammar.github.io/illustrated-transformer/)  
+- [Transformer代码完全解读！](https://blog.csdn.net/Datawhale/article/details/120320116?spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EOPENSEARCH%7ERate-11.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EOPENSEARCH%7ERate-11.pc_relevant_default&utm_relevant_index=12)  
 # Transformer Variant
 - 1901: [Transformer-XL](https://github.com/kimiyoung/transformer-xl) (from google) released with the paper [Transformer-XL: Attentive Language Models
 Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf) by Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov.
-[CSDN blog](https://blog.csdn.net/magical_bubble/article/details/89060213)
-
-
+[CSDN blog](https://blog.csdn.net/magical_bubble/article/details/89060213)  
 
 
 
