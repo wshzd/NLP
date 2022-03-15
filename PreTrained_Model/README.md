@@ -243,7 +243,106 @@
 
 * 2111: [YOSO](https://huggingface.co/docs/transformers/master/model_doc/yoso) (from the University of Wisconsin - Madison) released with the paper [You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling](https://arxiv.org/abs/2111.09714) by Zhanpeng Zeng, Yunyang Xiong, Sathya N. Ravi, Shailesh Acharya, Glenn Fung, Vikas Singh.
 
+# Supported frameworks
 
+​        The table below represents the current support in the library for each of those models, whether they have a Python tokenizer (called “slow”). A “fast” tokenizer backed by the 🤗 Tokenizers library, whether they have support in Jax (via Flax), PyTorch, and/or TensorFlow. 
+
+| Model                       | Tokenizer slow | Tokenizer fast | PyTorch support | TensorFlow support | Flax Support |
+| --------------------------- | -------------- | -------------- | --------------- | ------------------ | ------------ |
+| ALBERT                      | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| BART                        | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| BEiT                        | ❌              | ❌              | ✅               | ❌                  | ✅            |
+| BERT                        | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| Bert Generation             | ✅              | ❌              | ✅               | ❌                  | ❌            |
+| BigBird                     | ✅              | ✅              | ✅               | ❌                  | ✅            |
+| BigBirdPegasus              | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| Blenderbot                  | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| BlenderbotSmall             | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| CamemBERT                   | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| Canine                      | ✅              | ❌              | ✅               | ❌                  | ❌            |
+| CLIP                        | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| ConvBERT                    | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| ConvNext                    | ❌              | ❌              | ✅               | ✅                  | ❌            |
+| CTRL                        | ✅              | ❌              | ✅               | ✅                  | ❌            |
+| Data2VecAudio               | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| Data2VecText                | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| DeBERTa                     | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| DeBERTa-v2                  | ✅              | ❌              | ✅               | ✅                  | ❌            |
+| DeiT                        | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| DETR                        | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| DistilBERT                  | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| DPR                         | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| ELECTRA                     | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| Encoder decoder             | ❌              | ❌              | ✅               | ✅                  | ✅            |
+| FairSeq Machine-Translation | ✅              | ❌              | ✅               | ❌                  | ❌            |
+| FlauBERT                    | ✅              | ❌              | ✅               | ✅                  | ❌            |
+| FNet                        | ✅              | ✅              | ✅               | ❌                  | ❌            |
+| Funnel Transformer          | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| GPT Neo                     | ❌              | ❌              | ✅               | ❌                  | ✅            |
+| GPT-J                       | ❌              | ❌              | ✅               | ❌                  | ✅            |
+| Hubert                      | ❌              | ❌              | ✅               | ✅                  | ❌            |
+| I-BERT                      | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| ImageGPT                    | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| LayoutLM                    | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| LayoutLMv2                  | ✅              | ✅              | ✅               | ❌                  | ❌            |
+| LED                         | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| Longformer                  | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| LUKE                        | ✅              | ❌              | ✅               | ❌                  | ❌            |
+| LXMERT                      | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| M2M100                      | ✅              | ❌              | ✅               | ❌                  | ❌            |
+| Marian                      | ✅              | ❌              | ✅               | ✅                  | ✅            |
+| MaskFormer                  | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| mBART                       | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| MegatronBert                | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| MobileBERT                  | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| MPNet                       | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| mT5                         | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| Nystromformer               | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| OpenAI GPT                  | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| OpenAI GPT-2                | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| Pegasus                     | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| Perceiver                   | ✅              | ❌              | ✅               | ❌                  | ❌            |
+| PLBart                      | ✅              | ❌              | ✅               | ❌                  | ❌            |
+| PoolFormer                  | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| ProphetNet                  | ✅              | ❌              | ✅               | ❌                  | ❌            |
+| QDQBert                     | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| RAG                         | ✅              | ❌              | ✅               | ✅                  | ❌            |
+| Realm                       | ✅              | ✅              | ✅               | ❌                  | ❌            |
+| Reformer                    | ✅              | ✅              | ✅               | ❌                  | ❌            |
+| RemBERT                     | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| RetriBERT                   | ✅              | ✅              | ✅               | ❌                  | ❌            |
+| RoBERTa                     | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| RoFormer                    | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| SegFormer                   | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| SEW                         | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| SEW-D                       | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| Speech Encoder decoder      | ❌              | ❌              | ✅               | ❌                  | ✅            |
+| Speech2Text                 | ✅              | ❌              | ✅               | ✅                  | ❌            |
+| Speech2Text2                | ✅              | ❌              | ❌               | ❌                  | ❌            |
+| Splinter                    | ✅              | ✅              | ✅               | ❌                  | ❌            |
+| SqueezeBERT                 | ✅              | ✅              | ✅               | ❌                  | ❌            |
+| Swin                        | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| T5                          | ✅              | ✅              | ✅               | ✅                  | ✅            |
+| TAPAS                       | ✅              | ❌              | ✅               | ✅                  | ❌            |
+| Transformer-XL              | ✅              | ❌              | ✅               | ✅                  | ❌            |
+| TrOCR                       | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| UniSpeech                   | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| UniSpeechSat                | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| ViLT                        | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| Vision Encoder decoder      | ❌              | ❌              | ✅               | ✅                  | ✅            |
+| VisionTextDualEncoder       | ❌              | ❌              | ✅               | ❌                  | ✅            |
+| VisualBert                  | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| ViT                         | ❌              | ❌              | ✅               | ✅                  | ✅            |
+| ViTMAE                      | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| Wav2Vec2                    | ✅              | ❌              | ✅               | ✅                  | ✅            |
+| WavLM                       | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| XGLM                        | ✅              | ✅              | ✅               | ❌                  | ✅            |
+| XLM                         | ✅              | ❌              | ✅               | ✅                  | ❌            |
+| XLM-RoBERTa                 | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| XLM-RoBERTa-XL              | ❌              | ❌              | ✅               | ❌                  | ❌            |
+| XLMProphetNet               | ✅              | ❌              | ✅               | ❌                  | ❌            |
+| XLNet                       | ✅              | ✅              | ✅               | ✅                  | ❌            |
+| YOSO                        | ❌              | ❌              | ✅               | ❌                  | ❌            |
 
 # Other
 :sunflower:model architectures below is the extensions of  [huggingface](https://github.com/huggingface/transformers)
