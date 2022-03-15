@@ -243,21 +243,6 @@
 
 * 2111: [YOSO](https://huggingface.co/docs/transformers/master/model_doc/yoso) (from the University of Wisconsin - Madison) released with the paper [You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling](https://arxiv.org/abs/2111.09714) by Zhanpeng Zeng, Yunyang Xiong, Sathya N. Ravi, Shailesh Acharya, Glenn Fung, Vikas Singh.
 
-# Support
-Model	Tokenizer slow	Tokenizer fast	PyTorch support	TensorFlow support	Flax Support
-ALBERT	✅	✅	✅	✅	✅
-BART	✅	✅	✅	✅	✅
-BEiT	❌	❌	✅	❌	✅
-BERT	✅	✅	✅	✅	✅
-Bert Generation	✅	❌	✅	❌	❌
-BigBird	✅	✅	✅	❌	✅
-BigBirdPegasus	❌	❌	✅	❌	❌
-Blenderbot	✅	✅	✅	✅	✅
-BlenderbotSmall	✅	✅	✅	✅	✅
-CamemBERT	✅	✅	✅	✅	❌
-Canine	✅	❌	✅	❌	❌
-CLIP	✅	✅	✅	✅	✅
-
 
 
 # Other
