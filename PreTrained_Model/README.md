@@ -367,9 +367,14 @@
 
 * 2005: [GPT3](https://github.com/openai/gpt-3) (from openai)  [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) by Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
 
+* 2202: [code-lms](https://github.com/vhellendoorn/code-lms)  [A SYSTEMATIC EVALUATION OF LARGE LANGUAGE MODELS OF CODE](https://arxiv.org/pdf/2202.13169.pdf) by Frank F. Xu, Uri Alon, Graham Neubig, Vincent J. Hellendoorn
+
 * [simbert](https://github.com/ZhuiyiTechnology/simbert) (from ZhuiyiTechnology) [SimBERT: Integrating Retrieval and Generation into BERT]
 
 * [simbertv2:RoFormer-Sim](https://github.com/ZhuiyiTechnology/roformer-sim)(from ZhuiyiTechnology) 
+
+* 209: [DynaBERT: Dynamic BERT with Adaptive Width and Depth](https://arxiv.org/abs/2004.04037) by Lu Hou, Zhiqi Huang, Lifeng Shang, Xin Jiang, Xiao Chen, Qun Liu
+
 
 
 # BERT-related Papers
