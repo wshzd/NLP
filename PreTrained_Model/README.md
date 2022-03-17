@@ -373,7 +373,10 @@
 
 * [simbertv2:RoFormer-Sim](https://github.com/ZhuiyiTechnology/roformer-sim)(from ZhuiyiTechnology) 
 
-* 209: [DynaBERT: Dynamic BERT with Adaptive Width and Depth](https://arxiv.org/abs/2004.04037) by Lu Hou, Zhiqi Huang, Lifeng Shang, Xin Jiang, Xiao Chen, Qun Liu
+* 2004: [DynaBERT: Dynamic BERT with Adaptive Width and Depth](https://arxiv.org/abs/2004.04037) by Lu Hou, Zhiqi Huang, Lifeng Shang, Xin Jiang, Xiao Chen, Qun Liu
+
+* 2202: [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM)  []()
+
 
 
 
