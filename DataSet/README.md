@@ -7,3 +7,11 @@ https://github.com/zxlzr/IEDatasets
 https://github.com/google-research/uda  
 常用的停用词表  
 https://github.com/goto456/stopwords  
+[清华和北京智源研究院 BAAI开源的6.5亿图文多模数据集](https://data.wudaoai.cn/home) from paper [WuDaoMM: A large-scale Multi-Modal Dataset for Pre-training models](https://arxiv.org/abs/2203.11480)  
+
+
+
+
+
+
+
