@@ -7,6 +7,6 @@
 
 1907：[MTN](https://github.com/henryhungle/MTN) from paper [Multimodal Transformer Networks for End-to-End Video-Grounded Dialogue Systems](https://arxiv.org/abs/1907.01166)  
 
-
+2020：[BiST](https://github.com/salesforce/BiST) from paper [BiST: Bi-directional Spatio-Temporal Reasoning for Video-Grounded Dialogues](https://aclanthology.org/2020.emnlp-main.145.pdf)  
 
 
