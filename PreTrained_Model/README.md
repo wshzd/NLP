@@ -36,6 +36,8 @@
 # NLP VS Federated Learning
 * 2107: [Federated Learning Meets Natural Language Processing: A Survey](https://arxiv.org/abs/2107.12603) by Ming Liu, Stella Ho, Mengqi Wang, Longxiang Gao, Yuan Jin, He Zhang
 
+2202：[图预训练的综述：分类法、方法和应用](https://github.com/junxia97/awesome-pre-training-on-graphs) from papers [A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications](https://arxiv.org/pdf/2202.07893v2)  
+
 # Model architectures
 :rose:model architectures below is from [huggingface](https://github.com/huggingface/transformers)
 
