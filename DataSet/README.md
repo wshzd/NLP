@@ -9,6 +9,7 @@ https://github.com/google-research/uda
 https://github.com/goto456/stopwords  
 [清华和北京智源研究院 BAAI开源的6.5亿图文多模数据集](https://data.wudaoai.cn/home) from paper [WuDaoMM: A large-scale Multi-Modal Dataset for Pre-training models](https://arxiv.org/abs/2203.11480)  
 
+2203：[WuDaoMM：用于预训练模型的大规模多模态数据集](https://github.com/BAAI-WuDao/WuDaoMM/) from papers [WuDaoMM: A large-scale Multi-Modal Dataset for Pre-training models](https://arxiv.org/pdf/2203.11480)  
 
 
 
