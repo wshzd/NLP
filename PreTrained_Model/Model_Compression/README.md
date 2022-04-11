@@ -58,7 +58,7 @@ https://github.com/airaria/TextBrewer
 
 
 
-
+2203：[Quant]() from paper [Compression of Generative Pre-trained Language Models via Quantization](https://arxiv.org/pdf/2203.10705) by 
 
 
 
