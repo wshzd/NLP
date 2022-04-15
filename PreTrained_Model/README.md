@@ -349,6 +349,8 @@
 # Other
 :sunflower:model architectures below is the extensions of  [huggingface](https://github.com/huggingface/transformers)
 
+2204：[HuggingFace、Google等联合发布](https://github.com/bigscience-workshop/architecture-objective) from paper [What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?](https://arxiv.org/pdf/2204.05832.pdf) by Thomas Wang, Adam Roberts, Daniel Hesslow
+
 * 2012: [BANG](https://github.com/microsoft/BANG) (from microsoft) released with the paper [BANG: Bridging Autoregressive and Non-autoregressive Generation with Large Scale Pretraining](https://arxiv.org/abs/2012.15525)  by Weizhen Qi, Yeyun Gong, Jian Jiao, Yu Yan, Weizhu Chen, Dayiheng Liu, Kewen Tang, Houqiang Li, Jiusheng Chen, Ruofei Zhang, Ming Zhou, Nan Duan
 
 * 2110: [Mengzi](https://github.com/Langboat/Mengzi) (from many Universities) released with the paper [Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese](https://arxiv.org/pdf/2110.06696) by Zhuosheng Zhang1, Hanqing Zhang2, Keming Chen3, Yuhang Guo4, Jingyun Hua5, Yulong Wang5, Ming Zhou5
@@ -410,19 +412,6 @@
 
 
 
-# Acknowledgements
 
-
-# Citation
-~~~
-@misc{hezhidong,
-      title={Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese}, 
-      author={he zhidong},
-      year={2022},
-      eprint={2110.06696},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-~~~
 
 
