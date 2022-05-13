@@ -349,6 +349,8 @@
 # Other
 :sunflower:model architectures below is the extensions of  [huggingface](https://github.com/huggingface/transformers)
 
+2205：[ul2](https://github.com/google-research/google-research/tree/master/ul2) from papers [Unifying Language Learning Paradigms](https://arxiv.org/pdf/2205.05131.pdf) by Yi Tay, Mostafa Dehghani, etc. (Google)  
+
 2204：[HuggingFace、Google等联合发布](https://github.com/bigscience-workshop/architecture-objective) from paper [What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?](https://arxiv.org/pdf/2204.05832.pdf) by Thomas Wang, Adam Roberts, Daniel Hesslow
 
 * 2012: [BANG](https://github.com/microsoft/BANG) (from microsoft) released with the paper [BANG: Bridging Autoregressive and Non-autoregressive Generation with Large Scale Pretraining](https://arxiv.org/abs/2012.15525)  by Weizhen Qi, Yeyun Gong, Jian Jiao, Yu Yan, Weizhu Chen, Dayiheng Liu, Kewen Tang, Houqiang Li, Jiusheng Chen, Ruofei Zhang, Ming Zhou, Nan Duan
