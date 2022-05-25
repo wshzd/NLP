@@ -383,7 +383,7 @@
 
 * 2202: [Fengshenbang-LM] (from IDEA CCNL) (https://github.com/IDEA-CCNL/Fengshenbang-LM)  []()
 
-
+* 2103：[FastMoE](https://github.com/laekov/fastmoe) from papers [FastMoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/abs/2103.13262) by Jiaao He, Jiezhong Qiu, Aohan Zeng, Zhilin Yang, Jidong Zhai, Jie Tang  
 
 
 # BERT-related Papers
