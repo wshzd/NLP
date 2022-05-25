@@ -384,7 +384,7 @@
 * 2202: [Fengshenbang-LM] (from IDEA CCNL) (https://github.com/IDEA-CCNL/Fengshenbang-LM)  []()
 
 # WuDao 
-* [WuDao](https://github.com/BAAI-WuDao/) offical website [CPM系列](https://wudaoai.cn/model/detail/CPM系列)  
+* [WuDao](https://github.com/BAAI-WuDao/) offical website [CPM系列](https://wudaoai.cn/model/detail/CPM系列)  video [悟道2.0视频讲解](https://hub.baai.ac.cn/view/8294)  
 * 2103：[FastMoE](https://github.com/laekov/fastmoe) from papers [FastMoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/abs/2103.13262) by Jiaao He, Jiezhong Qiu, Aohan Zeng, Zhilin Yang, Jidong Zhai, Jie Tang  
 
 
