@@ -388,7 +388,10 @@
 * 2103：[FastMoE](https://github.com/laekov/fastmoe) from papers [FastMoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/abs/2103.13262) by Jiaao He, Jiezhong Qiu, Aohan Zeng, Zhilin Yang, Jidong Zhai, Jie Tang  
 # MoE
 * 1701：[MoE](https://github.com/google/moe) from papers [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://arxiv.org/pdf/1701.06538.pdf) by Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc V. Le, Geoffrey E. Hinton, Jeff Dean  
-* 2106：[V-MoE]()[Scaling Vision with Sparse Mixture of Experts](https://arxiv.org/pdf/2106.05974.pdf) by Carlos Riquelme, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, André Susano Pinto, Daniel Keysers, Neil Houlsby  
+* 2106：[V-MoE](https://github.com/google-research/vmoe)[Scaling Vision with Sparse Mixture of Experts](https://arxiv.org/pdf/2106.05974.pdf) by Carlos Riquelme, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, André Susano Pinto, Daniel Keysers, Neil Houlsby  
+
+
+
 
 
 # BERT-related Papers
