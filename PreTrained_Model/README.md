@@ -391,7 +391,8 @@
 * 2106：[V-MoE](https://github.com/google-research/vmoe)[Scaling Vision with Sparse Mixture of Experts](https://arxiv.org/pdf/2106.05974.pdf) by Carlos Riquelme, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, André Susano Pinto, Daniel Keysers, Neil Houlsby  
 * 2110：[task-MoE]()[Beyond Distillation: Task-level Mixture-of-Experts for Efficient Inference](https://arxiv.org/pdf/2110.03742.pdf) by Sneha Kudugunta, Yanping Huang, Ankur Bapna, Maxim Krikun, Dmitry Lepikhin, Minh-Thang Luong, Orhan Firat  
 * 2103：[Fast-MoE](https://github.com/laekov/fastmoe) from papers [Fast MoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/pdf/2103.13262v1.pdf) by   
-* 2110：[MoEfication]()[MoEfication: Transformer Feed-forward Layers are Mixtures of Experts](https://arxiv.org/pdf/2110.01786.pdf) by Zhengyan Zhang, Yankai Lin, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou  
+* 2110：[MoEfication_V12]() from papers [MoEfication: Conditional Computation of Transformer Models for Efficient Inference](https://arxiv.org/pdf/2110.01786v2.pdf) by Zhengyan Zhang, Yankai Lin, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou  
+* 2204：[MoEfication_V3]()from papers [MoEfication: Transformer Feed-forward Layers are Mixtures of Experts](https://arxiv.org/pdf/2110.01786.pdf) by Zhengyan Zhang, Yankai Lin, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou  
 
 
 # BERT-related Papers
