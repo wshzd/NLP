@@ -390,8 +390,8 @@
 * 1701：[MoE](https://github.com/google/moe) from papers [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://arxiv.org/pdf/1701.06538.pdf) by Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc V. Le, Geoffrey E. Hinton, Jeff Dean  
 * 2106：[V-MoE](https://github.com/google-research/vmoe)[Scaling Vision with Sparse Mixture of Experts](https://arxiv.org/pdf/2106.05974.pdf) by Carlos Riquelme, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, André Susano Pinto, Daniel Keysers, Neil Houlsby  
 * 2110：[task-MoE]()[Beyond Distillation: Task-level Mixture-of-Experts for Efficient Inference](https://arxiv.org/pdf/2110.03742.pdf) by Sneha Kudugunta, Yanping Huang, Ankur Bapna, Maxim Krikun, Dmitry Lepikhin, Minh-Thang Luong, Orhan Firat  
-* 2103[Fast-MoE](https://github.com/laekov/fastmoe) from papers [Fast MoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/pdf/2103.13262v1.pdf) by   
-
+* 2103：[Fast-MoE](https://github.com/laekov/fastmoe) from papers [Fast MoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/pdf/2103.13262v1.pdf) by   
+* 2110：[MoEfication]()[MoEfication: Transformer Feed-forward Layers are Mixtures of Experts](https://arxiv.org/pdf/2110.01786.pdf) by Zhengyan Zhang, Yankai Lin, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou  
 
 
 # BERT-related Papers
