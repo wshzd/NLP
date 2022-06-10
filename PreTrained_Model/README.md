@@ -385,12 +385,15 @@
 
 # WuDao 
 * [WuDao](https://github.com/BAAI-WuDao/) offical website [CPM系列](https://wudaoai.cn/model/detail/CPM系列)  video [悟道2.0视频讲解](https://hub.baai.ac.cn/view/8294)  
-* 2103：[FastMoE](https://github.com/laekov/fastmoe) from papers [FastMoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/abs/2103.13262) by Jiaao He, Jiezhong Qiu, Aohan Zeng, Zhilin Yang, Jidong Zhai, Jie Tang  
+* 2105：[CogView](https://link.zhihu.com/?target=https%3A//github.com/THUDM/CogView) from [demo演示](https://wudao.aminer.cn/CogView/index.html) from papers [CogView: Mastering Text-to-Image Generation via Transformers](https://arxiv.org/abs/2105.13290) by Ming Ding, Zhuoyi Yang, Wenyi Hong, Wendi Zheng, Chang Zhou, Da Yin, Junyang Lin, Xu Zou, Zhou Shao, Hongxia Yang, Jie Tang  
+* 2204：[CogView2]() from papers [CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers](https://arxiv.org/pdf/2204.14217v1.pdf) by Ming Ding,Wendi Zheng,Wenyi Hong,Jie Tang  
+
+
 # MoE
 * 1701：[MoE](https://github.com/google/moe) from papers [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://arxiv.org/pdf/1701.06538.pdf) by Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc V. Le, Geoffrey E. Hinton, Jeff Dean  
 * 2106：[V-MoE](https://github.com/google-research/vmoe)[Scaling Vision with Sparse Mixture of Experts](https://arxiv.org/pdf/2106.05974.pdf) by Carlos Riquelme, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, André Susano Pinto, Daniel Keysers, Neil Houlsby  
 * 2110：[task-MoE]()[Beyond Distillation: Task-level Mixture-of-Experts for Efficient Inference](https://arxiv.org/pdf/2110.03742.pdf) by Sneha Kudugunta, Yanping Huang, Ankur Bapna, Maxim Krikun, Dmitry Lepikhin, Minh-Thang Luong, Orhan Firat  
-* 2103：[Fast-MoE](https://github.com/laekov/fastmoe) from papers [Fast MoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/pdf/2103.13262v1.pdf) by   
+* 2103：[Fast-MoE](https://github.com/laekov/fastmoe) from papers [Fast MoE: A Fast Mixture-of-Expert Training System](https://arxiv.org/pdf/2103.13262v1.pdf) by  y Jiaao He, Jiezhong Qiu, Aohan Zeng, Zhilin Yang, Jidong Zhai, Jie Tang   
 * 2110：[MoEfication_V12]() from papers [MoEfication: Conditional Computation of Transformer Models for Efficient Inference](https://arxiv.org/pdf/2110.01786v2.pdf) by Zhengyan Zhang, Yankai Lin, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou  
 * 2204：[MoEfication_V3]()from papers [MoEfication: Transformer Feed-forward Layers are Mixtures of Experts](https://arxiv.org/pdf/2110.01786.pdf) by Zhengyan Zhang, Yankai Lin, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou  
 
