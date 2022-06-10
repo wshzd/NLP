@@ -387,6 +387,7 @@
 * [WuDao](https://github.com/BAAI-WuDao/) offical website [CPM系列](https://wudaoai.cn/model/detail/CPM系列)  video [悟道2.0视频讲解](https://hub.baai.ac.cn/view/8294)  
 * 2105：[CogView](https://link.zhihu.com/?target=https%3A//github.com/THUDM/CogView) from [demo演示](https://wudao.aminer.cn/CogView/index.html) from papers [CogView: Mastering Text-to-Image Generation via Transformers](https://arxiv.org/abs/2105.13290) by Ming Ding, Zhuoyi Yang, Wenyi Hong, Wendi Zheng, Chang Zhou, Da Yin, Junyang Lin, Xu Zou, Zhou Shao, Hongxia Yang, Jie Tang  
 * 2204：[CogView2]() from papers [CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers](https://arxiv.org/pdf/2204.14217v1.pdf) by Ming Ding,Wendi Zheng,Wenyi Hong,Jie Tang  
+* 2205: [CogVideo](https://github.com/THUDM/CogVideo) from papers [CogVideo: Large-scale Pretraining for Text-to-Video Generation via Transformers](https://arxiv.org/abs/2205.15868) by Wenyi Hong, Ming Ding, Wendi Zheng, Xinghan Liu, Jie Tang  
 
 
 # MoE
