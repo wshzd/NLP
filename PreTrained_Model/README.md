@@ -377,11 +377,10 @@
 
 * [simbert](https://github.com/ZhuiyiTechnology/simbert) (from ZhuiyiTechnology) [SimBERT: Integrating Retrieval and Generation into BERT]
 
-* [simbertv2:RoFormer-Sim](https://github.com/ZhuiyiTechnology/roformer-sim)(from ZhuiyiTechnology) 
-
-* 2004: [DynaBERT: Dynamic BERT with Adaptive Width and Depth](https://arxiv.org/abs/2004.04037) by Lu Hou, Zhiqi Huang, Lifeng Shang, Xin Jiang, Xiao Chen, Qun Liu
-
+* [simbertv2:RoFormer-Sim](https://github.com/ZhuiyiTechnology/roformer-sim)(from ZhuiyiTechnology)  
+* 2004: [DynaBERT: Dynamic BERT with Adaptive Width and Depth](https://arxiv.org/abs/2004.04037) by Lu Hou, Zhiqi Huang, Lifeng Shang, Xin Jiang, Xiao Chen, Qun Liu  
 * 2202: [Fengshenbang-LM] (from IDEA CCNL) (https://github.com/IDEA-CCNL/Fengshenbang-LM)  []()
+* 2206：[OPT](https://github.com/facebookresearch/metaseq/tree/main/projects/OPT) from papers [OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068) by Susan Zhang, Stephen Roller, Naman Goyal, Mikel Artetxe, Moya Chen, Shuohui Chen, Christopher Dewan, Mona Diab, Xian Li, Xi Victoria Lin, Todor Mihaylov, Myle Ott, Sam Shleifer, Kurt Shuster, Daniel Simig, Punit Singh Koura, Anjali Sridhar, Tianlu Wang, Luke Zettlemoyer  
 
 # WuDao 
 * [WuDao](https://github.com/BAAI-WuDao/) offical website [CPM系列](https://wudaoai.cn/model/detail/CPM系列)  video [悟道2.0视频讲解](https://hub.baai.ac.cn/view/8294)  
