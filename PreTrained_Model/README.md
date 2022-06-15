@@ -111,7 +111,7 @@
 
 * 1806: [GPT](https://huggingface.co/docs/transformers/model_doc/openai-gpt) (from OpenAI) released with the paper [Improving Language Understanding by Generative Pre-Training](https://openai.com/blog/language-unsupervised/) by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.
 
-* 1902: [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2) (from OpenAI) released with the paper [Language Models are Unsupervised Multitask Learners](https://openai.com/blog/better-language-models/) by Alec Radford*, Jeffrey Wu*, Rewon Child, David Luan, Dario Amodei** and Ilya Sutskever**.
+* 1902: [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2)  you can visit [experience zone](https://demo.allennlp.org/next-token-lm) (from OpenAI) released with the paper [Language Models are Unsupervised Multitask Learners](https://openai.com/blog/better-language-models/) by Alec Radford*, Jeffrey Wu*, Rewon Child, David Luan, Dario Amodei** and Ilya Sutskever**.
 
 * [GPT-J](https://huggingface.co/docs/transformers/model_doc/gptj) (from EleutherAI) released in the repository [kingoflolz/mesh-transformer-jax](https://github.com/huggingface/transformers) by Ben Wang and Aran Komatsuzaki.
 
