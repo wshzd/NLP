@@ -58,7 +58,7 @@ https://github.com/airaria/TextBrewer
 
 
 
-2203：[Quant](https://www.bilibili.com/video/BV1ir4y1372N) from paper [Compression of Generative Pre-trained Language Models via Quantization](https://arxiv.org/pdf/2203.10705) by Chaofan Tao, Lu Hou, Wei Zhang, Lifeng Shang, Xin Jiang, Qun Liu, Ping Luo, Ngai Wong  
+2203：[QuantGPT](https://www.bilibili.com/video/BV1ir4y1372N) from paper [Compression of Generative Pre-trained Language Models via Quantization](https://arxiv.org/pdf/2203.10705) by Chaofan Tao, Lu Hou, Wei Zhang, Lifeng Shang, Xin Jiang, Qun Liu, Ping Luo, Ngai Wong  
 
 
 
