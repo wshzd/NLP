@@ -17,6 +17,7 @@ Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf) by Zihang D
 
 * : []() [DeepNet_ Scaling Transformers to 1,000 Layers]()
 
-
-
+* CS25：  
+视频链接：https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM  
+课程主页：https://web.stanford.edu/class/cs25/  
 
