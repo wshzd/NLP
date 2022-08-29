@@ -15,6 +15,9 @@ https://www.tinymind.cn/sites#sgroup_39
 2109: [Paradigm Shift in Natural Language Processing](https://arxiv.org/abs/2109.12575)  and [project website](https://txsun1997.github.io/nlp-paradigm-shift/) and [Slides](https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf)
 
 
+# Service 
+
+[clip-as-service](https://github.com/jina-ai/clip-as-service)
 
 
 
