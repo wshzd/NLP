@@ -17,8 +17,12 @@
 * 插件开源：https://github.com/CodeGeeX/codegeex-vscode-extension  
 ### 4）API 调用接口：
 https://tianqi.aminer.cn/open/document/code_ref/codegeex_generation  
-
-
+## 3、智源chatgpt-comparison-detection  
+### ChatGPT对比&检测paper：[How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection](https://arxiv.org/pdf/2301.07597.pdf)  
+### ChatGPT对比&检测github：https://github.com/Hello-SimpleAI/chatgpt-comparison-detection  
+### QA版本检测器：https://huggingface.co/spaces/Hello-SimpleAI/chatgpt-detector-qa  
+### 单文本版：https://huggingface.co/spaces/Hello-SimpleAI/chatgpt-detector-single  
+### 语言学版：https://huggingface.co/spaces/Hello-SimpleAI/chatgpt-detector-ling  
 
 
 
