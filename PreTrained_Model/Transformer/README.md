@@ -21,7 +21,7 @@ Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf) by Zihang D
 视频链接：https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM  
 课程主页：https://web.stanford.edu/class/cs25/  
 
-* TorchScale：https://github.com/microsoft/torchscale  
+* TorchScale（from MSRA）：https://github.com/microsoft/torchscale  
 
 
 
