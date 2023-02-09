@@ -22,6 +22,8 @@ Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf) by Zihang D
 课程主页：https://web.stanford.edu/class/cs25/  
 
 * TorchScale（from MSRA）：https://github.com/microsoft/torchscale  
-
+## raspy（transformer）：  
+github：https://github.com/srush/raspy  
+blog：https://hub.baai.ac.cn/view/23982  
 
 
