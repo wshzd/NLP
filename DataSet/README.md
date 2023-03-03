@@ -12,8 +12,8 @@ https://github.com/goto456/stopwords
 2203：[WuDaoMM：用于预训练模型的大规模多模态数据集](https://github.com/BAAI-WuDao/WuDaoMM/) from papers [WuDaoMM: A large-scale Multi-Modal Dataset for Pre-training models](https://arxiv.org/pdf/2203.11480)  
 
 # 中文数据集
-https://github.com/SophonPlus/ChineseNlpCorpus/
-https://github.com/brightmart/nlp_chinese_corpus
+https://github.com/SophonPlus/ChineseNlpCorpus/  
+https://github.com/brightmart/nlp_chinese_corpus  
 
 
 
