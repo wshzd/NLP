@@ -25,5 +25,6 @@ Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf) by Zihang D
 # raspy（transformer）：  
 * github：https://github.com/srush/raspy  
 * blog：https://hub.baai.ac.cn/view/23982  
+* DeepMind“反向”搭建Transformer方法:Tracr: https://baijiahao.baidu.com/s?id=1755065661130535378&wfr=spider&for=pc
 
 
